@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Wed 12 Sep 2012 04:23:57 AM EDT
+
+BeginCmp
+TimeStamp = /504FE4E8;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = BATTERY-AA;
+EndCmp
+
+BeginCmp
+TimeStamp = /504FE4F1;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /505001B0;
+Reference = C2;
+ValeurCmp = 150pF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50501E1C;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50500FFF;
+Reference = D1;
+ValeurCmp = 1N4148;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /504D7441;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /504D7447;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /504D744C;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /504D7451;
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /504FE4FA;
+Reference = L1;
+ValeurCmp = 22uH;
+IdModule  = R3-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /504FF35D;
+Reference = Q1;
+ValeurCmp = BC337;
+IdModule  = TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /50500FCD;
+Reference = Q2;
+ValeurCmp = BC327;
+IdModule  = TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /50500FD7;
+Reference = R1;
+ValeurCmp = 100K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /504E62B1;
+Reference = SW1;
+ValeurCmp = SWITCH_INV;
+IdModule  = SWITCH-SPDT-EG1218;
+EndCmp
+
+EndListe

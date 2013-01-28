@@ -1,0 +1,128 @@
+# EESchema Netlist Version 1.1 created  Wed 12 Sep 2012 04:23:57 AM EDT
+(
+ ( /504FE4E8 BATTERY-AA BT1 BATTERY
+  ( 1 N-000001 )
+  ( 2 GND )
+ )
+ ( /504FE4F1 C2 C1 10uF
+  ( 1 N-000003 )
+  ( 2 GND )
+ )
+ ( /505001B0 C1 C2 150pF
+  ( 1 N-000004 )
+  ( 2 N-000006 )
+ )
+ ( /50501E1C C1 C3 100nF
+  ( 1 N-000007 )
+  ( 2 GND )
+ )
+ ( /50500FFF D3 D1 1N4148
+  ( 1 N-000004 )
+  ( 2 N-000007 )
+ )
+ ( /504D7441 LED-5MM D2 LED
+  ( 1 N-000004 )
+  ( 2 GND )
+ )
+ ( /504D7447 LED-5MM D3 LED
+  ( 1 N-000004 )
+  ( 2 GND )
+ )
+ ( /504D744C LED-5MM D4 LED
+  ( 1 N-000004 )
+  ( 2 GND )
+ )
+ ( /504D7451 LED-5MM D5 LED
+  ( 1 N-000004 )
+  ( 2 GND )
+ )
+ ( /504FE4FA R3-5 L1 22uH
+  ( 1 N-000003 )
+  ( 2 N-000004 )
+ )
+ ( /504FF35D TO92 Q1 BC337
+  ( 1 GND )
+  ( 2 N-000005 )
+  ( 3 N-000004 )
+ )
+ ( /50500FCD TO92 Q2 BC327
+  ( 1 N-000007 )
+  ( 2 N-000006 )
+  ( 3 N-000005 )
+ )
+ ( /50500FD7 R3 R1 100K
+  ( 1 N-000006 )
+  ( 2 GND )
+ )
+ ( /504E62B1 SWITCH-SPDT-EG1218 SW1 SWITCH_INV
+  ( 1 ? )
+  ( 2 N-000001 )
+  ( 3 N-000003 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
