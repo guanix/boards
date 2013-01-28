@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = Fri 25 Jan 2013 11:22:49 AM EST
+
+BeginCmp
+TimeStamp = /5102A8B9;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102A93D;
+Reference = C2;
+ValeurCmp = 1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102ABC3;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5101F3FE;
+Reference = IC1;
+ValeurCmp = ATTINY85-S;
+IdModule  = SOIC8-5.3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102AC2D;
+Reference = L1;
+ValeurCmp = INDUCTOR;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102A97A;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102A9D5;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102AAB3;
+Reference = P3;
+ValeurCmp = CONN_3X2;
+IdModule  = TC2030-MCP-NL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102B1F2;
+Reference = P4;
+ValeurCmp = CONN_2;
+IdModule  = WIREWRAP-PIN-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102B201;
+Reference = P5;
+ValeurCmp = CONN_2;
+IdModule  = WIREWRAP-PIN-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5101F466;
+Reference = Q1;
+ValeurCmp = MOSFET_N;
+IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102A5A0;
+Reference = Q2;
+ValeurCmp = MOSFET_N;
+IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102ABF6;
+Reference = R1;
+ValeurCmp = 1K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102AEA5;
+Reference = SW1;
+ValeurCmp = SWITCH_INV;
+IdModule  = SW-SPDT-2MM;
+EndCmp
+
+EndListe
