@@ -1,0 +1,227 @@
+Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = Sun 27 Jan 2013 09:43:11 PM EST
+
+BeginCmp
+TimeStamp = /5102F2E4;
+Reference = B1;
+ValeurCmp = BALUN-JOHANSON;
+IdModule  = BALUN-JOHANSON;
+EndCmp
+
+BeginCmp
+TimeStamp = /51030C12;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = BAT-BK912;
+EndCmp
+
+BeginCmp
+TimeStamp = /5105F64A;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5105F659;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102E9B4;
+Reference = C3;
+ValeurCmp = 2.2nF;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /51044D29;
+Reference = C4;
+ValeurCmp = 10uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102E100;
+Reference = C7;
+ValeurCmp = 4.7uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102E413;
+Reference = C8;
+ValeurCmp = 100nF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102E6BE;
+Reference = C9;
+ValeurCmp = 1nF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102EA08;
+Reference = C10;
+ValeurCmp = 47nF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102E1E7;
+Reference = C11;
+ValeurCmp = 100nF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102DE96;
+Reference = C12;
+ValeurCmp = 1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /510300AF;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /510300A0;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102DB27;
+Reference = IC1;
+ValeurCmp = NRF51822;
+IdModule  = QFN48+1-0.4MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /51030C21;
+Reference = L1;
+ValeurCmp = INDUCTOR;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102DE45;
+Reference = L4;
+ValeurCmp = 10uH;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102DE59;
+Reference = L5;
+ValeurCmp = 15nH;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102FE21;
+Reference = P1;
+ValeurCmp = CONN_3X2;
+IdModule  = TC2030-MCP-NL;
+EndCmp
+
+BeginCmp
+TimeStamp = /51045546;
+Reference = P2;
+ValeurCmp = ST-0503;
+IdModule  = BUZZER-ST-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5105EF64;
+Reference = P3;
+ValeurCmp = AIN_0_3;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5105F3AA;
+Reference = P4;
+ValeurCmp = AIN_4_7;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /51045642;
+Reference = Q1;
+ValeurCmp = MOSFET_N;
+IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102E538;
+Reference = R1;
+ValeurCmp = 12K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /510300BE;
+Reference = R2;
+ValeurCmp = 100R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /510300CD;
+Reference = R3;
+ValeurCmp = 100R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5104584F;
+Reference = R4;
+ValeurCmp = 100R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51045948;
+Reference = R5;
+ValeurCmp = 10K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5105E705;
+Reference = SW1;
+ValeurCmp = SWITCH-4;
+IdModule  = SWITCH-ALPS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5105E71E;
+Reference = SW2;
+ValeurCmp = SWITCH-4;
+IdModule  = SWITCH-ALPS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102F623;
+Reference = U1;
+ValeurCmp = ANTENNA-NC;
+IdModule  = ANTENNA-JOHANSON-2.45GHZ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5105D5D4;
+Reference = X1;
+ValeurCmp = FOX924;
+IdModule  = OSCILLATOR-FOX924;
+EndCmp
+
+EndListe
