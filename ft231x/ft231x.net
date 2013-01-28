@@ -1,0 +1,174 @@
+# EESchema Netlist Version 1.1 created  Tue 18 Dec 2012 09:50:03 AM EST
+(
+ ( /50ABBAB2 SM0603_Capa C1 10nF
+  ( 1 GND )
+  ( 2 /USBVCC )
+ )
+ ( /50ABBA7C SM0603_Capa C2 47pF
+  ( 1 /D- )
+  ( 2 GND )
+ )
+ ( /50ABBA81 SM0603_Capa C3 47pF
+  ( 1 /D+ )
+  ( 2 GND )
+ )
+ ( /50ABBB2E SM0603_Capa C4 100nF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /50ABBB34 SM0805 C5 4.7uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /50ABBB17 SM0603_Capa C6 100nF
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /50ABB9A0 SSOP20 IC1 FT231X-S
+  ( 1 /^DTR )
+  ( 2 /^RTS )
+  ( 3 +3.3V )
+  ( 4 /RXD )
+  ( 5 /^RI )
+  ( 6 GND )
+  ( 7 /^DSR )
+  ( 8 /^DCD )
+  ( 9 /^CTS )
+  ( 10 /C2 )
+  ( 11 /FTDID+ )
+  ( 12 /FTDID- )
+  ( 13 +3.3V )
+  ( 14 /^RESET )
+  ( 15 +5V )
+  ( 16 GND )
+  ( 17 /C1 )
+  ( 18 /C0 )
+  ( 19 /C3 )
+  ( 20 /TXD )
+ )
+ ( /50ABC0A2 MINI-USB-UX60A-MB-5ST J1 MINI-USB-SHLD
+  ( 1 /USBVCC )
+  ( 2 /D- )
+  ( 3 /D+ )
+  ( 4 ? )
+  ( 5 GND )
+  ( 6 GND )
+ )
+ ( /50ABBA37 SM0805 L1 INDUCTOR
+  ( 1 +5V )
+  ( 2 /USBVCC )
+ )
+ ( /50ABB77E PIN_ARRAY-6X1 P1 CONN_6
+  ( 1 GND )
+  ( 2 /^CTS )
+  ( 3 /FTDIVCC )
+  ( 4 /TXD )
+  ( 5 /RXD )
+  ( 6 /^RTS )
+ )
+ ( /50ABBE25 PIN_ARRAY-6X1 P2 CONN_6
+  ( 1 /C0 )
+  ( 2 /C1 )
+  ( 3 /C2 )
+  ( 4 /C3 )
+  ( 5 +3.3V )
+  ( 6 GND )
+ )
+ ( /50ABBBAC PIN_ARRAY-6X1 P3 CONN_6
+  ( 1 /^DTR )
+  ( 2 /^DSR )
+  ( 3 /^DCD )
+  ( 4 /^RI )
+  ( 5 +5V )
+  ( 6 /^RESET )
+ )
+ ( /50ABBA4E SM0603 R1 27R
+  ( 1 /D+ )
+  ( 2 /FTDID+ )
+ )
+ ( /50ABBA4B SM0603 R2 27R
+  ( 1 /D- )
+  ( 2 /FTDID- )
+ )
+ ( /50ABBB99 SM0603 R3 10K
+  ( 1 /^RESET )
+  ( 2 +3.3V )
+ )
+ ( /50D08116 SM0603 R4 0R
+  ( 1 /FTDIVCC )
+  ( 2 +3.3V )
+ )
+ ( /50ABC325 SM0603 R5 inf
+  ( 1 /FTDIVCC )
+  ( 2 +5V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

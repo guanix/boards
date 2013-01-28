@@ -1,0 +1,122 @@
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Tue 18 Dec 2012 09:50:03 AM EST
+
+BeginCmp
+TimeStamp = /50ABBAB2;
+Reference = C1;
+ValeurCmp = 10nF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /50ABBA7C;
+Reference = C2;
+ValeurCmp = 47pF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /50ABBA81;
+Reference = C3;
+ValeurCmp = 47pF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /50ABBB2E;
+Reference = C4;
+ValeurCmp = 100nF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /50ABBB34;
+Reference = C5;
+ValeurCmp = 4.7uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50ABBB17;
+Reference = C6;
+ValeurCmp = 100nF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /50ABB9A0;
+Reference = IC1;
+ValeurCmp = FT231X-S;
+IdModule  = SSOP20;
+EndCmp
+
+BeginCmp
+TimeStamp = /50ABC0A2;
+Reference = J1;
+ValeurCmp = MINI-USB-SHLD;
+IdModule  = MINI-USB-UX60A-MB-5ST;
+EndCmp
+
+BeginCmp
+TimeStamp = /50ABBA37;
+Reference = L1;
+ValeurCmp = INDUCTOR;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50ABB77E;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50ABBE25;
+Reference = P2;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50ABBBAC;
+Reference = P3;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50ABBA4E;
+Reference = R1;
+ValeurCmp = 27R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50ABBA4B;
+Reference = R2;
+ValeurCmp = 27R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50ABBB99;
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50D08116;
+Reference = R4;
+ValeurCmp = 0R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50ABC325;
+Reference = R5;
+ValeurCmp = inf;
+IdModule  = SM0603;
+EndCmp
+
+EndListe
