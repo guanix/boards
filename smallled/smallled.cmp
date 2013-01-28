@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Fri 05 Oct 2012 01:44:56 AM EDT
+
+BeginCmp
+TimeStamp = /506E0193;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /506E0197;
+Reference = P1;
+ValeurCmp = CONN_1;
+IdModule  = SMALLHOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /506E019A;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = SMALLHOLE;
+EndCmp
+
+EndListe

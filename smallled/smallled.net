@@ -1,0 +1,26 @@
+# EESchema Netlist Version 1.1 created  Fri 05 Oct 2012 01:44:56 AM EDT
+(
+ ( /506E0193 LED-0805 D1 LED
+  ( 1 N-000001 )
+  ( 2 N-000002 )
+ )
+ ( /506E0197 SMALLHOLE P1 CONN_1
+  ( 1 N-000001 )
+ )
+ ( /506E019A SMALLHOLE P2 CONN_1
+  ( 1 N-000002 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$endfootprintlist
+}
