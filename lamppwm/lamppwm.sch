@@ -1,0 +1,442 @@
+EESchema Schematic File Version 2  date Wed 30 Jan 2013 11:56:51 AM EST
+LIBS:lamp
+LIBS:guan
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:lamppwm-cache
+EELAYER 27 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "30 jan 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ATTINY85-S IC1
+U 1 1 510941FD
+P 5050 2750
+F 0 "IC1" H 4000 3150 60  0000 C CNN
+F 1 "ATTINY85-S" H 5900 2350 60  0000 C CNN
+F 2 "SO8-200" H 4150 2350 60  0001 C CNN
+	1    5050 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 51094220
+P 6600 3200
+F 0 "#PWR01" H 6600 3200 30  0001 C CNN
+F 1 "GND" H 6600 3130 30  0001 C CNN
+	1    6600 3200
+	1    0    0    -1  
+$EndComp
+Text Label 3000 3000 0    60   ~ 0
+RESET
+Text Label 3000 2900 0    60   ~ 0
+CURRENT
+Text Label 3000 2800 0    60   ~ 0
+MOSFET
+Text Label 3000 2700 0    60   ~ 0
+SCK
+Text Label 3000 2600 0    60   ~ 0
+BUTTON
+Text Label 3400 2600 0    60   ~ 0
+MISO
+Text Label 3000 2500 0    60   ~ 0
+MOSI
+$Comp
+L CONN_3X2 P1
+U 1 1 510942D6
+P 2000 1150
+F 0 "P1" H 2000 1400 50  0000 C CNN
+F 1 "CONN_3X2" V 2000 1200 40  0000 C CNN
+	1    2000 1150
+	1    0    0    -1  
+$EndComp
+Text Label 1100 1000 0    60   ~ 0
+MISO
+Text Label 1100 1100 0    60   ~ 0
+SCK
+Text Label 1100 1200 0    60   ~ 0
+RESET
+Wire Wire Line
+	6600 2950 6600 3200
+Wire Wire Line
+	6400 3000 7000 3000
+Wire Wire Line
+	6400 2500 7000 2500
+Wire Wire Line
+	6600 2300 6600 2550
+Wire Wire Line
+	3000 2500 3700 2500
+Wire Wire Line
+	3000 2600 3700 2600
+Wire Wire Line
+	3000 2700 3700 2700
+Wire Wire Line
+	3000 2800 3700 2800
+Wire Wire Line
+	3000 2900 3700 2900
+Wire Wire Line
+	3000 3000 3700 3000
+Wire Wire Line
+	1100 1000 1600 1000
+Wire Wire Line
+	1100 1100 1600 1100
+Wire Wire Line
+	1100 1200 1600 1200
+Wire Wire Line
+	2400 1000 2900 1000
+Wire Wire Line
+	2400 1100 2900 1100
+Wire Wire Line
+	2400 1200 2900 1200
+Text Label 2700 1100 0    60   ~ 0
+MOSI
+Text Label 2700 1200 0    60   ~ 0
+GND
+$Comp
+L C C2
+U 1 1 5109439C
+P 6600 2750
+F 0 "C2" H 6650 2850 50  0000 L CNN
+F 1 "0.1uF" H 6650 2650 50  0000 L CNN
+	1    6600 2750
+	1    0    0    -1  
+$EndComp
+Connection ~ 6600 2500
+Connection ~ 6600 3000
+$Comp
+L BATTERY BT1
+U 1 1 510943D3
+P 1700 4000
+F 0 "BT1" H 1700 4200 50  0000 C CNN
+F 1 "BATTERY" H 1700 3810 50  0000 C CNN
+	1    1700 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L VCC #PWR02
+U 1 1 510943E2
+P 1700 3600
+F 0 "#PWR02" H 1700 3700 30  0001 C CNN
+F 1 "VCC" H 1700 3700 30  0000 C CNN
+	1    1700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 510943FB
+P 1700 4400
+F 0 "#PWR03" H 1700 4400 30  0001 C CNN
+F 1 "GND" H 1700 4330 30  0001 C CNN
+	1    1700 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 4400 1700 4300
+Wire Wire Line
+	1700 3700 1700 3600
+$Comp
+L C C1
+U 1 1 51094431
+P 2100 3950
+F 0 "C1" H 2150 4050 50  0000 L CNN
+F 1 "10uF" H 2150 3850 50  0000 L CNN
+	1    2100 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3650 2100 3650
+Wire Wire Line
+	2100 3650 2100 3750
+Connection ~ 1700 3650
+Wire Wire Line
+	1700 4350 2100 4350
+Wire Wire Line
+	2100 4350 2100 4150
+Connection ~ 1700 4350
+$Comp
+L SWITCH-4 SW1
+U 1 1 510944CD
+P 3700 4500
+F 0 "SW1" H 3700 4250 60  0000 C CNN
+F 1 "SWITCH-4" H 3700 4800 60  0000 C CNN
+	1    3700 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 510944E6
+P 3700 4900
+F 0 "#PWR04" H 3700 4900 30  0001 C CNN
+F 1 "GND" H 3700 4830 30  0001 C CNN
+	1    3700 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 4700 3400 4800
+Wire Wire Line
+	3400 4800 4000 4800
+Wire Wire Line
+	4000 4800 4000 4700
+Wire Wire Line
+	3700 4800 3700 4900
+Connection ~ 3700 4800
+Wire Wire Line
+	3400 4300 3400 4100
+Wire Wire Line
+	3400 4100 4000 4100
+Wire Wire Line
+	4000 4100 4000 4300
+Text Label 3400 4100 0    60   ~ 0
+BUTTON
+$Comp
+L LED-PAD D1
+U 1 1 510945DE
+P 5800 4400
+F 0 "D1" H 5800 4500 50  0000 C CNN
+F 1 "LED-PAD" H 5800 4200 50  0000 C CNN
+	1    5800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 510945ED
+P 5800 4650
+F 0 "#PWR05" H 5800 4650 30  0001 C CNN
+F 1 "GND" H 5800 4580 30  0001 C CNN
+	1    5800 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4650 5800 4550
+$Comp
+L VCC #PWR06
+U 1 1 5109461F
+P 4900 4300
+F 0 "#PWR06" H 4900 4400 30  0001 C CNN
+F 1 "VCC" H 4900 4400 30  0000 C CNN
+	1    4900 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4300 4900 4400
+Wire Wire Line
+	4900 4400 5100 4400
+$Comp
+L MOSFET_P Q1
+U 1 1 51094679
+P 5300 4300
+F 0 "Q1" H 5300 4490 60  0000 R CNN
+F 1 "IRLML2246TRPBF" H 5300 4120 60  0000 R CNN
+	1    5300 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 4400 5600 4400
+Wire Wire Line
+	5300 4100 5300 3800
+$Comp
+L R R1
+U 1 1 5109471A
+P 6350 4400
+F 0 "R1" V 6430 4400 50  0000 C CNN
+F 1 "R" V 6350 4400 50  0000 C CNN
+	1    6350 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6000 4400 6100 4400
+$Comp
+L GND #PWR07
+U 1 1 51094751
+P 6850 4400
+F 0 "#PWR07" H 6850 4400 30  0001 C CNN
+F 1 "GND" H 6850 4330 30  0001 C CNN
+	1    6850 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 4400 6850 4400
+$Comp
+L +3.3V #PWR08
+U 1 1 51094996
+P 6600 2300
+F 0 "#PWR08" H 6600 2260 30  0001 C CNN
+F 1 "+3.3V" H 6600 2410 30  0000 C CNN
+	1    6600 2300
+	1    0    0    -1  
+$EndComp
+Text Label 2650 1000 0    60   ~ 0
++3.3V
+$Comp
+L CONN_3 U1
+U 1 1 51094A52
+P 8650 2700
+F 0 "U1" V 8600 2700 50  0000 C CNN
+F 1 "AP7313" V 8700 2700 40  0000 C CNN
+	1    8650 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR09
+U 1 1 51094A70
+P 8200 2500
+F 0 "#PWR09" H 8200 2600 30  0001 C CNN
+F 1 "VCC" H 8200 2600 30  0000 C CNN
+	1    8200 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 2600 8200 2600
+Wire Wire Line
+	8200 2600 8200 2500
+Wire Wire Line
+	7900 2700 8300 2700
+$Comp
+L +3.3V #PWR010
+U 1 1 51094BE0
+P 7900 2600
+F 0 "#PWR010" H 7900 2560 30  0001 C CNN
+F 1 "+3.3V" H 7900 2710 30  0000 C CNN
+	1    7900 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2600 7900 2700
+$Comp
+L GND #PWR011
+U 1 1 51094C1C
+P 8200 2800
+F 0 "#PWR011" H 8200 2800 30  0001 C CNN
+F 1 "GND" H 8200 2730 30  0001 C CNN
+	1    8200 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8200 2800 8300 2800
+$Comp
+L C C3
+U 1 1 51094D13
+P 7000 2750
+F 0 "C3" H 7050 2850 50  0000 L CNN
+F 1 "1uF" H 7050 2650 50  0000 L CNN
+	1    7000 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2500 7000 2550
+Wire Wire Line
+	7000 3000 7000 2950
+$Comp
+L R R2
+U 1 1 5109477A
+P 4950 3900
+F 0 "R2" V 5030 3900 50  0000 C CNN
+F 1 "10K" V 4950 3900 50  0000 C CNN
+	1    4950 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR012
+U 1 1 51094789
+P 4600 3800
+F 0 "#PWR012" H 4600 3900 30  0001 C CNN
+F 1 "VCC" H 4600 3900 30  0000 C CNN
+	1    4600 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3800 4600 3900
+Wire Wire Line
+	4600 3900 4700 3900
+Wire Wire Line
+	5200 3900 5300 3900
+Connection ~ 5300 3900
+Connection ~ 6050 4400
+Text Label 6750 4000 1    60   ~ 0
+CURRENT
+$Comp
+L R R3
+U 1 1 51094A11
+P 5550 3800
+F 0 "R3" V 5630 3800 50  0000 C CNN
+F 1 "100R" V 5550 3800 50  0000 C CNN
+	1    5550 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 3800 5800 3500
+Text Label 5800 3600 0    60   ~ 0
+MOSFET
+$Comp
+L C C4
+U 1 1 51094D1E
+P 7050 4000
+F 0 "C4" H 7100 4100 50  0000 L CNN
+F 1 "0.1uF" H 7100 3900 50  0000 L CNN
+	1    7050 4000
+	0    1    1    0   
+$EndComp
+Connection ~ 6800 4400
+$Comp
+L INDUCTOR L1
+U 1 1 5109500C
+P 6350 4000
+F 0 "L1" V 6300 4000 40  0000 C CNN
+F 1 "INDUCTOR" V 6450 4000 40  0000 C CNN
+	1    6350 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6050 4400 6050 4000
+Wire Wire Line
+	6650 4000 6850 4000
+$Comp
+L GND #PWR013
+U 1 1 5109510B
+P 7350 4000
+F 0 "#PWR013" H 7350 4000 30  0001 C CNN
+F 1 "GND" H 7350 3930 30  0001 C CNN
+	1    7350 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7350 4000 7250 4000
+$EndSCHEMATC

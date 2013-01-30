@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = Wed 30 Jan 2013 11:51:57 AM EST
+
+BeginCmp
+TimeStamp = /510943D3;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = BATTERY-BHX2-2032;
+EndCmp
+
+BeginCmp
+TimeStamp = /51094431;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5109439C;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51094D13;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51094D1E;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /510945DE;
+Reference = D1;
+ValeurCmp = LED-PAD;
+IdModule  = CREE-XPC-LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /510941FD;
+Reference = IC1;
+ValeurCmp = ATTINY85-S;
+IdModule  = SOIC8-5.3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5109500C;
+Reference = L1;
+ValeurCmp = INDUCTOR;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /510942D6;
+Reference = P1;
+ValeurCmp = CONN_3X2;
+IdModule  = TC2030-MCP-NL;
+EndCmp
+
+BeginCmp
+TimeStamp = /51094679;
+Reference = Q1;
+ValeurCmp = IRLML2246TRPBF;
+IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5109471A;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5109477A;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51094A11;
+Reference = R3;
+ValeurCmp = 100R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /510944CD;
+Reference = SW1;
+ValeurCmp = SWITCH-4;
+IdModule  = SWITCH-ALPS;
+EndCmp
+
+BeginCmp
+TimeStamp = /51094A52;
+Reference = U1;
+ValeurCmp = AP7313;
+IdModule  = SOT23;
+EndCmp
+
+EndListe
