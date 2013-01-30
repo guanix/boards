@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 28 Jan 2013 10:23:21 AM EST
+EESchema Schematic File Version 2  date Wed 30 Jan 2013 01:54:49 PM EST
 LIBS:guan
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "28 jan 2013"
+Date "30 jan 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -550,8 +550,6 @@ $EndComp
 NoConn ~ 7500 4150
 NoConn ~ 4200 4600
 NoConn ~ 4300 4600
-NoConn ~ 4400 4600
-NoConn ~ 4500 4600
 NoConn ~ 4600 4600
 NoConn ~ 4700 4600
 NoConn ~ 4800 4600
@@ -559,13 +557,6 @@ NoConn ~ 5500 4000
 NoConn ~ 5500 4100
 NoConn ~ 5500 4200
 NoConn ~ 5500 4300
-NoConn ~ 4300 2900
-NoConn ~ 4400 2900
-NoConn ~ 4500 2900
-NoConn ~ 4600 2900
-NoConn ~ 4700 2900
-NoConn ~ 3900 2900
-NoConn ~ 4000 2900
 Text Label 3000 3600 0    60   ~ 0
 AIN2
 Text Label 3000 3700 0    60   ~ 0
@@ -813,7 +804,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 6200 1600 6100
 Wire Wire Line
-	1600 6100 1700 6100
+	1200 6100 1700 6100
 Wire Wire Line
 	2300 6100 2600 6100
 Wire Wire Line
@@ -975,24 +966,87 @@ Wire Wire Line
 	9400 4900 9400 5000
 Connection ~ 9400 5000
 Wire Wire Line
-	3000 3400 3400 3400
-Wire Wire Line
-	3000 3500 3400 3500
-Wire Wire Line
 	3000 4200 3400 4200
 Text Label 3000 4200 0    60   ~ 0
 BUZZER
-NoConn ~ 3400 3400
-NoConn ~ 3400 3500
 Wire Wire Line
 	4000 5000 4000 4600
 Wire Wire Line
 	4100 5000 4100 4600
 Text Label 4000 5000 1    60   ~ 0
-SW1
+LED1
 Text Label 4100 5000 1    60   ~ 0
-SW2
+LED2
 Wire Wire Line
 	7300 5700 7300 5800
 Connection ~ 7300 5800
+$Comp
+L DIODE D3
+U 1 1 5107DFA4
+P 1200 6500
+F 0 "D3" H 1200 6600 40  0000 C CNN
+F 1 "DIODE" H 1200 6400 40  0000 C CNN
+	1    1200 6500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1200 6300 1200 6100
+Connection ~ 1600 6100
+Wire Wire Line
+	1200 6700 1200 6850
+Wire Wire Line
+	1200 6850 1600 6850
+Connection ~ 1600 6850
+NoConn ~ 4400 4600
+NoConn ~ 4500 4600
+Wire Wire Line
+	3900 2900 3900 2500
+Wire Wire Line
+	4000 2500 4000 2900
+Text Label 3900 2700 1    60   ~ 0
+SW1
+Text Label 4000 2700 1    60   ~ 0
+SW2
+Wire Wire Line
+	4300 2900 4300 2750
+Wire Wire Line
+	4300 2750 4700 2750
+Wire Wire Line
+	4400 2750 4400 2900
+Wire Wire Line
+	4500 2600 4500 2900
+Connection ~ 4400 2750
+Wire Wire Line
+	4600 2750 4600 2900
+Connection ~ 4500 2750
+Wire Wire Line
+	4700 2750 4700 2900
+Connection ~ 4600 2750
+$Comp
+L GND #PWR034
+U 1 1 51097197
+P 4500 2600
+F 0 "#PWR034" H 4500 2600 30  0001 C CNN
+F 1 "GND" H 4500 2530 30  0001 C CNN
+	1    4500 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3400 3400 3300 3400
+Wire Wire Line
+	3300 3400 3300 3500
+Wire Wire Line
+	3300 3500 3400 3500
+$Comp
+L GND #PWR035
+U 1 1 5109746E
+P 3200 3450
+F 0 "#PWR035" H 3200 3450 30  0001 C CNN
+F 1 "GND" H 3200 3380 30  0001 C CNN
+	1    3200 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 3450 3300 3450
+Connection ~ 3300 3450
 $EndSCHEMATC
