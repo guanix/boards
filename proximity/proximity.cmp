@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = Wed 30 Jan 2013 02:53:50 PM EST
+Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = Thu 31 Jan 2013 10:27:44 AM EST
 
 BeginCmp
 TimeStamp = /5102F2E4;
@@ -106,10 +106,17 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /510A8EBC;
+Reference = D4;
+ValeurCmp = DIODE;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /5102DB27;
 Reference = IC1;
 ValeurCmp = NRF51822;
-IdModule  = QFN48+1-0.4MM;
+IdModule  = QFN48+1-0.4MM-SHORTPADS;
 EndCmp
 
 BeginCmp

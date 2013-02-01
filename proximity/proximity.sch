@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 30 Jan 2013 02:53:52 PM EST
+EESchema Schematic File Version 2  date Thu 31 Jan 2013 10:50:31 AM EST
 LIBS:guan
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "30 jan 2013"
+Date "31 jan 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -456,19 +456,19 @@ LED2
 $Comp
 L CONN_2 P2
 U 1 1 51045546
-P 4950 6400
-F 0 "P2" V 4900 6400 40  0000 C CNN
-F 1 "ST-0503" V 5000 6400 40  0000 C CNN
-	1    4950 6400
+P 4950 6250
+F 0 "P2" V 4900 6250 40  0000 C CNN
+F 1 "ST-0503" V 5000 6250 40  0000 C CNN
+	1    4950 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L VCC #PWR023
 U 1 1 51045633
-P 4500 6200
-F 0 "#PWR023" H 4500 6300 30  0001 C CNN
-F 1 "VCC" H 4500 6300 30  0000 C CNN
-	1    4500 6200
+P 4500 5950
+F 0 "#PWR023" H 4500 6050 30  0001 C CNN
+F 1 "VCC" H 4500 6050 30  0000 C CNN
+	1    4500 5950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -831,14 +831,6 @@ Wire Wire Line
 Wire Wire Line
 	3300 2000 3700 2000
 Wire Wire Line
-	4500 6200 4500 6300
-Wire Wire Line
-	4500 6300 4600 6300
-Wire Wire Line
-	4500 6600 4500 6500
-Wire Wire Line
-	4500 6500 4600 6500
-Wire Wire Line
 	4500 7100 4500 7000
 Wire Wire Line
 	4000 6800 4200 6800
@@ -1049,4 +1041,27 @@ $EndComp
 Wire Wire Line
 	3200 3450 3300 3450
 Connection ~ 3300 3450
+$Comp
+L DIODE D4
+U 1 1 510A8EBC
+P 4250 6300
+F 0 "D4" H 4250 6400 40  0000 C CNN
+F 1 "DIODE" H 4250 6200 40  0000 C CNN
+	1    4250 6300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 5950 4500 6150
+Wire Wire Line
+	4500 6150 4600 6150
+Wire Wire Line
+	4600 6350 4500 6350
+Wire Wire Line
+	4500 6350 4500 6600
+Wire Wire Line
+	4250 6100 4500 6100
+Connection ~ 4500 6100
+Wire Wire Line
+	4250 6500 4500 6500
+Connection ~ 4500 6500
 $EndSCHEMATC
