@@ -1,0 +1,17 @@
+EESchema-DOCLIB  Version 2.0  Date: Sun 27 Jan 2013 09:35:09 PM EST
+#
+$CMP ATMEGA328P-M
+D ATMEGA328P, QFN/MLF32, 32k Flash, 2kB SRAM, 1kB EEPROM
+K AVR 8bit Microcontroller MegaAVR PicoPower
+F http://www.atmel.com/dyn/resources/prod_documents/doc8271.pdf
+$ENDCMP
+#
+$CMP LPC111X/102
+D LPC1112, LPC1114/102, TSSOP28 and DIP28
+$ENDCMP
+#
+$CMP TLC5940-PWP
+D TSSOP
+$ENDCMP
+#
+#End Doc Library
