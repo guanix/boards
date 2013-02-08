@@ -1,0 +1,307 @@
+EESchema Schematic File Version 2  date Fri 08 Feb 2013 10:07:28 AM EST
+LIBS:guan
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ltc3588-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "8 feb 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LTC3588 IC1
+U 1 1 51150DCF
+P 5200 3000
+F 0 "IC1" H 5500 3350 60  0000 C CNN
+F 1 "LTC3588" H 5050 3350 60  0000 C CNN
+	1    5200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P2
+U 1 1 51150DE8
+P 5200 2000
+F 0 "P2" V 5150 2000 40  0000 C CNN
+F 1 "CONN_2" V 5250 2000 40  0000 C CNN
+	1    5200 2000
+	0    -1   -1   0   
+$EndComp
+Text Label 5800 2900 0    60   ~ 0
+PGOOD
+$Comp
+L CONN_3X2 P1
+U 1 1 51150E2F
+P 3050 2550
+F 0 "P1" H 3050 2800 50  0000 C CNN
+F 1 "CONN_3X2" V 3050 2600 40  0000 C CNN
+	1    3050 2550
+	1    0    0    -1  
+$EndComp
+Text Label 4400 3300 0    60   ~ 0
+D1
+Text Label 4400 3400 0    60   ~ 0
+D0
+$Comp
+L C C3
+U 1 1 51150EA3
+P 4150 3200
+F 0 "C3" H 4200 3300 50  0000 L CNN
+F 1 "4.7uF" H 4200 3100 50  0000 L CNN
+	1    4150 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 51150EC3
+P 3850 3200
+F 0 "#PWR01" H 3850 3200 30  0001 C CNN
+F 1 "GND" H 3850 3130 30  0001 C CNN
+	1    3850 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L C C2
+U 1 1 51150EDF
+P 3550 3100
+F 0 "C2" H 3600 3200 50  0000 L CNN
+F 1 "1uF" H 3600 3000 50  0000 L CNN
+	1    3550 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C1
+U 1 1 51150F10
+P 3350 3400
+F 0 "C1" H 3400 3500 50  0000 L CNN
+F 1 "10uF" H 3400 3300 50  0000 L CNN
+	1    3350 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 51150F35
+P 3350 3700
+F 0 "#PWR02" H 3350 3700 30  0001 C CNN
+F 1 "GND" H 3350 3630 30  0001 C CNN
+	1    3350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L1
+U 1 1 51150F56
+P 6150 3100
+F 0 "L1" V 6100 3100 40  0000 C CNN
+F 1 "10uH" V 6250 3100 40  0000 C CNN
+	1    6150 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 51150F92
+P 5850 3500
+F 0 "#PWR03" H 5850 3500 30  0001 C CNN
+F 1 "GND" H 5850 3430 30  0001 C CNN
+	1    5850 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 51150FC2
+P 6550 3500
+F 0 "C4" H 6600 3600 50  0000 L CNN
+F 1 "47uF" H 6600 3400 50  0000 L CNN
+	1    6550 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 51150FD6
+P 6550 3800
+F 0 "#PWR04" H 6550 3800 30  0001 C CNN
+F 1 "GND" H 6550 3730 30  0001 C CNN
+	1    6550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P3
+U 1 1 51151018
+P 7000 3000
+F 0 "P3" V 6950 3000 40  0000 C CNN
+F 1 "CONN_2" V 7050 3000 40  0000 C CNN
+	1    7000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 51151051
+P 6550 2900
+F 0 "#PWR05" H 6550 2900 30  0001 C CNN
+F 1 "GND" H 6550 2830 30  0001 C CNN
+	1    6550 2900
+	0    1    1    0   
+$EndComp
+Text Label 2450 2500 0    60   ~ 0
+D0
+Text Label 3550 2500 0    60   ~ 0
+D1
+Text Label 4450 3200 0    60   ~ 0
+VIN2
+Wire Wire Line
+	4650 2800 4550 2800
+Wire Wire Line
+	4550 2800 4550 2450
+Wire Wire Line
+	4550 2450 5100 2450
+Wire Wire Line
+	5100 2450 5100 2350
+Wire Wire Line
+	5300 2350 5300 2450
+Wire Wire Line
+	5300 2450 5850 2450
+Wire Wire Line
+	5850 2450 5850 2800
+Wire Wire Line
+	5850 2800 5750 2800
+Wire Wire Line
+	5750 2900 6100 2900
+Wire Wire Line
+	4400 3300 4650 3300
+Wire Wire Line
+	4400 3400 4650 3400
+Wire Wire Line
+	4350 3200 4650 3200
+Wire Wire Line
+	3850 3200 3950 3200
+Wire Wire Line
+	3750 3100 4650 3100
+Wire Wire Line
+	4650 2900 3350 2900
+Wire Wire Line
+	3350 2900 3350 3200
+Connection ~ 3350 3100
+Wire Wire Line
+	3350 3700 3350 3600
+Wire Wire Line
+	5750 3100 5850 3100
+Wire Wire Line
+	5750 3200 6550 3200
+Wire Wire Line
+	6550 3100 6550 3300
+Wire Wire Line
+	6450 3100 6650 3100
+Wire Wire Line
+	5850 3500 5850 3400
+Wire Wire Line
+	5850 3400 5750 3400
+Wire Wire Line
+	6550 3800 6550 3700
+Connection ~ 6550 3200
+Connection ~ 6550 3100
+Wire Wire Line
+	6550 2900 6650 2900
+Wire Wire Line
+	3450 2500 3650 2500
+Wire Wire Line
+	2450 2500 2650 2500
+$Comp
+L GND #PWR06
+U 1 1 51151118
+P 3050 2750
+F 0 "#PWR06" H 3050 2750 30  0001 C CNN
+F 1 "GND" H 3050 2680 30  0001 C CNN
+	1    3050 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2750 3050 2700
+Wire Wire Line
+	2550 2700 3550 2700
+Wire Wire Line
+	3550 2700 3550 2600
+Wire Wire Line
+	3550 2600 3450 2600
+Wire Wire Line
+	2650 2600 2550 2600
+Wire Wire Line
+	2550 2600 2550 2700
+Connection ~ 3050 2700
+Wire Wire Line
+	3450 2400 3650 2400
+Wire Wire Line
+	2450 2400 2650 2400
+Text Label 2450 2400 0    60   ~ 0
+VIN2
+Text Label 3500 2400 0    60   ~ 0
+VIN2
+Text Label 3750 2900 0    60   ~ 0
+VIN
+Text Label 4650 2450 0    60   ~ 0
+PZ1
+Text Label 5550 2450 0    60   ~ 0
+PZ2
+Text Label 5900 3200 0    60   ~ 0
+VOUT
+$Comp
+L CONN_2 P4
+U 1 1 5115149E
+P 5750 4400
+F 0 "P4" V 5700 4400 40  0000 C CNN
+F 1 "CONN_2" V 5800 4400 40  0000 C CNN
+	1    5750 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 511514AD
+P 6200 4600
+F 0 "#PWR07" H 6200 4600 30  0001 C CNN
+F 1 "GND" H 6200 4530 30  0001 C CNN
+	1    6200 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 4600 6200 4500
+Wire Wire Line
+	6200 4500 6100 4500
+Wire Wire Line
+	6100 4300 6400 4300
+Text Label 6150 4300 0    60   ~ 0
+PGOOD
+$EndSCHEMATC
