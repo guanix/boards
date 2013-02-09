@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = Fri 25 Jan 2013 11:22:49 AM EST
+Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = Fri 08 Feb 2013 08:18:47 PM EST
 
 BeginCmp
 TimeStamp = /5102A8B9;
@@ -26,6 +26,13 @@ TimeStamp = /5101F3FE;
 Reference = IC1;
 ValeurCmp = ATTINY85-S;
 IdModule  = SOIC8-5.3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5115A798;
+Reference = IC2;
+ValeurCmp = MOCD207M;
+IdModule  = SOIC8-3.9MM;
 EndCmp
 
 BeginCmp
@@ -60,34 +67,34 @@ BeginCmp
 TimeStamp = /5102B1F2;
 Reference = P4;
 ValeurCmp = CONN_2;
-IdModule  = WIREWRAP-PIN-2;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /5102B201;
+TimeStamp = /5115AB88;
 Reference = P5;
 ValeurCmp = CONN_2;
-IdModule  = WIREWRAP-PIN-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /5101F466;
-Reference = Q1;
-ValeurCmp = MOSFET_N;
-IdModule  = SOT23GDS;
-EndCmp
-
-BeginCmp
-TimeStamp = /5102A5A0;
-Reference = Q2;
-ValeurCmp = MOSFET_N;
-IdModule  = SOT23GDS;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /5102ABF6;
 Reference = R1;
 ValeurCmp = 1K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5115A829;
+Reference = R2;
+ValeurCmp = 200R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5115AB96;
+Reference = R3;
+ValeurCmp = 200R;
 IdModule  = SM0603;
 EndCmp
 
