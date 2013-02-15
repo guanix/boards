@@ -3,7 +3,7 @@
   (general
     (links 67)
     (no_connects 0)
-    (area 28.4988 26.5938 66.234 54.2036)
+    (area 28.4988 26.5938 66.234 58.062565)
     (thickness 1.6)
     (drawings 18)
     (tracks 153)
@@ -32,7 +32,7 @@
   )
 
   (setup
-    (last_trace_width 0.3048)
+    (last_trace_width 0.254)
     (user_trace_width 0.2032)
     (user_trace_width 0.254)
     (user_trace_width 0.3048)
@@ -64,7 +64,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFFBF)
     (pcbplotparams
-      (layerselection 3178497)
+      (layerselection 284196865)
       (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 152400)
@@ -86,9 +86,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory out))
   )
 
   (net 0 "")
@@ -208,14 +208,14 @@
     )
   )
 
-  (module SM0805 (layer F.Cu) (tedit 5112CB3C) (tstamp 5112C234)
+  (module SM0805 (layer F.Cu) (tedit 5112CC1E) (tstamp 5112C234)
     (at 43.815 50.165 90)
     (path /5112CD74)
     (attr smd)
     (fp_text reference C3 (at -0.127 -1.143 90) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
-    (fp_text value 10uF (at -6.477 0.889 90) (layer F.SilkS)
+    (fp_text value 10uF (at -6.477 0.889 90) (layer F.SilkS) hide
       (effects (font (size 0.50038 0.50038) (thickness 0.10922)))
     )
     (fp_circle (center -1.651 0.762) (end -1.651 0.635) (layer F.SilkS) (width 0.09906))
@@ -240,14 +240,14 @@
     )
   )
 
-  (module SM0805 (layer F.Cu) (tedit 5112C9BB) (tstamp 5112C241)
+  (module SM0805 (layer F.Cu) (tedit 5112CC1A) (tstamp 5112C241)
     (at 57.658 34.544 90)
     (path /5112DFC5)
     (attr smd)
     (fp_text reference C7 (at 1.27 1.778 90) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
-    (fp_text value 4.7uF (at 0 6.858 90) (layer F.SilkS)
+    (fp_text value 4.7uF (at 0 6.858 90) (layer F.SilkS) hide
       (effects (font (size 0.50038 0.50038) (thickness 0.10922)))
     )
     (fp_circle (center -1.651 0.762) (end -1.651 0.635) (layer F.SilkS) (width 0.09906))
