@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = Fri 15 Feb 2013 12:35:55 PM EST
+
+BeginCmp
+TimeStamp = /50D47B93;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /50D47B69;
+Reference = IC1;
+ValeurCmp = WS2811-5050;
+IdModule  = WS2811-5050;
+EndCmp
+
+BeginCmp
+TimeStamp = /50D47BE5;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50D47C0D;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50D69312;
+Reference = R3;
+ValeurCmp = 100R;
+IdModule  = SM0603;
+EndCmp
+
+EndListe
