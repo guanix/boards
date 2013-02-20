@@ -1,0 +1,363 @@
+# EESchema Netlist Version 1.1 created  Tue 20 Nov 2012 05:36:34 PM EST
+(
+ ( /50AC040B SM0603_Capa C1 10nF
+  ( 1 GND )
+  ( 2 N-000048 )
+ )
+ ( /50AC050D SM0603_Capa C2 47pF
+  ( 1 N-000044 )
+  ( 2 GND )
+ )
+ ( /50AC0515 SM0603_Capa C3 47pF
+  ( 1 N-000050 )
+  ( 2 GND )
+ )
+ ( /50AC0484 SM0603_Capa C4 0.1uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /507E3FDC SM0603_Capa C5 0.1uF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /508050CB SM0603_Capa C6 0.1uF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /50763CD5 SM0603_Capa C7 0.1uF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /50764B00 SM0603_Capa C8 0.1uF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /50AC0486 SM0805 C9 4.7uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /50AC04A7 SM0603_Capa C10 0.1uF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /50AC04A6 SM0805 C11 4.7uF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /50AC04D5 SM0603_Capa C12 0.1uF
+  ( 1 GND )
+  ( 2 +5V )
+ )
+ ( /5076845E LED-0603 D1 LED
+  ( 1 +3.3V )
+  ( 2 N-000041 )
+ )
+ ( /50769297 LED-0603 D2 LED
+  ( 1 /LED )
+  ( 2 N-000042 )
+ )
+ ( /507611F2 28tex600 IC1 LPC111X/102
+  ( 1 /PIO0_8 )
+  ( 2 /PIO0_9 )
+  ( 3 /PIO0_10 )
+  ( 4 /PIO0_11 )
+  ( 5 /PIO0_5 )
+  ( 6 /PIO0_6 )
+  ( 7 +3.3V )
+  ( 8 GND )
+  ( 9 /PIO1_0 )
+  ( 10 /PIO1_1 )
+  ( 11 /PIO1_2 )
+  ( 12 /PIO1_3 )
+  ( 13 /PIO1_4 )
+  ( 14 /PIO1_5 )
+  ( 15 /PIO1_6 )
+  ( 16 /PIO1_7 )
+  ( 17 /PIO1_8 )
+  ( 18 /PIO1_9 )
+  ( 19 ? )
+  ( 20 N-000032 )
+  ( 21 +3.3V )
+  ( 22 GND )
+  ( 23 /PIO0_0 )
+  ( 24 /BOOT )
+  ( 25 /PIO0_2 )
+  ( 26 /PIO0_3 )
+  ( 27 /PIO0_4 )
+  ( 28 /LED )
+ )
+ ( /50AC02E3 SSOP20 IC2 FT231X-S
+  ( 1 /DTR )
+  ( 2 /RTS )
+  ( 3 +3.3V )
+  ( 4 /PIO1_7 )
+  ( 5 ? )
+  ( 6 GND )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 /USBDP )
+  ( 12 /USBDM )
+  ( 13 +3.3V )
+  ( 14 +3.3V )
+  ( 15 +5V )
+  ( 16 GND )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 /PIO1_6 )
+ )
+ ( /50AC03F1 MINI-USB-UX60A-MB-5ST J2 MINI-USB-SHLD
+  ( 1 N-000048 )
+  ( 2 N-000044 )
+  ( 3 N-000050 )
+  ( 4 ? )
+  ( 5 GND )
+  ( 6 GND )
+ )
+ ( /507D25B5 PIN_ARRAY_2X1 JP1 JUMPER
+  ( 1 N-000017 )
+  ( 2 /PIO0_3 )
+ )
+ ( /507FFB22 PIN_ARRAY_2X1 JP2 JUMPER
+  ( 1 /BOOT )
+  ( 2 /BOOT )
+ )
+ ( /50800941 PIN_ARRAY_2X1 JP3 JUMPER
+  ( 1 /PIO0_0 )
+  ( 2 /PIO0_0 )
+ )
+ ( /507D5F12 PIN_ARRAY_2X1 JP4 JUMPER
+  ( 1 /LED )
+  ( 2 /LED )
+ )
+ ( /50AC0406 SM0805 L1 INDUCTOR
+  ( 1 +5V )
+  ( 2 N-000048 )
+ )
+ ( /5076AF1F PIN_ARRAY-6X1 P1 CONN_6
+  ( 1 /PIO0_0 )
+  ( 2 /BOOT )
+  ( 3 /PIO0_2 )
+  ( 4 /PIO0_3 )
+  ( 5 /PIO0_4 )
+  ( 6 /PIO0_5 )
+ )
+ ( /5076AF23 PIN_ARRAY-6X1 P2 CONN_6
+  ( 1 /PIO0_6 )
+  ( 2 /LED )
+  ( 3 /PIO0_8 )
+  ( 4 /PIO0_9 )
+  ( 5 /PIO0_10 )
+  ( 6 /PIO0_11 )
+ )
+ ( /5076AF27 PIN_ARRAY-6X1 P3 CONN_6
+  ( 1 /PIO1_0 )
+  ( 2 /PIO1_1 )
+  ( 3 /PIO1_2 )
+  ( 4 /PIO1_3 )
+  ( 5 /PIO1_4 )
+  ( 6 /PIO1_5 )
+ )
+ ( /5076AF2C PIN_ARRAY_4x1 P4 CONN_4
+  ( 1 /PIO1_6 )
+  ( 2 /PIO1_7 )
+  ( 3 /PIO1_8 )
+  ( 4 /PIO1_9 )
+ )
+ ( /5076CBD1 PIN_ARRAY_4x1 P5 CONN_4
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 +3.3V )
+  ( 4 +5V )
+ )
+ ( /50761D76 pin_array_8x1 P6 CONN_8
+  ( 1 GND )
+  ( 2 ? )
+  ( 3 /PIO0_0 )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 /PIO0_10 )
+  ( 7 /PIO1_3 )
+  ( 8 +3.3V )
+ )
+ ( /507C5AD9 PIN_ARRAY_5x1 P7 CONN_5
+  ( 1 GND )
+  ( 2 +3.3V )
+  ( 3 /PIO0_0 )
+  ( 4 /BOOT )
+  ( 5 /PIO0_3 )
+ )
+ ( /50768466 SM0603 R1 220R
+  ( 1 N-000041 )
+  ( 2 GND )
+ )
+ ( /5076929B SM0603 R2 220R
+  ( 1 N-000042 )
+  ( 2 GND )
+ )
+ ( /5077BEEB SM0603 R3 10K
+  ( 1 +3.3V )
+  ( 2 /PIO0_0 )
+ )
+ ( /5077CD17 SM0603 R4 100R
+  ( 1 N-000003 )
+  ( 2 GND )
+ )
+ ( /50AC043A SM0603 R5 27R
+  ( 1 N-000044 )
+  ( 2 /USBDM )
+ )
+ ( /50AC043D SM0603 R6 27R
+  ( 1 N-000050 )
+  ( 2 /USBDP )
+ )
+ ( /5077B096 SW_PUSH_SMALL SW1 SW_PUSH
+  ( 1 /PIO0_0 )
+  ( 2 N-000003 )
+ )
+ ( /507D176B TSSOP14 U3 74LS125
+  ( 1 /RTS )
+  ( 2 GND )
+  ( 3 /BOOT )
+  ( 4 /DTR )
+  ( 5 GND )
+  ( 6 /PIO0_0 )
+  ( 7 GND )
+  ( 8 N-000017 )
+  ( 9 +3.3V )
+  ( 10 /RTS )
+  ( 14 +3.3V )
+ )
+ ( /507D01BD OSCILLATOR-FOX924 X1 CONN_4
+  ( 1 ? )
+  ( 2 GND )
+  ( 3 N-000032 )
+  ( 4 +3.3V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
