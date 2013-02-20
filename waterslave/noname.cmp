@@ -1,0 +1,143 @@
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Sat 19 May 2012 03:45:25 PM EDT
+
+BeginCmp
+TimeStamp = /4FB7BF98;
+Reference = C1;
+ValeurCmp = 22pF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB7BF9C;
+Reference = C2;
+ValeurCmp = 22pF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB7C1DD;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB7C459;
+Reference = C4;
+ValeurCmp = 10uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB7C4F2;
+Reference = C5;
+ValeurCmp = 10uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB7F827;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB7C4E0;
+Reference = D1;
+ValeurCmp = DIODESCH;
+IdModule  = DO214;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB7BF4F;
+Reference = IC1;
+ValeurCmp = ATMEGA328P-P;
+IdModule  = DIP-28__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB7C34E;
+Reference = L1;
+ValeurCmp = 47uH;
+IdModule  = SM1812;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB7EDE8;
+Reference = L2;
+ValeurCmp = 120nH;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB7C0A2;
+Reference = P1;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB7BFBD;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = SCREW-3.5MM-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB7C045;
+Reference = P3;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB7C04F;
+Reference = P4;
+ValeurCmp = CONN_3X2;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB7C156;
+Reference = P5;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB7CA5D;
+Reference = P6;
+ValeurCmp = CONN_2;
+IdModule  = SCREW-3.5MM-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB7C010;
+Reference = R1;
+ValeurCmp = 47K;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB7BFE0;
+Reference = R2;
+ValeurCmp = 100;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB7C428;
+Reference = U1;
+ValeurCmp = NCP1402;
+IdModule  = SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB7BF7F;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = HC-49V;
+EndCmp
+
+EndListe

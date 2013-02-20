@@ -1,0 +1,94 @@
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Mon 21 May 2012 12:08:15 PM EDT
+
+BeginCmp
+TimeStamp = /4FBA63ED;
+Reference = C1;
+ValeurCmp = 22pF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FBA63F5;
+Reference = C2;
+ValeurCmp = 22pF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FBA65E8;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FBA67CA;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FBA5F2A;
+Reference = IC1;
+ValeurCmp = ATMEGA328P-A;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FBA621D;
+Reference = P3;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FBA6295;
+Reference = P4;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FBA62A0;
+Reference = P5;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FBA61F2;
+Reference = P6;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FBA5F3A;
+Reference = P7;
+ValeurCmp = CONN_3X2;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FBA5F3D;
+Reference = P8;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FBA67D9;
+Reference = R1;
+ValeurCmp = 1K;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FBA63DB;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = HC-49V;
+EndCmp
+
+EndListe

@@ -1,0 +1,286 @@
+# EESchema Netlist Version 1.1 created  Thu 31 May 2012 10:05:27 AM EDT
+(
+ ( /4FA6EEE7 SM0805 C1 0.1uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4FA6EEE9 SM0805 C2 0.1uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4FA6EEC0 CAP-6.3MM-PANAD C3 100uF
+  ( 1 +12V )
+  ( 2 AGND )
+ )
+ ( /4FA6EEC3 SM1206 C4 10uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4FA6E0DD SM0805 C5 22pF
+  ( 1 N-000029 )
+  ( 2 GND )
+ )
+ ( /4FA6E0E1 SM0805 C6 22pF
+  ( 1 N-000030 )
+  ( 2 GND )
+ )
+ ( /4FC69A8B SM0805 C7 0.1uF
+  ( 1 N-000041 )
+  ( 2 /RESET )
+ )
+ ( /4FA6EB62 LED-0805 D1 LED
+  ( 1 N-000037 )
+  ( 2 N-000031 )
+ )
+ ( /4FA6EB6F LED-0805 D2 LED
+  ( 1 N-000038 )
+  ( 2 GND )
+ )
+ ( /4FA6ED91 DO214 D3 DIODE
+  ( 1 N-000036 )
+  ( 2 VCC )
+ )
+ ( /4FA6EF17 LED-0805 D4 LED
+  ( 1 N-000002 )
+  ( 2 N-000036 )
+ )
+ ( /4FA6ECA2 PTC-RGEF800 F1 FUSE
+  ( 1 +12V )
+  ( 2 N-000039 )
+ )
+ ( /4FC696F2 TQFP32 IC1 ATMEGA328P-A
+  ( 1 ? )
+  ( 2 N-000031 )
+  ( 3 GND )
+  ( 4 VCC )
+  ( 5 GND )
+  ( 6 VCC )
+  ( 7 N-000029 )
+  ( 8 N-000030 )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 /RFDATA )
+  ( 14 ? )
+  ( 15 /MOSI )
+  ( 16 /MISO )
+  ( 17 /SCK )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 ? )
+  ( 21 GND )
+  ( 22 ? )
+  ( 23 ? )
+  ( 24 /ENABLE )
+  ( 25 ? )
+  ( 26 ? )
+  ( 27 ? )
+  ( 28 ? )
+  ( 29 /RESET )
+  ( 30 /RX )
+  ( 31 /TX )
+  ( 32 ? )
+ )
+ ( /4FA6E794 pin_array_3x2 P1 CONN_3X2
+  ( 1 /MISO )
+  ( 2 VCC )
+  ( 3 /SCK )
+  ( 4 /MOSI )
+  ( 5 /RESET )
+  ( 6 GND )
+ )
+ ( /4FA6E7DA PIN_ARRAY_4x1 P2 CONN_4
+  ( 1 GND )
+  ( 2 ? )
+  ( 3 /RFDATA )
+  ( 4 VCC )
+ )
+ ( /4FA6F7A1 SCREW-3.5MM-2 P3 CONN_2
+  ( 1 +12V )
+  ( 2 AGND )
+ )
+ ( /4FC69A67 PIN_ARRAY-6X1 P4 CONN_6
+  ( 1 GND )
+  ( 2 ? )
+  ( 3 VCC )
+  ( 4 /RX )
+  ( 5 /TX )
+  ( 6 N-000041 )
+ )
+ ( /4FA6F7F3 SCREW-3.5MM-2 P5 CONN_2
+  ( 1 N-000040 )
+  ( 2 AGND )
+ )
+ ( /4FA72F31 M3HOLE P6 CONN_1
+  ( 1 ? )
+ )
+ ( /4FA72F38 M3HOLE P7 CONN_1
+  ( 1 ? )
+ )
+ ( /4FA72F3A M3HOLE P8 CONN_1
+  ( 1 ? )
+ )
+ ( /4FA72F3D M3HOLE P9 CONN_1
+  ( 1 ? )
+ )
+ ( /4FA6ED76 SOT23EBC Q1 BC237
+  ( B N-000035 )
+  ( C N-000036 )
+  ( E GND )
+ )
+ ( /4FC69EC7 SOT23EBC Q2 BC237
+  ( B N-000042 )
+  ( C GND )
+  ( E AGND )
+ )
+ ( /4FA6EB79 SM0805 R1 1K
+  ( 1 N-000037 )
+  ( 2 VCC )
+ )
+ ( /4FA6EB7D SM0805 R2 1K
+  ( 1 N-000038 )
+  ( 2 VCC )
+ )
+ ( /4FA6EDA1 SM0805 R3 10K
+  ( 1 /ENABLE )
+  ( 2 N-000035 )
+ )
+ ( /4FA6EF20 SM0805 R4 1K
+  ( 1 VCC )
+  ( 2 N-000002 )
+ )
+ ( /4FC698A7 SM0805 R5 470
+  ( 1 +12V )
+  ( 2 N-000042 )
+ )
+ ( /4FA71763 SOT-223-REG U1 LM7805
+  ( GND GND )
+  ( VI +12V )
+  ( VO VCC )
+ )
+ ( /4FA6EC40 OMROM-G5LE U2 RELAY-SPDT
+  ( 1 N-000040 )
+  ( 2 VCC )
+  ( 3 N-000039 )
+  ( 4 ? )
+  ( 5 N-000036 )
+ )
+ ( /4FA6E075 HC-49V X1 CRYSTAL
+  ( 1 N-000030 )
+  ( 2 N-000029 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component C4
+ CP*
+ SM*
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component IC1
+ 28DIP-ELL600
+ 28dip600
+$endlist
+$component Q1
+ TO92-EBC
+$endlist
+$component Q2
+ TO92-EBC
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

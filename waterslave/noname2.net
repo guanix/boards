@@ -1,0 +1,268 @@
+# EESchema Netlist Version 1.1 created  Mon 21 May 2012 12:51:21 PM EDT
+(
+ ( /4FBA67D9 $noname  R1 1K {Lib=R}
+  (    1 N-000004 )
+  (    2 GND )
+ )
+ ( /4FBA67CA $noname  D1 LED {Lib=LED}
+  (    1 /SCK )
+  (    2 N-000004 )
+ )
+ ( /4FBA65E8 $noname  C5 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4FBA63F5 $noname  C2 22pF {Lib=C}
+  (    1 N-000003 )
+  (    2 GND )
+ )
+ ( /4FBA63ED $noname  C1 22pF {Lib=C}
+  (    1 N-000005 )
+  (    2 GND )
+ )
+ ( /4FBA63DB $noname  X1 CRYSTAL {Lib=CRYSTAL}
+  (    1 N-000003 )
+  (    2 N-000005 )
+ )
+ ( /4FBA62A0 $noname  P5 CONN_6 {Lib=CONN_6}
+  (    1 /PC0 )
+  (    2 /PC1 )
+  (    3 /PC2 )
+  (    4 /PC3 )
+  (    5 /PC4 )
+  (    6 /PC5 )
+ )
+ ( /4FBA6295 $noname  P4 CONN_6 {Lib=CONN_6}
+  (    1 /PB0 )
+  (    2 /PB1 )
+  (    3 /PB2 )
+  (    4 /MOSI )
+  (    5 /MISO )
+  (    6 /SCK )
+ )
+ ( /4FBA621D $noname  P3 CONN_8 {Lib=CONN_8}
+  (    1 GND )
+  (    2 GND )
+  (    3 /ADC7 )
+  (    4 /ADC6 )
+  (    5 /AREF )
+  (    6 /AVCC )
+  (    7 VCC )
+  (    8 VCC )
+ )
+ ( /4FBA61F2 $noname  P6 CONN_8 {Lib=CONN_8}
+  (    1 /RX )
+  (    2 /TX )
+  (    3 /PD2 )
+  (    4 /PD3 )
+  (    5 /PD4 )
+  (    6 /PD5 )
+  (    7 /PD6 )
+  (    8 /PD7 )
+ )
+ ( /4FBA5F3D $noname  P8 CONN_6 {Lib=CONN_6}
+  (    1 GND )
+  (    2 ? )
+  (    3 VCC )
+  (    4 /TX )
+  (    5 /RX )
+  (    6 /RESET )
+ )
+ ( /4FBA5F3A $noname  P7 CONN_3X2 {Lib=CONN_3X2}
+  (    1 /MISO )
+  (    2 VCC )
+  (    3 /SCK )
+  (    4 /MOSI )
+  (    5 /RESET )
+  (    6 GND )
+ )
+ ( /4FBA5F2A TQFP32  IC1 ATMEGA328P-A {Lib=ATMEGA328P-A}
+  (    1 /PD3 )
+  (    2 /PD4 )
+  (    3 GND )
+  (    4 VCC )
+  (    5 GND )
+  (    6 VCC )
+  (    7 N-000005 )
+  (    8 N-000003 )
+  (    9 /PD5 )
+  (   10 /PD6 )
+  (   11 /PD7 )
+  (   12 /PB0 )
+  (   13 /PB1 )
+  (   14 /PB2 )
+  (   15 /MOSI )
+  (   16 /MISO )
+  (   17 /SCK )
+  (   18 /AVCC )
+  (   19 /ADC6 )
+  (   20 /AREF )
+  (   21 GND )
+  (   22 /ADC7 )
+  (   23 /PC0 )
+  (   24 /PC1 )
+  (   25 /PC2 )
+  (   26 /PC3 )
+  (   27 /PC4 )
+  (   28 /PC5 )
+  (   29 /RESET )
+  (   30 /RX )
+  (   31 /TX )
+  (   32 /PD2 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component IC1
+ 28DIP-ELL600
+ 28dip600
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/ADC6" "ADC6"
+ IC1 19
+ P3 4
+Net 2 "/AVCC" "AVCC"
+ IC1 18
+ P3 6
+Net 3 "" ""
+ C2 1
+ X1 1
+ IC1 8
+Net 4 "" ""
+ D1 2
+ R1 1
+Net 5 "" ""
+ IC1 7
+ X1 2
+ C1 1
+Net 7 "/AREF" "AREF"
+ IC1 20
+ P3 5
+Net 8 "/MOSI" "MOSI"
+ IC1 15
+ P4 4
+ P7 4
+Net 9 "/MISO" "MISO"
+ P7 1
+ IC1 16
+ P4 5
+Net 10 "/SCK" "SCK"
+ P4 6
+ IC1 17
+ D1 1
+ P7 3
+Net 11 "/TX" "TX"
+ P8 4
+ P6 2
+ IC1 31
+Net 12 "/RX" "RX"
+ IC1 30
+ P6 1
+ P8 5
+Net 13 "VCC" "VCC"
+ P7 2
+ IC1 4
+ IC1 6
+ P8 3
+ C5 1
+ P3 7
+ P3 8
+Net 14 "/RESET" "RESET"
+ IC1 29
+ P8 6
+ P7 5
+Net 15 "GND" "GND"
+ P3 2
+ P3 1
+ R1 2
+ C5 2
+ IC1 21
+ C2 2
+ C1 2
+ P8 1
+ P7 6
+ IC1 3
+ IC1 5
+Net 16 "/PC5" "PC5"
+ P5 6
+ IC1 28
+Net 17 "/PD7" "PD7"
+ IC1 11
+ P6 8
+Net 18 "/PD6" "PD6"
+ IC1 10
+ P6 7
+Net 19 "/PD5" "PD5"
+ IC1 9
+ P6 6
+Net 20 "/PD4" "PD4"
+ IC1 2
+ P6 5
+Net 21 "/PD3" "PD3"
+ IC1 1
+ P6 4
+Net 22 "/PD2" "PD2"
+ P6 3
+ IC1 32
+Net 23 "/PC4" "PC4"
+ IC1 27
+ P5 5
+Net 24 "/PC3" "PC3"
+ P5 4
+ IC1 26
+Net 25 "/PC2" "PC2"
+ IC1 25
+ P5 3
+Net 26 "/PC1" "PC1"
+ P5 2
+ IC1 24
+Net 27 "/PC0" "PC0"
+ IC1 23
+ P5 1
+Net 28 "/PB2" "PB2"
+ P4 3
+ IC1 14
+Net 29 "/PB1" "PB1"
+ IC1 13
+ P4 2
+Net 30 "/PB0" "PB0"
+ IC1 12
+ P4 1
+Net 31 "/ADC7" "ADC7"
+ P3 3
+ IC1 22
+}
+#End
