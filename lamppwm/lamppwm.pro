@@ -1,4 +1,4 @@
-update=Wed 30 Jan 2013 11:04:00 AM EST
+update=Sun 17 Feb 2013 03:24:06 PM EST
 version=1
 last_client=cvpcb
 [pcbnew]
@@ -19,8 +19,8 @@ EdgeLar=80
 TxtLar=120
 MSegLar=120
 [pcbnew/libraries]
-LibName1=/home/guan/guan
-LibName2=/home/guan/Tag-Connect
+LibName1=/home/guan/Tag-Connect
+LibName2=/home/guan/boards/guan
 LibName3=/home/guan/boards/lamp/lamp
 LibName4=sockets
 LibName5=connect
