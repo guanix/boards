@@ -1,0 +1,94 @@
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Sun 17 Jun 2012 07:34:05 PM EDT
+
+BeginCmp
+TimeStamp = /4FDE679E;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = SCREW-5MM-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDE67D3;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = SCREW-5MM-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDE67A4;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = SCREW-5MM-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDE67E3;
+Reference = P4;
+ValeurCmp = CONN_2;
+IdModule  = SCREW-5MM-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDE67A8;
+Reference = P5;
+ValeurCmp = CONN_2;
+IdModule  = SCREW-5MM-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDE67E7;
+Reference = P6;
+ValeurCmp = CONN_2;
+IdModule  = SCREW-5MM-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDE67B7;
+Reference = P7;
+ValeurCmp = CONN_2;
+IdModule  = SCREW-5MM-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDE67EA;
+Reference = P8;
+ValeurCmp = CONN_2;
+IdModule  = SCREW-5MM-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDE67C7;
+Reference = P9;
+ValeurCmp = CONN_2;
+IdModule  = SCREW-5MM-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDE6928;
+Reference = P10;
+ValeurCmp = CONN_1;
+IdModule  = M3HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDE692C;
+Reference = P11;
+ValeurCmp = CONN_1;
+IdModule  = M3HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDE692E;
+Reference = P12;
+ValeurCmp = CONN_1;
+IdModule  = M3HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDE6931;
+Reference = P13;
+ValeurCmp = CONN_1;
+IdModule  = M3HOLE;
+EndCmp
+
+EndListe

@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Sun 17 Jun 2012 06:42:27 PM EDT
+
+BeginCmp
+TimeStamp = /4FDE5A61;
+Reference = J1;
+ValeurCmp = RJ45;
+IdModule  = RJ45_8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDE59F1;
+Reference = J2;
+ValeurCmp = RJ45;
+IdModule  = RJ45_8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDE5A3D;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = SCREW-3.5MM-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDE5A48;
+Reference = P2;
+ValeurCmp = CONN_4;
+IdModule  = SCREW-3.5MM-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDE5D26;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = M3HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDE5D28;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = M3HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDE5D2A;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = M3HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDE5D2C;
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = M3HOLE;
+EndCmp
+
+EndListe

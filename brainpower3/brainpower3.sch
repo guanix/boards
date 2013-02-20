@@ -1,0 +1,204 @@
+EESchema Schematic File Version 2  date Sun 17 Jun 2012 08:55:46 PM EDT
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:brainpower3-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "18 jun 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_1 P2
+U 1 1 4FDE7C81
+P 3050 2850
+F 0 "P2" H 3130 2850 40  0000 L CNN
+F 1 "CONN_1" H 3050 2905 30  0001 C CNN
+	1    3050 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P3
+U 1 1 4FDE7C80
+P 3050 2950
+F 0 "P3" H 3130 2950 40  0000 L CNN
+F 1 "CONN_1" H 3050 3005 30  0001 C CNN
+	1    3050 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P5
+U 1 1 4FDE7C7E
+P 3100 2650
+F 0 "P5" H 3180 2650 40  0000 L CNN
+F 1 "CONN_1" H 3100 2705 30  0001 C CNN
+	1    3100 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P4
+U 1 1 4FDE7C7D
+P 3100 2450
+F 0 "P4" H 3180 2450 40  0000 L CNN
+F 1 "CONN_1" H 3100 2505 30  0001 C CNN
+	1    3100 2450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6000 3950
+Wire Wire Line
+	5900 5250 5900 3950
+Wire Wire Line
+	5700 5250 5700 3950
+Wire Wire Line
+	5500 3950 5500 5250
+Wire Wire Line
+	5300 3950 5300 5250
+Wire Wire Line
+	5100 3950 5100 5250
+Wire Wire Line
+	4900 3950 4900 5250
+Wire Wire Line
+	4700 3950 4700 5250
+Wire Wire Line
+	4500 3950 4500 5250
+Wire Wire Line
+	5900 2950 5900 3150
+Wire Wire Line
+	5700 3150 5700 2950
+Wire Wire Line
+	5500 2950 5500 3150
+Wire Wire Line
+	5300 2950 5300 3150
+Wire Wire Line
+	5100 2950 5100 3150
+Wire Wire Line
+	4900 2950 4900 3150
+Wire Wire Line
+	4700 2950 4700 3150
+Wire Wire Line
+	4500 2950 4500 3150
+Wire Wire Line
+	4400 2950 4400 3150
+Wire Wire Line
+	4600 2950 4600 3150
+Wire Wire Line
+	4800 2950 4800 3150
+Wire Wire Line
+	5000 2950 5000 3150
+Wire Wire Line
+	5200 3150 5200 2950
+Wire Wire Line
+	5400 2950 5400 3150
+Wire Wire Line
+	5600 2950 5600 3150
+Wire Wire Line
+	5800 2950 5800 3150
+Wire Wire Line
+	4400 3950 4400 5250
+Wire Wire Line
+	4600 3950 4600 5250
+Wire Wire Line
+	4800 3950 4800 5250
+Wire Wire Line
+	5000 3950 5000 5250
+Wire Wire Line
+	5200 3950 5200 5250
+Wire Wire Line
+	5400 3950 5400 5250
+Wire Wire Line
+	5600 3950 5600 5250
+Wire Wire Line
+	5800 3950 5800 5250
+NoConn ~ 4300 3950
+NoConn ~ 6100 3950
+NoConn ~ 6200 3950
+NoConn ~ 6200 3150
+NoConn ~ 6100 3150
+NoConn ~ 6000 3150
+NoConn ~ 5300 4450
+$Comp
+L CONN_20X2 P1
+U 1 1 4FDE6CDD
+P 5250 3550
+F 0 "P1" H 5250 4600 60  0000 C CNN
+F 1 "CONN_20X2" V 5250 3550 50  0000 C CNN
+	1    5250 3550
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 5300 2150
+NoConn ~ 4300 3150
+NoConn ~ 6100 4450
+NoConn ~ 6100 2150
+$Comp
+L RJ45 J4
+U 1 1 4FDE6C90
+P 5550 4800
+F 0 "J4" H 5750 5300 60  0000 C CNN
+F 1 "RJ45" H 5400 5300 60  0000 C CNN
+	1    5550 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L RJ45 J2
+U 1 1 4FDE6C8D
+P 4750 4800
+F 0 "J2" H 4950 5300 60  0000 C CNN
+F 1 "RJ45" H 4600 5300 60  0000 C CNN
+	1    4750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L RJ45 J3
+U 1 1 4FDE6C8A
+P 5550 2500
+F 0 "J3" H 5750 3000 60  0000 C CNN
+F 1 "RJ45" H 5400 3000 60  0000 C CNN
+	1    5550 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L RJ45 J1
+U 1 1 4FDE6C87
+P 4750 2500
+F 0 "J1" H 4950 3000 60  0000 C CNN
+F 1 "RJ45" H 4600 3000 60  0000 C CNN
+	1    4750 2500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

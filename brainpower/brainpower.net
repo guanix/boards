@@ -1,0 +1,85 @@
+# EESchema Netlist Version 1.1 created  Sun 17 Jun 2012 06:47:04 PM EDT
+(
+ ( /4FDE5D2C $noname  P6 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /4FDE5D2A $noname  P5 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /4FDE5D28 $noname  P4 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /4FDE5D26 $noname  P3 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /4FDE5A61 $noname  J1 RJ45 {Lib=RJ45}
+  (    1 N-000001 )
+  (    2 N-000007 )
+  (    3 N-000008 )
+  (    4 N-000009 )
+  (    5 N-000003 )
+  (    6 N-000004 )
+  (    7 N-000005 )
+  (    8 N-000006 )
+  (    9 ? )
+ )
+ ( /4FDE5A48 $noname  P2 CONN_4 {Lib=CONN_4}
+  (    1 N-000003 )
+  (    2 N-000004 )
+  (    3 N-000005 )
+  (    4 N-000006 )
+ )
+ ( /4FDE5A3D $noname  P1 CONN_4 {Lib=CONN_4}
+  (    1 N-000001 )
+  (    2 N-000007 )
+  (    3 N-000008 )
+  (    4 N-000009 )
+ )
+ ( /4FDE59F1 $noname  J2 RJ45 {Lib=RJ45}
+  (    1 N-000001 )
+  (    2 N-000007 )
+  (    3 N-000008 )
+  (    4 N-000009 )
+  (    5 N-000003 )
+  (    6 N-000004 )
+  (    7 N-000005 )
+  (    8 N-000006 )
+  (    9 ? )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "" ""
+ P1 1
+ J2 1
+ J1 1
+Net 3 "" ""
+ J2 5
+ J1 5
+ P2 1
+Net 4 "" ""
+ P2 2
+ J1 6
+ J2 6
+Net 5 "" ""
+ J2 7
+ J1 7
+ P2 3
+Net 6 "" ""
+ P2 4
+ J2 8
+ J1 8
+Net 7 "" ""
+ P1 2
+ J1 2
+ J2 2
+Net 8 "" ""
+ P1 3
+ J1 3
+ J2 3
+Net 9 "" ""
+ J2 4
+ P1 4
+ J1 4
+}
+#End

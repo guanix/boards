@@ -1,0 +1,78 @@
+# EESchema Netlist Version 1.1 created  Sun 17 Jun 2012 07:44:21 PM EDT
+(
+ ( /4FDE6931 $noname  P13 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /4FDE692E $noname  P12 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /4FDE692C $noname  P11 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /4FDE6928 $noname  P10 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /4FDE67EA $noname  P8 CONN_2 {Lib=CONN_2}
+  (    1 GND )
+  (    2 N-000005 )
+ )
+ ( /4FDE67E7 $noname  P6 CONN_2 {Lib=CONN_2}
+  (    1 GND )
+  (    2 N-000006 )
+ )
+ ( /4FDE67E3 $noname  P4 CONN_2 {Lib=CONN_2}
+  (    1 GND )
+  (    2 N-000007 )
+ )
+ ( /4FDE67D3 $noname  P2 CONN_2 {Lib=CONN_2}
+  (    1 GND )
+  (    2 N-000008 )
+ )
+ ( /4FDE67C7 $noname  P9 CONN_2 {Lib=CONN_2}
+  (    1 GND )
+  (    2 GND )
+ )
+ ( /4FDE67B7 $noname  P7 CONN_2 {Lib=CONN_2}
+  (    1 GND )
+  (    2 N-000005 )
+ )
+ ( /4FDE67A8 $noname  P5 CONN_2 {Lib=CONN_2}
+  (    1 GND )
+  (    2 N-000006 )
+ )
+ ( /4FDE67A4 $noname  P3 CONN_2 {Lib=CONN_2}
+  (    1 GND )
+  (    2 N-000007 )
+ )
+ ( /4FDE679E $noname  P1 CONN_2 {Lib=CONN_2}
+  (    1 GND )
+  (    2 N-000008 )
+ )
+)
+*
+{ Pin List by Nets
+Net 3 "GND" "GND"
+ P9 2
+ P8 1
+ P6 1
+ P4 1
+ P2 1
+ P9 1
+ P7 1
+ P5 1
+ P1 1
+ P3 1
+Net 5 "" ""
+ P8 2
+ P7 2
+Net 6 "" ""
+ P5 2
+ P6 2
+Net 7 "" ""
+ P4 2
+ P3 2
+Net 8 "" ""
+ P2 2
+ P1 2
+}
+#End
