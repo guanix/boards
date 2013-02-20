@@ -1,0 +1,99 @@
+# EESchema Netlist Version 1.1 created  Tue 03 Jul 2012 12:07:33 AM EDT
+(
+ ( /4FF22E00 SM0603_Capa C1 0.1uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4FF258C5 D3 D1 2.4V
+  ( 1 GND )
+  ( 2 N-000011 )
+ )
+ ( /4FF23C1D LED-5MM D2 LED
+  ( 1 VCC )
+  ( 2 N-000010 )
+ )
+ ( /4FF21F93 SOIC8-3.9MM IC1 ATTINY85-S
+  ( 1 /RESET )
+  ( 2 /RX )
+  ( 3 ? )
+  ( 4 GND )
+  ( 5 /LED )
+  ( 6 /MISO )
+  ( 7 /SCK )
+  ( 8 VCC )
+ )
+ ( /4FF283D0 PIN_ARRAY_3X1 K1 CONN_3
+  ( 1 VCC )
+  ( 2 GND )
+  ( 3 /RX )
+ )
+ ( /4FF30450 pin_array_3x2 P1 CONN_3X2
+  ( 1 /MISO )
+  ( 2 VCC )
+  ( 3 /SCK )
+  ( 4 /LED )
+  ( 5 /RESET )
+  ( 6 GND )
+ )
+ ( /4FF23C1A TO92 Q1 NPN
+  ( 1 N-000003 )
+  ( 2 N-000011 )
+  ( 3 N-000010 )
+ )
+ ( /4FF283AF SM0603 R1 100R
+  ( 1 /LED )
+  ( 2 N-000011 )
+ )
+ ( /4FF258CB SM0603 R2 6R8
+  ( 1 N-000003 )
+  ( 2 GND )
+ )
+ ( /4FFD17B4 SM0603 R3 10K
+  ( 1 N-000011 )
+  ( 2 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ SO*
+ SM*
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

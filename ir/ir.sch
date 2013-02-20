@@ -1,0 +1,272 @@
+EESchema Schematic File Version 2  date Tue 03 Jul 2012 03:10:55 AM EDT
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ir-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "3 jul 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 8200 3250
+Wire Wire Line
+	8500 3250 8000 3250
+Wire Wire Line
+	8000 3250 8000 3100
+Wire Wire Line
+	7400 3900 7900 3900
+Wire Wire Line
+	7400 3700 7900 3700
+Wire Wire Line
+	6100 3800 6600 3800
+Wire Wire Line
+	5400 3400 5900 3400
+Wire Wire Line
+	3150 2500 3800 2500
+Wire Wire Line
+	7200 2450 7600 2450
+Wire Wire Line
+	8500 1650 8500 1750
+Connection ~ 8350 3250
+Wire Wire Line
+	8200 2550 8200 2450
+Connection ~ 6600 2700
+Wire Wire Line
+	6600 2650 6600 2800
+Wire Wire Line
+	3150 2700 3800 2700
+Wire Wire Line
+	3150 2300 3800 2300
+Wire Wire Line
+	6600 2200 6500 2200
+Wire Wire Line
+	6600 2700 6500 2700
+Wire Wire Line
+	3150 2200 3800 2200
+Wire Wire Line
+	3150 2400 3800 2400
+Wire Wire Line
+	6600 2250 6600 2100
+Connection ~ 6600 2200
+Wire Wire Line
+	8500 2150 8500 2250
+Wire Wire Line
+	8200 3250 8200 2950
+Wire Wire Line
+	8350 3250 8350 3350
+Wire Wire Line
+	8500 2750 8500 2650
+Wire Wire Line
+	8200 2450 8100 2450
+Wire Wire Line
+	5400 3200 5900 3200
+Wire Wire Line
+	5400 3300 5900 3300
+Wire Wire Line
+	6100 3700 6600 3700
+Wire Wire Line
+	6100 3900 6600 3900
+Wire Wire Line
+	7400 3800 7900 3800
+Wire Wire Line
+	8000 2600 8150 2600
+Wire Wire Line
+	8150 2600 8150 2450
+Connection ~ 8150 2450
+$Comp
+L R R3
+U 1 1 4FFD17B4
+P 8000 2850
+F 0 "R3" V 8080 2850 50  0000 C CNN
+F 1 "10K" V 8000 2850 50  0000 C CNN
+	1    8000 2850
+	1    0    0    -1  
+$EndComp
+Text Label 7750 3900 0    60   ~ 0
+GND
+Text Label 6100 3900 0    60   ~ 0
+RESET
+Text Label 7700 3800 0    60   ~ 0
+MOSI
+Text Label 6100 3800 0    60   ~ 0
+SCK
+Text Label 7750 3700 0    60   ~ 0
+VCC
+Text Label 6100 3700 0    60   ~ 0
+MISO
+$Comp
+L CONN_3X2 P1
+U 1 1 4FF30450
+P 7000 3850
+F 0 "P1" H 7000 4100 50  0000 C CNN
+F 1 "CONN_3X2" V 7000 3900 40  0000 C CNN
+	1    7000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENER D1
+U 1 1 4FF258C5
+P 8200 2750
+F 0 "D1" H 8200 2850 50  0000 C CNN
+F 1 "2.4V" H 8200 2650 40  0000 C CNN
+	1    8200 2750
+	0    -1   -1   0   
+$EndComp
+Text Label 5400 3400 0    60   ~ 0
+RX
+Text Label 5400 3200 0    60   ~ 0
+VCC
+Text Label 5400 3300 0    60   ~ 0
+GND
+Text Label 3150 2500 0    60   ~ 0
+RX
+$Comp
+L CONN_3 K1
+U 1 1 4FF283D0
+P 6250 3300
+F 0 "K1" V 6200 3300 50  0000 C CNN
+F 1 "CONN_3" V 6300 3300 40  0000 C CNN
+	1    6250 3300
+	1    0    0    -1  
+$EndComp
+Text Label 7200 2450 0    60   ~ 0
+LED
+$Comp
+L R R1
+U 1 1 4FF283AF
+P 7850 2450
+F 0 "R1" V 7930 2450 50  0000 C CNN
+F 1 "100R" V 7850 2450 50  0000 C CNN
+	1    7850 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR01
+U 1 1 4FF2756E
+P 8500 1650
+F 0 "#PWR01" H 8500 1750 30  0001 C CNN
+F 1 "VCC" H 8500 1750 30  0000 C CNN
+	1    8500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 4FF258CE
+P 8350 3350
+F 0 "#PWR02" H 8350 3350 30  0001 C CNN
+F 1 "GND" H 8350 3280 30  0001 C CNN
+	1    8350 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 4FF258CB
+P 8500 3000
+F 0 "R2" V 8580 3000 50  0000 C CNN
+F 1 "6R8" V 8500 3000 50  0000 C CNN
+	1    8500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D2
+U 1 1 4FF23C1D
+P 8500 1950
+F 0 "D2" H 8500 2050 50  0000 C CNN
+F 1 "LED" H 8500 1850 50  0000 C CNN
+	1    8500 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L NPN Q1
+U 1 1 4FF23C1A
+P 8400 2450
+F 0 "Q1" H 8400 2300 50  0000 R CNN
+F 1 "NPN" H 8400 2600 50  0000 R CNN
+	1    8400 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 4FF22E00
+P 6600 2450
+F 0 "C1" H 6650 2550 50  0000 L CNN
+F 1 "0.1uF" H 6650 2350 50  0000 L CNN
+	1    6600 2450
+	1    0    0    -1  
+$EndComp
+Text Label 3150 2700 0    60   ~ 0
+RESET
+Text Label 3150 2400 0    60   ~ 0
+SCK
+Text Label 3150 2300 0    60   ~ 0
+MISO
+Text Label 3500 2200 0    60   ~ 0
+LED
+Text Label 3150 2200 0    60   ~ 0
+MOSI
+NoConn ~ 3800 2600
+$Comp
+L GND #PWR03
+U 1 1 4FF21FAF
+P 6600 2800
+F 0 "#PWR03" H 6600 2800 30  0001 C CNN
+F 1 "GND" H 6600 2730 30  0001 C CNN
+	1    6600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR04
+U 1 1 4FF21FAB
+P 6600 2100
+F 0 "#PWR04" H 6600 2200 30  0001 C CNN
+F 1 "VCC" H 6600 2200 30  0000 C CNN
+	1    6600 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ATTINY85-S IC1
+U 1 1 4FF21F93
+P 4000 2100
+F 0 "IC1" H 4100 2150 60  0000 C CNN
+F 1 "ATTINY85-S" H 6000 1350 60  0000 C CNN
+F 2 "SO8-200" H 4250 1350 60  0001 C CNN
+	1    4000 2100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
