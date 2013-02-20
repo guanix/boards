@@ -1,0 +1,150 @@
+Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = Fri 25 Jan 2013 03:39:57 PM EST
+
+BeginCmp
+TimeStamp = /5102E2F3;
+Reference = C1;
+ValeurCmp = 12pF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102E302;
+Reference = C2;
+ValeurCmp = 12pF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102E9B4;
+Reference = C3;
+ValeurCmp = 2.2nF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102EB57;
+Reference = C4;
+ValeurCmp = 1pF;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102EAFE;
+Reference = C5;
+ValeurCmp = 2.2pF;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102EC0D;
+Reference = C6;
+ValeurCmp = 1.5pF;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102E100;
+Reference = C7;
+ValeurCmp = 4.7uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102E413;
+Reference = C8;
+ValeurCmp = 100nF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102E6BE;
+Reference = C9;
+ValeurCmp = 1nF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102EA08;
+Reference = C10;
+ValeurCmp = 47nF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102E1E7;
+Reference = C11;
+ValeurCmp = 100nF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102DE96;
+Reference = C12;
+ValeurCmp = 1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102DE2C;
+Reference = IC1;
+ValeurCmp = NRF51822;
+IdModule  = QFN48+1-0.4MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102E80A;
+Reference = L1;
+ValeurCmp = 4.7nH;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102E92C;
+Reference = L2;
+ValeurCmp = 10nH;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102EBB1;
+Reference = L3;
+ValeurCmp = 3.3nH;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102DE45;
+Reference = L4;
+ValeurCmp = 10uH;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102DE59;
+Reference = L5;
+ValeurCmp = 15nH;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102E538;
+Reference = R1;
+ValeurCmp = 12K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102E7F1;
+Reference = U1;
+ValeurCmp = ANTENNA-NC;
+IdModule  = ANTENNA-JOHANSON-2.45GHZ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5102E2C2;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = ;
+EndCmp
+
+EndListe
