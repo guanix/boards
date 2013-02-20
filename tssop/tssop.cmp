@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Wed 14 Mar 2012 11:36:00 AM EDT
+
+BeginCmp
+TimeStamp = /4F60B982;
+Reference = DP1;
+ValeurCmp = MCP4451;
+IdModule  = tssop-20;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F60B989;
+Reference = P1;
+ValeurCmp = CONN_10;
+IdModule  = SIL-10;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F60B995;
+Reference = P2;
+ValeurCmp = CONN_10;
+IdModule  = SIL-10;
+EndCmp
+
+EndListe
