@@ -1,0 +1,150 @@
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Tue 21 Aug 2012 08:08:27 PM EDT
+
+BeginCmp
+TimeStamp = /4FC6290B;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = CR2032-RETAINER-BK-913;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC63012;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC63083;
+Reference = C2;
+ValeurCmp = 33uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC630C5;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC62EC9;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6302C;
+Reference = D1;
+ValeurCmp = DIODESCH;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC63063;
+Reference = D2;
+ValeurCmp = LED-PAD;
+IdModule  = CREE-XPC-LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC62983;
+Reference = IC1;
+ValeurCmp = ATTINY13A-SS;
+IdModule  = SOIC8-5.3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC63020;
+Reference = L1;
+ValeurCmp = 100uH;
+IdModule  = SM1812L;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC63323;
+Reference = P1;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6332A;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6332C;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6332E;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC63332;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC6333A;
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC65E72;
+Reference = P7;
+ValeurCmp = CONN_1;
+IdModule  = M2-0.4-HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC63034;
+Reference = Q1;
+ValeurCmp = MOSFET_N;
+IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC630AD;
+Reference = R1;
+ValeurCmp = 6R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC8C9D1;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC8C9D3;
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC62E2A;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = SWITCH-TL3330;
+EndCmp
+
+EndListe

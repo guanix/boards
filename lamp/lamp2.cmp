@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Fri 01 Jun 2012 09:53:05 AM EDT
+
+BeginCmp
+TimeStamp = /4FC8C4DE;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = CR2032-RETAINER-BK-913;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC8C4F0;
+Reference = C1;
+ValeurCmp = 4.7uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC8C6EA;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC8C6F6;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC8C6D2;
+Reference = D1;
+ValeurCmp = DIODESCH;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC8C703;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = CREE-XPC-LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC8C640;
+Reference = IC1;
+ValeurCmp = TPS61042;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC8C4D8;
+Reference = IC2;
+ValeurCmp = ATTINY13A-SS;
+IdModule  = SOIC8-3.9MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC8C690;
+Reference = L1;
+ValeurCmp = 4.7uH;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC8C712;
+Reference = R1;
+ValeurCmp = 13R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC8C75E;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = ;
+EndCmp
+
+EndListe

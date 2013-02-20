@@ -1,0 +1,145 @@
+# EESchema Netlist Version 1.1 created  Tue 21 Aug 2012 08:08:27 PM EDT
+(
+ ( /4FC6290B CR2032-RETAINER-BK-913 BT1 BATTERY
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4FC63012 SM0805 C1 10uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4FC63083 SM0805 C2 33uF
+  ( 1 N-000005 )
+  ( 2 GND )
+ )
+ ( /4FC630C5 SM0603_Capa C3 0.1uF
+  ( 1 N-000005 )
+  ( 2 GND )
+ )
+ ( /4FC62EC9 SM0603_Capa C4 0.1uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4FC6302C SM0603 D1 DIODESCH
+  ( 1 N-000001 )
+  ( 2 N-000005 )
+ )
+ ( /4FC63063 CREE-XPC-LED D2 LED-PAD
+  ( 1 N-000005 )
+  ( 2 /SENSE )
+  ( 3 GND )
+ )
+ ( /4FC62983 SOIC8-5.3MM IC1 ATTINY13A-SS
+  ( 1 /RESET )
+  ( 2 /SENSE )
+  ( 3 /OVP )
+  ( 4 GND )
+  ( 5 /MOSI )
+  ( 6 /BOOST )
+  ( 7 /SCK )
+  ( 8 VCC )
+ )
+ ( /4FC63020 SM1812L L1 100uH
+  ( 1 VCC )
+  ( 2 N-000001 )
+ )
+ ( /4FC63323 PIN_ARRAY_1 P1 CONN_1
+  ( 1 /BOOST )
+ )
+ ( /4FC6332A PIN_ARRAY_1 P2 CONN_1
+  ( 1 /SCK )
+ )
+ ( /4FC6332C PIN_ARRAY_1 P3 CONN_1
+  ( 1 /RESET )
+ )
+ ( /4FC6332E PIN_ARRAY_1 P4 CONN_1
+  ( 1 VCC )
+ )
+ ( /4FC63332 PIN_ARRAY_1 P5 CONN_1
+  ( 1 /MOSI )
+ )
+ ( /4FC6333A PIN_ARRAY_1 P6 CONN_1
+  ( 1 GND )
+ )
+ ( /4FC65E72 M2-0.4-HOLE P7 CONN_1
+  ( 1 ? )
+ )
+ ( /4FC63034 SOT23GDS Q1 MOSFET_N
+  ( D N-000001 )
+  ( G /BOOST )
+  ( S GND )
+ )
+ ( /4FC630AD SM0805 R1 6R
+  ( 1 /SENSE )
+  ( 2 GND )
+ )
+ ( /4FC8C9D1 SM0603_Resistor R2 10K
+  ( 1 N-000005 )
+  ( 2 /OVP )
+ )
+ ( /4FC8C9D3 SM0603_Resistor R3 10K
+  ( 1 /OVP )
+  ( 2 GND )
+ )
+ ( /4FC62E2A SWITCH-TL3330 SW1 SW_PUSH
+  ( 1 GND )
+  ( 2 /SCK )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

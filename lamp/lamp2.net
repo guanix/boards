@@ -1,0 +1,97 @@
+# EESchema Netlist Version 1.1 created  Fri 01 Jun 2012 09:53:05 AM EDT
+(
+ ( /4FC8C4DE CR2032-RETAINER-BK-913 BT1 BATTERY
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4FC8C4F0 SM0805 C1 4.7uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4FC8C6EA SM0603_Capa C2 0.1uF
+  ( 1 N-000005 )
+  ( 2 GND )
+ )
+ ( /4FC8C6F6 SM0603_Capa C3 0.1uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4FC8C6D2 SM0603 D1 DIODESCH
+  ( 1 N-000010 )
+  ( 2 N-000005 )
+ )
+ ( /4FC8C703 CREE-XPC-LED D2 LED
+  ( 1 N-000005 )
+  ( 2 N-000002 )
+ )
+ ( /4FC8C640 $noname$ IC1 TPS61042
+  ( 1 N-000002 )
+  ( 2 N-000001 )
+  ( 3 VCC )
+  ( 4 N-000001 )
+  ( 5 /CTRL )
+  ( 6 GND )
+  ( 7 N-000005 )
+  ( 8 N-000010 )
+ )
+ ( /4FC8C4D8 SOIC8-3.9MM IC2 ATTINY13A-SS
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 GND )
+  ( 5 /CTRL )
+  ( 6 /MISO )
+  ( 7 ? )
+  ( 8 VCC )
+ )
+ ( /4FC8C690 SM0805 L1 4.7uH
+  ( 1 VCC )
+  ( 2 N-000010 )
+ )
+ ( /4FC8C712 $noname$ R1 13R
+  ( 1 N-000001 )
+  ( 2 GND )
+ )
+ ( /4FC8C75E $noname$ SW1 SW_PUSH
+  ( 1 GND )
+  ( 2 /MISO )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
