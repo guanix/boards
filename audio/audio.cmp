@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Wed 28 Nov 2012 03:59:16 PM EST
+
+BeginCmp
+TimeStamp = /50B65A59;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B65A5B;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B65A5E;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B65930;
+Reference = IC1;
+ValeurCmp = FT231X-S;
+IdModule  = SSOP20;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B659B9;
+Reference = J1;
+ValeurCmp = MINI-USB-SHLD;
+IdModule  = MINI-USB-UX60A-MB-5ST;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B65B5E;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B65AC9;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B65AFD;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B65A97;
+Reference = P4;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B65C87;
+Reference = Q1;
+ValeurCmp = MMBT3906;
+IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B65C24;
+Reference = R1;
+ValeurCmp = 470R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B659A3;
+Reference = R2;
+ValeurCmp = 27R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B659A6;
+Reference = R3;
+ValeurCmp = 27R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B658D5;
+Reference = T1;
+ValeurCmp = 1000ohm:8ohm;
+IdModule  = TRANSFO-24TL;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B658F8;
+Reference = T2;
+ValeurCmp = 1000ohm:8ohm;
+IdModule  = TRANSFO-24TL;
+EndCmp
+
+EndListe

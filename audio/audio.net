@@ -1,0 +1,198 @@
+# EESchema Netlist Version 1.1 created  Wed 28 Nov 2012 03:59:44 PM EST
+(
+ ( /50B67A60 $noname  Q1 BSS84 {Lib=MOSFET_P}
+  (    D /PTT )
+  (    G N-000025 )
+  (    S GND )
+ )
+ ( /50B65C24 $noname  R1 100R {Lib=R}
+  (    1 /^RTS )
+  (    2 N-000025 )
+ )
+ ( /50B65B5E $noname  P1 CONN_2 {Lib=CONN_2}
+  (    1 N-000013 )
+  (    2 N-000029 )
+ )
+ ( /50B65AFD $noname  P3 CONN_2 {Lib=CONN_2}
+  (    1 /PTT )
+  (    2 /MIC )
+ )
+ ( /50B65AC9 $noname  P2 CONN_2 {Lib=CONN_2}
+  (    1 GND )
+  (    2 /SPEAKER )
+ )
+ ( /50B65A97 $noname  P4 CONN_2 {Lib=CONN_2}
+  (    1 N-000027 )
+  (    2 N-000018 )
+ )
+ ( /50B65A5E $noname  C3 0.1uF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /50B65A5B $noname  C2 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /50B65A59 $noname  C1 1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /50B659B9 $noname  J1 MINI-USB-SHLD {Lib=MINI-USB-SHLD}
+  (    1 VCC )
+  (    2 N-000022 )
+  (    3 N-000020 )
+  (    4 ? )
+  (    5 GND )
+  (    6 GND )
+ )
+ ( /50B659A6 $noname  R3 27R {Lib=R}
+  (    1 N-000020 )
+  (    2 N-000021 )
+ )
+ ( /50B659A3 $noname  R2 27R {Lib=R}
+  (    1 N-000022 )
+  (    2 N-000023 )
+ )
+ ( /50B65930 $noname  IC1 FT231X-S {Lib=FT231X-S}
+  (    1 ? )
+  (    2 /^RTS )
+  (    3 +3.3V )
+  (    4 ? )
+  (    5 ? )
+  (    6 GND )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 N-000021 )
+  (   12 N-000023 )
+  (   13 +3.3V )
+  (   14 +3.3V )
+  (   15 VCC )
+  (   16 GND )
+  (   17 ? )
+  (   18 ? )
+  (   19 ? )
+  (   20 ? )
+ )
+ ( /50B658F8 $noname  T2 1000ohm:8ohm {Lib=TRANSFOCTCT}
+  (    1 N-000029 )
+  (    2 ? )
+  (    3 N-000013 )
+  (    4 /MIC )
+  (    5 ? )
+  (    6 GND )
+ )
+ ( /50B658D5 $noname  T1 1000ohm:8ohm {Lib=TRANSFOCTCT}
+  (    1 /SPEAKER )
+  (    2 ? )
+  (    3 GND )
+  (    4 N-000018 )
+  (    5 ? )
+  (    6 N-000027 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 13 "" ""
+ P1 1
+ T2 3
+Net 14 "VCC" "VCC"
+ IC1 15
+ C2 1
+ C1 1
+ J1 1
+Net 18 "" ""
+ T1 4
+ P4 2
+Net 20 "" ""
+ R3 1
+ J1 3
+Net 21 "" ""
+ IC1 11
+ R3 2
+Net 22 "" ""
+ J1 2
+ R2 1
+Net 23 "" ""
+ IC1 12
+ R2 2
+Net 24 "+3.3V" "+3.3V"
+ IC1 3
+ C3 1
+ IC1 13
+ IC1 14
+Net 25 "" ""
+ R1 2
+ Q1 G
+Net 26 "/PTT" "PTT"
+ P3 1
+ Q1 D
+Net 27 "" ""
+ T1 6
+ P4 1
+Net 28 "GND" "GND"
+ T1 3
+ P2 1
+ J1 5
+ J1 6
+ IC1 6
+ IC1 16
+ T2 6
+ C1 2
+ C2 2
+ C3 2
+ Q1 S
+Net 29 "" ""
+ P1 2
+ T2 1
+Net 30 "/SPEAKER" "SPEAKER"
+ T1 1
+ P2 2
+Net 31 "/MIC" "MIC"
+ T2 4
+ P3 2
+Net 32 "/^RTS" "^RTS"
+ IC1 2
+ R1 1
+}
+#End
