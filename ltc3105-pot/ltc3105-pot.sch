@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 07 Feb 2013 04:25:15 PM EST
+EESchema Schematic File Version 2  date Sun 10 Feb 2013 03:57:34 PM EST
 LIBS:guan
 LIBS:power
 LIBS:device
