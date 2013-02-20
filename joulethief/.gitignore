@@ -1,1 +1,4 @@
-
+*.png
+*.pdf
+*.brd-bak
+*.ps
