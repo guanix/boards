@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Mon 03 Dec 2012 02:27:35 PM EST
+Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = Thu 21 Feb 2013 09:20:18 AM EST
 
 BeginCmp
 TimeStamp = /50BCF7BC;
@@ -15,17 +15,24 @@ IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /50BCF7A3;
-Reference = C3;
+TimeStamp = /50BCF5B3;
+Reference = C4;
 ValeurCmp = 0.1uF;
 IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /50BCF5B3;
-Reference = C4;
-ValeurCmp = 0.1uF;
-IdModule  = SM0603_Capa;
+TimeStamp = /512631C9;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /51263141;
+Reference = F1;
+ValeurCmp = FUSE;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
@@ -173,13 +180,6 @@ TimeStamp = /50BCFCCA;
 Reference = P18;
 ValeurCmp = CONN_4;
 IdModule  = PIN_ARRAY_4x1;
-EndCmp
-
-BeginCmp
-TimeStamp = /50BCF757;
-Reference = R1;
-ValeurCmp = 10K;
-IdModule  = SM0603;
 EndCmp
 
 BeginCmp

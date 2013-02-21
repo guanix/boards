@@ -1,13 +1,6 @@
-update=Thu 21 Feb 2013 09:08:52 AM EST
+update=Thu 21 Feb 2013 09:25:08 AM EST
 version=1
-last_client=eeschema
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
-[general]
-version=1
+last_client=kicad
 [pcbnew]
 version=1
 PadDrlX=0
@@ -26,8 +19,7 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=
 [pcbnew/libraries]
-LibDir=
-LibName1=/home/guan/guan
+LibName1=/home/guan/boards/guan
 LibName2=sockets
 LibName3=connect
 LibName4=discret
@@ -39,6 +31,7 @@ LibName9=led
 LibName10=dip_sockets
 LibName11=pga_sockets
 LibName12=valves
+LibDir=
 [eeschema]
 version=1
 LibDir=
@@ -79,3 +72,10 @@ LibName28=opto
 LibName29=atmel
 LibName30=contrib
 LibName31=valves
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
+[general]
+version=1
