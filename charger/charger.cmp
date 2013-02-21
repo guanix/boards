@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = Thu 21 Feb 2013 11:52:21 AM EST
+
+BeginCmp
+TimeStamp = /512652AA;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5126524D;
+Reference = C2;
+ValeurCmp = 10uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51264F9A;
+Reference = C3;
+ValeurCmp = 10uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51264EC6;
+Reference = CON1;
+ValeurCmp = USB-MINI-B;
+IdModule  = MINI-USB-UX60A-MB-5ST;
+EndCmp
+
+BeginCmp
+TimeStamp = /5126503D;
+Reference = P1;
+ValeurCmp = MAX1555;
+IdModule  = SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /51264F51;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5126515A;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /512651B4;
+Reference = P4;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+EndListe
