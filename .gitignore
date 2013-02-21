@@ -14,3 +14,4 @@
 *.ses
 *.kicad_pcb-bak
 *.gz
+$*.sch
