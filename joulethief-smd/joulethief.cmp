@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CvPcb (2013-feb-26)-testing date = Thu 28 Feb 2013 11:29:36 AM EST
+
+BeginCmp
+TimeStamp = /504FE4E8;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = BATTERY-AA;
+EndCmp
+
+BeginCmp
+TimeStamp = /504FE4F1;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /505001B0;
+Reference = C2;
+ValeurCmp = 150pF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50501E1C;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50500FFF;
+Reference = D1;
+ValeurCmp = 1N4148;
+IdModule  = SOD523;
+EndCmp
+
+BeginCmp
+TimeStamp = /512F7A79;
+Reference = D2;
+ValeurCmp = LED-PAD;
+IdModule  = CREE-XPC-LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /504FE4FA;
+Reference = L1;
+ValeurCmp = 22uH;
+IdModule  = SM1210L;
+EndCmp
+
+BeginCmp
+TimeStamp = /504FF35D;
+Reference = Q1;
+ValeurCmp = BC337;
+IdModule  = SOT23EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = /50500FCD;
+Reference = Q2;
+ValeurCmp = BC327;
+IdModule  = SOT23EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = /50500FD7;
+Reference = R1;
+ValeurCmp = 100K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /504E62B1;
+Reference = SW1;
+ValeurCmp = SWITCH_INV;
+IdModule  = SWITCH-SPDT-EG1218;
+EndCmp
+
+EndListe
