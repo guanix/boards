@@ -1,0 +1,143 @@
+Cmp-Mod V01 Created by CvPcb (2013-feb-26)-testing date = Thu 28 Feb 2013 12:42:03 PM EST
+
+BeginCmp
+TimeStamp = /504FE4E8;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = BATTERY-AA;
+EndCmp
+
+BeginCmp
+TimeStamp = /504FE4F1;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /505001B0;
+Reference = C2;
+ValeurCmp = 150pF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50501E1C;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /512F92A6;
+Reference = C4;
+ValeurCmp = 1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /512F9027;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /512F8FBB;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /512F914E;
+Reference = C7;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50500FFF;
+Reference = D1;
+ValeurCmp = 1N4148;
+IdModule  = SOD523;
+EndCmp
+
+BeginCmp
+TimeStamp = /512F7A79;
+Reference = D2;
+ValeurCmp = LED-PAD;
+IdModule  = CREE-XPC-LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /512F8E08;
+Reference = IC1;
+ValeurCmp = TLC551;
+IdModule  = SOIC8-4MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /504FE4FA;
+Reference = L1;
+ValeurCmp = 22uH;
+IdModule  = SM1210L;
+EndCmp
+
+BeginCmp
+TimeStamp = /512F9736;
+Reference = P1;
+ValeurCmp = SSJ1304;
+IdModule  = SW-SSJ1304;
+EndCmp
+
+BeginCmp
+TimeStamp = /504FF35D;
+Reference = Q1;
+ValeurCmp = BC817;
+IdModule  = SOT23EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = /50500FCD;
+Reference = Q2;
+ValeurCmp = BC807;
+IdModule  = SOT23EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = /512F949D;
+Reference = Q3;
+ValeurCmp = MOSFET_N;
+IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /50500FD7;
+Reference = R1;
+ValeurCmp = 100K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /512F9855;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /512F9419;
+Reference = R3;
+ValeurCmp = 470K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /512F95E5;
+Reference = R4;
+ValeurCmp = 100K;
+IdModule  = SM0603;
+EndCmp
+
+EndListe
