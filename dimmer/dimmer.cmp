@@ -1,0 +1,87 @@
+Cmp-Mod V01 Created by CvPcb (2013-feb-26)-testing date = Fri 01 Mar 2013 02:48:47 PM EST
+
+BeginCmp
+TimeStamp = /513103C9;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51310972;
+Reference = C2;
+ValeurCmp = 10uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51310B13;
+Reference = F1;
+ValeurCmp = FUSE;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /5131050C;
+Reference = IC1;
+ValeurCmp = ATTINY85-S;
+IdModule  = SOIC8-5.3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /513107A2;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5131080B;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5131051B;
+Reference = P3;
+ValeurCmp = CONN_3X2;
+IdModule  = TC2030-MCP-NL;
+EndCmp
+
+BeginCmp
+TimeStamp = /51310664;
+Reference = Q1;
+ValeurCmp = MOSFET_N;
+IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /513106B5;
+Reference = R1;
+ValeurCmp = 100R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /513106E8;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5131048E;
+Reference = SW1;
+ValeurCmp = SWITCH-4;
+IdModule  = SWITCH-ALPS;
+EndCmp
+
+BeginCmp
+TimeStamp = /513104CF;
+Reference = SW2;
+ValeurCmp = SWITCH-4;
+IdModule  = SWITCH-ALPS;
+EndCmp
+
+EndListe
