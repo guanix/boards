@@ -1,6 +1,6 @@
-PCBNEW-BOARD Version 2 date Wed 30 Jan 2013 12:13:36 PM EST
+PCBNEW-BOARD Version 2 date Thu 28 Feb 2013 10:31:35 AM EST
 
-# Created by Pcbnew(2012-nov-02)-testing
+# Created by Pcbnew(2013-feb-21)-testing
 
 $GENERAL
 encoding utf-8
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11693 8268
 Title ""
-Date "30 jan 2013"
+Date "28 feb 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -56,13 +56,13 @@ TextPcbSize 1.524 2.032
 EdgeModWidth 0.381
 TextModSize 1.524 1.524
 TextModWidth 0.3048
-PadSize 2.159 2.159
+PadSize 2.032 2.032
 PadDrill 1.016
 Pad2MaskClearance 0.254
 SolderMaskMinWidth 0
 AuxiliaryAxisOrg 0 0
 VisibleElements FFFFFFBF
-PcbPlotParams (pcbplotparams (layerselection 284196865) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask true) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory largerpads))
+PcbPlotParams (pcbplotparams (layerselection 284196865) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask true) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory largerpads2))
 $EndSETUP
 
 $EQUIPOT
@@ -208,7 +208,7 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE TO92
 $MODULE LED-5MM
-Po 40.64 40.64 900 15 51095376 504E299B ~~
+Po 40.64 40.64 900 15 512F783C 504E299B ~~
 Li LED-5MM
 Cd LED 5mm - Lead pitch 100mil (2,54mm)
 Kw LED led 5mm 5MM 100mil 2,54mm
@@ -229,14 +229,14 @@ DA 0.254 0 2.413 0 900 0.1524 21
 $PAD
 Sh "1" C 2.032 2.032 0 0 900
 Dr 1.016 0 0
-At STD N 00A8FFFF
+At STD N 00E8FFFF
 Ne 4 "N-000004"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "2" C 2.032 2.032 0 0 900
 Dr 1.016 0 0
-At STD N 00A8FFFF
+At STD N 00E8FFFF
 Ne 1 "GND"
 Po 1.27 0
 $EndPAD
@@ -248,7 +248,7 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE LED-5MM
 $MODULE LED-5MM
-Po 40.64 33.02 900 15 5109535C 504E299D ~~
+Po 40.64 33.02 900 15 512F782E 504E299D ~~
 Li LED-5MM
 Cd LED 5mm - Lead pitch 100mil (2,54mm)
 Kw LED led 5mm 5MM 100mil 2,54mm
@@ -269,14 +269,14 @@ DA 0.254 0 2.413 0 900 0.1524 21
 $PAD
 Sh "1" C 2.032 2.032 0 0 900
 Dr 1.016 0 0
-At STD N 00A8FFFF
+At STD N 00E8FFFF
 Ne 4 "N-000004"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "2" C 2.032 2.032 0 0 900
 Dr 1.016 0 0
-At STD N 00A8FFFF
+At STD N 00E8FFFF
 Ne 1 "GND"
 Po 1.27 0
 $EndPAD
@@ -288,7 +288,7 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE LED-5MM
 $MODULE LED-5MM
-Po 33.02 40.64 900 15 5109536B 504E299F ~~
+Po 33.02 40.64 900 15 512F7835 504E299F ~~
 Li LED-5MM
 Cd LED 5mm - Lead pitch 100mil (2,54mm)
 Kw LED led 5mm 5MM 100mil 2,54mm
@@ -309,14 +309,14 @@ DA 0.254 0 2.413 0 900 0.1524 21
 $PAD
 Sh "1" C 2.032 2.032 0 0 900
 Dr 1.016 0 0
-At STD N 00A8FFFF
+At STD N 00E8FFFF
 Ne 4 "N-000004"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "2" C 2.032 2.032 0 0 900
 Dr 1.016 0 0
-At STD N 00A8FFFF
+At STD N 00E8FFFF
 Ne 1 "GND"
 Po 1.27 0
 $EndPAD
@@ -328,7 +328,7 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE LED-5MM
 $MODULE LED-5MM
-Po 33.02 33.02 900 15 5109534F 504E29A1 ~~
+Po 33.02 33.02 900 15 512F7824 504E29A1 ~~
 Li LED-5MM
 Cd LED 5mm - Lead pitch 100mil (2,54mm)
 Kw LED led 5mm 5MM 100mil 2,54mm
@@ -349,14 +349,14 @@ DA 0.254 0 2.413 0 900 0.1524 21
 $PAD
 Sh "1" C 2.032 2.032 0 0 900
 Dr 1.016 0 0
-At STD N 00A8FFFF
+At STD N 00E8FFFF
 Ne 4 "N-000004"
 Po -1.27 0
 $EndPAD
 $PAD
 Sh "2" C 2.032 2.032 0 0 900
 Dr 1.016 0 0
-At STD N 00A8FFFF
+At STD N 00E8FFFF
 Ne 1 "GND"
 Po 1.27 0
 $EndPAD
