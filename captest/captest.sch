@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 04 Mar 2013 03:51:26 PM EST
+EESchema Schematic File Version 2  date Mon 04 Mar 2013 04:06:09 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -379,10 +379,10 @@ Wire Wire Line
 Text Label 7050 2400 0    60   ~ 0
 PA3
 $Comp
-L VCC #PWR?
+L VCC #PWR05
 U 1 1 513508A4
 P 4500 2000
-F 0 "#PWR?" H 4500 2100 30  0001 C CNN
+F 0 "#PWR05" H 4500 2100 30  0001 C CNN
 F 1 "VCC" H 4500 2100 30  0000 C CNN
 F 2 "" H 4500 2000 60  0000 C CNN
 F 3 "" H 4500 2000 60  0000 C CNN
