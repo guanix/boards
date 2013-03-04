@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-feb-26)-testing date = Mon 04 Mar 2013 03:31:27 PM EST
+Cmp-Mod V01 Created by CvPcb (2013-feb-26)-testing date = Mon 04 Mar 2013 06:09:13 PM EST
 
 BeginCmp
 TimeStamp = /512E79A1;
@@ -15,24 +15,45 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /51352673;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51352682;
+Reference = C4;
+ValeurCmp = C;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51352823;
+Reference = C5;
+ValeurCmp = C;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51352902;
+Reference = C6;
+ValeurCmp = C;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /512E7BAB;
 Reference = IC1;
 ValeurCmp = ATTINY861-P;
-IdModule  = DIP-20__300;
+IdModule  = SOIC20-7.4MM;
 EndCmp
 
 BeginCmp
-TimeStamp = /512E7DD4;
+TimeStamp = /513529F0;
 Reference = P1;
-ValeurCmp = CONN_2;
-IdModule  = PIN_ARRAY_2X1;
-EndCmp
-
-BeginCmp
-TimeStamp = /512E8037;
-Reference = P2;
-ValeurCmp = CONN_6;
-IdModule  = PIN_ARRAY-6X1;
+ValeurCmp = CONN_3X2;
+IdModule  = pin_array_3x2;
 EndCmp
 
 BeginCmp
