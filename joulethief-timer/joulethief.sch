@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 28 Feb 2013 12:55:09 PM EST
+EESchema Schematic File Version 2  date Thu 28 Feb 2013 01:01:24 PM EST
 LIBS:guan
 LIBS:lamp
 LIBS:power
