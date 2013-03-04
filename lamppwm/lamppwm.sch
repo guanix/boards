@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 21 Feb 2013 10:03:48 AM EST
+EESchema Schematic File Version 2  date Mon 25 Feb 2013 07:26:33 PM EST
 LIBS:lamp
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "21 feb 2013"
+Date "26 feb 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -437,21 +437,6 @@ Connection ~ 6050 4400
 Text Label 6750 4000 1    60   ~ 0
 CURRENT
 $Comp
-L R R3
-U 1 1 51094A11
-P 5550 3800
-F 0 "R3" V 5630 3800 50  0000 C CNN
-F 1 "100R" V 5550 3800 50  0000 C CNN
-F 2 "" H 5550 3800 60  0001 C CNN
-F 3 "" H 5550 3800 60  0001 C CNN
-	1    5550 3800
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5800 3800 5800 3500
-Text Label 5800 3600 0    60   ~ 0
-MOSFET
-$Comp
 L C C4
 U 1 1 51094D1E
 P 7050 4000
@@ -493,4 +478,72 @@ Wire Wire Line
 	7350 4000 7250 4000
 Text Label 3000 2600 0    60   ~ 0
 BUTTON
+$Comp
+L NPN Q2
+U 1 1 512BFF81
+P 5400 3600
+F 0 "Q2" H 5400 3450 50  0000 R CNN
+F 1 "NPN" H 5400 3750 50  0000 R CNN
+F 2 "~" H 5400 3600 60  0000 C CNN
+F 3 "~" H 5400 3600 60  0000 C CNN
+	1    5400 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR014
+U 1 1 512BFF9D
+P 5300 3300
+F 0 "#PWR014" H 5300 3300 30  0001 C CNN
+F 1 "GND" H 5300 3230 30  0001 C CNN
+F 2 "" H 5300 3300 60  0000 C CNN
+F 3 "" H 5300 3300 60  0000 C CNN
+	1    5300 3300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 3400 5300 3300
+$Comp
+L R R4
+U 1 1 512BFFE6
+P 5950 3600
+F 0 "R4" V 6030 3600 40  0000 C CNN
+F 1 "1K" V 5957 3601 40  0000 C CNN
+F 2 "~" V 5880 3600 30  0000 C CNN
+F 3 "~" H 5950 3600 30  0000 C CNN
+	1    5950 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 3600 5700 3600
+Wire Wire Line
+	6200 3600 6500 3600
+Text Label 6300 3600 0    60   ~ 0
+MOSFET
+$Comp
+L R R3
+U 1 1 512C0193
+P 5650 3900
+F 0 "R3" V 5730 3900 40  0000 C CNN
+F 1 "10K" V 5657 3901 40  0000 C CNN
+F 2 "~" V 5580 3900 30  0000 C CNN
+F 3 "~" H 5650 3900 30  0000 C CNN
+	1    5650 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 512C01A2
+P 5650 4200
+F 0 "#PWR015" H 5650 4200 30  0001 C CNN
+F 1 "GND" H 5650 4130 30  0001 C CNN
+F 2 "" H 5650 4200 60  0000 C CNN
+F 3 "" H 5650 4200 60  0000 C CNN
+	1    5650 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 4200 5650 4150
+Wire Wire Line
+	5650 3650 5650 3600
+Connection ~ 5650 3600
 $EndSCHEMATC
