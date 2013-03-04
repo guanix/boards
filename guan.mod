@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Fri 01 Mar 2013 02:43:07 PM EST
+PCBNEW-LibModule-V1  Mon 04 Mar 2013 06:05:37 PM EST
 # encoding utf-8
 Units mm
 $INDEX
@@ -30,6 +30,7 @@ QFN64-0.5MM
 RFM12B
 SM0603-SHORT
 SOD523
+SOIC20-7.4MM
 SOIC8-4MM
 SOIC8-5.3MM
 SSOP-16-.150
@@ -2453,6 +2454,160 @@ Ne 0 ""
 Po 0 1
 $EndPAD
 $EndMODULE SOD523
+$MODULE SOIC20-7.4MM
+Po 0 0 0 15 513528BF 00000000 ~~
+Li SOIC20-7.4MM
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6 1 1 0 0.15 N V 21 N "SOIC20-7.4MM"
+T1 0 5 1 1 0 0.15 N I 21 N "VAL**"
+DC -5.5 3 -5.25 2.75 0.15 21
+DS 6.3 -3.7 6.3 3.7 0.15 21
+DS 6.3 3.7 -6.3 3.7 0.15 21
+DS -6.3 3.7 -6.3 -3.7 0.15 21
+DS -6.3 -3.7 6.3 -3.7 0.15 21
+$PAD
+Sh "1" R 0.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.715 4
+$EndPAD
+$PAD
+Sh "2" R 0.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.445 4
+$EndPAD
+$PAD
+Sh "3" R 0.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.175 4
+$EndPAD
+$PAD
+Sh "4" R 0.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.905 4
+$EndPAD
+$PAD
+Sh "5" R 0.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.635 4
+$EndPAD
+$PAD
+Sh "6" R 0.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.625 4
+$EndPAD
+$PAD
+Sh "7" R 0.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.905 4
+$EndPAD
+$PAD
+Sh "8" R 0.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.175 4
+$EndPAD
+$PAD
+Sh "9" R 0.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.445 4
+$EndPAD
+$PAD
+Sh "10" R 0.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.715 4
+$EndPAD
+$PAD
+Sh "11" R 0.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.715 -4
+$EndPAD
+$PAD
+Sh "12" R 0.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.445 -4
+$EndPAD
+$PAD
+Sh "13" R 0.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.175 -4
+$EndPAD
+$PAD
+Sh "14" R 0.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.905 -4
+$EndPAD
+$PAD
+Sh "15" R 0.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.635 -4
+$EndPAD
+$PAD
+Sh "16" R 0.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.635 -4
+$EndPAD
+$PAD
+Sh "17" R 0.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.905 -4
+$EndPAD
+$PAD
+Sh "18" R 0.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.175 -4
+$EndPAD
+$PAD
+Sh "19" R 0.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.445 -4
+$EndPAD
+$PAD
+Sh "20" R 0.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.715 -4
+$EndPAD
+$EndMODULE SOIC20-7.4MM
 $MODULE SOIC8-4MM
 Po 0 0 0 15 512F9517 00000000 ~~
 Li SOIC8-4MM
