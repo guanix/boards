@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 05 Mar 2013 12:00:50 PM EST
+EESchema Schematic File Version 2  date Tue 05 Mar 2013 12:08:52 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -463,4 +463,17 @@ Text Label 9700 4200 0    60   ~ 0
 SDA
 Text Label 9750 4100 0    60   ~ 0
 PWR
+$Comp
+L GND #PWR?
+U 1 1 5136274D
+P 7000 2200
+F 0 "#PWR?" H 7000 2200 30  0001 C CNN
+F 1 "GND" H 7000 2130 30  0001 C CNN
+F 2 "" H 7000 2200 60  0000 C CNN
+F 3 "" H 7000 2200 60  0000 C CNN
+	1    7000 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7000 2200 6800 2200
 $EndSCHEMATC
