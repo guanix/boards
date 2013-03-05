@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-feb-26)-testing date = Mon 04 Mar 2013 06:09:13 PM EST
+Cmp-Mod V01 Created by CvPcb (2013-feb-26)-testing date = Tue 05 Mar 2013 11:18:12 AM EST
 
 BeginCmp
 TimeStamp = /512E79A1;
@@ -46,7 +46,14 @@ BeginCmp
 TimeStamp = /512E7BAB;
 Reference = IC1;
 ValeurCmp = ATTINY861-P;
-IdModule  = SOIC20-7.4MM;
+IdModule  = TSSOP20-4.5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5136118C;
+Reference = L1;
+ValeurCmp = INDUCTOR;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -57,10 +64,10 @@ IdModule  = pin_array_3x2;
 EndCmp
 
 BeginCmp
-TimeStamp = /5135027D;
-Reference = P3;
-ValeurCmp = CONN_3X2;
-IdModule  = pin_array_3x2;
+TimeStamp = /51361ADF;
+Reference = P2;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
 EndCmp
 
 BeginCmp

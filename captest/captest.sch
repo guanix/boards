@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 04 Mar 2013 06:34:23 PM EST
+EESchema Schematic File Version 2  date Tue 05 Mar 2013 12:00:50 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "4 mar 2013"
+Date "5 mar 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -66,40 +66,14 @@ F 3 "~" H 7300 2700 30  0000 C CNN
 	1    7300 2700
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6800 2500 7050 2500
-Wire Wire Line
-	6800 2600 7850 2600
-Wire Wire Line
-	7750 2600 7750 2500
-Wire Wire Line
-	7750 2500 7550 2500
-Wire Wire Line
-	6800 2700 7050 2700
-Wire Wire Line
-	6800 2800 7850 2800
-Wire Wire Line
-	7750 2800 7750 2700
-Wire Wire Line
-	7750 2700 7550 2700
 Text Label 7500 2800 0    60   ~ 0
 CAP2
 Text Label 7500 2600 0    60   ~ 0
 CAP1
-Wire Wire Line
-	6800 2100 7450 2100
-Wire Wire Line
-	6800 2300 7450 2300
 Text Label 7300 2300 0    60   ~ 0
 SCL
 Text Label 7300 2100 0    60   ~ 0
 SDA
-Wire Wire Line
-	4600 2100 4500 2100
-Wire Wire Line
-	4500 2000 4500 2700
-Wire Wire Line
-	4200 2500 4600 2500
 $Comp
 L GND #PWR01
 U 1 1 512E7974
@@ -111,13 +85,6 @@ F 3 "" H 4500 3800 60  0000 C CNN
 	1    4500 3800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4500 3100 4500 3800
-Wire Wire Line
-	4500 3700 4600 3700
-Wire Wire Line
-	4200 3300 4600 3300
-Connection ~ 4500 3700
 $Comp
 L C C1
 U 1 1 512E79A1
@@ -129,12 +96,8 @@ F 3 "~" H 4500 2900 60  0000 C CNN
 	1    4500 2900
 	1    0    0    -1  
 $EndComp
-Connection ~ 4500 2500
-Connection ~ 4500 3300
 Text Label 6850 3100 0    60   ~ 0
 MISO
-Wire Wire Line
-	6800 3000 7300 3000
 Text Label 6950 3000 0    60   ~ 0
 MOSI
 Text Label 6900 3200 0    60   ~ 0
@@ -161,12 +124,6 @@ F 3 "~" H 7150 1750 30  0000 C CNN
 	1    7150 1750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7150 2000 7150 2300
-Connection ~ 7150 2300
-Wire Wire Line
-	6950 2000 6950 2100
-Connection ~ 6950 2100
 $Comp
 L VCC #PWR02
 U 1 1 512E7C97
@@ -178,21 +135,8 @@ F 3 "" H 7050 1350 60  0000 C CNN
 	1    7050 1350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6950 1500 7150 1500
-Wire Wire Line
-	7050 1500 7050 1350
-Connection ~ 7050 1500
-Wire Wire Line
-	6800 3600 7850 3600
-Wire Wire Line
-	6800 3700 7400 3700
 Text Label 7050 3700 0    60   ~ 0
 nRESET
-Wire Wire Line
-	6800 2200 7100 2200
-Text Label 6950 2200 0    60   ~ 0
-PA1
 $Comp
 L ATTINY861-P IC1
 U 1 1 512E7BAB
@@ -204,12 +148,6 @@ F 3 "" H 5700 2900 60  0000 C CNN
 	1    5700 2900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6800 3100 7300 3100
-Wire Wire Line
-	6800 3200 7300 3200
-Wire Wire Line
-	6800 2400 7450 2400
 $Comp
 L R R3
 U 1 1 51350061
@@ -221,8 +159,6 @@ F 3 "~" H 7250 3300 30  0000 C CNN
 	1    7250 3300
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6800 3300 7000 3300
 $Comp
 L R R4
 U 1 1 513500A1
@@ -234,51 +170,10 @@ F 3 "~" H 7250 3500 30  0000 C CNN
 	1    7250 3500
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6800 3500 7000 3500
-Wire Wire Line
-	6800 3400 7850 3400
-Wire Wire Line
-	7750 3400 7750 3300
-Wire Wire Line
-	7750 3300 7500 3300
-Wire Wire Line
-	7750 3600 7750 3500
-Wire Wire Line
-	7750 3500 7500 3500
 Text Label 7500 3400 0    60   ~ 0
 CAP3
 Text Label 7500 3600 0    60   ~ 0
 CAP4
-$Comp
-L CONN_3X2 P3
-U 1 1 5135027D
-P 9250 3800
-F 0 "P3" H 9250 4050 50  0000 C CNN
-F 1 "CONN_3X2" V 9250 3850 40  0000 C CNN
-F 2 "" H 9250 3800 60  0000 C CNN
-F 3 "" H 9250 3800 60  0000 C CNN
-	1    9250 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9650 3650 10000 3650
-Wire Wire Line
-	9650 3750 10000 3750
-Wire Wire Line
-	9650 3850 10000 3850
-Wire Wire Line
-	8450 3650 8850 3650
-Wire Wire Line
-	8450 3750 8850 3750
-Wire Wire Line
-	8450 3850 8850 3850
-Text Label 9850 3650 0    60   ~ 0
-VCC
-Text Label 9800 3750 0    60   ~ 0
-MOSI
-Text Label 9850 3850 0    60   ~ 0
-GND
 Text Label 8450 3650 0    60   ~ 0
 MISO
 Text Label 8450 3750 0    60   ~ 0
@@ -296,10 +191,6 @@ F 3 "~" H 4200 2900 60  0000 C CNN
 	1    4200 2900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4200 2700 4200 2500
-Wire Wire Line
-	4200 3100 4200 3300
 Text Label 7050 2400 0    60   ~ 0
 PA3
 $Comp
@@ -313,7 +204,6 @@ F 3 "" H 4500 2000 60  0000 C CNN
 	1    4500 2000
 	1    0    0    -1  
 $EndComp
-Connection ~ 4500 2100
 $Comp
 L C C3
 U 1 1 51352673
@@ -336,8 +226,6 @@ F 3 "~" H 8050 2800 60  0000 C CNN
 	1    8050 2800
 	0    -1   -1   0   
 $EndComp
-Connection ~ 7750 2600
-Connection ~ 7750 2800
 $Comp
 L GND #PWR04
 U 1 1 5135270A
@@ -349,10 +237,6 @@ F 3 "" H 8350 2600 60  0000 C CNN
 	1    8350 2600
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	8350 2600 8250 2600
-Wire Wire Line
-	8250 2800 8350 2800
 $Comp
 L GND #PWR05
 U 1 1 51352797
@@ -375,7 +259,6 @@ F 3 "~" H 8050 3400 60  0000 C CNN
 	1    8050 3400
 	0    -1   -1   0   
 $EndComp
-Connection ~ 7750 3400
 $Comp
 L GND #PWR06
 U 1 1 513528B2
@@ -387,8 +270,6 @@ F 3 "" H 8350 3400 60  0000 C CNN
 	1    8350 3400
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	8350 3400 8250 3400
 $Comp
 L C C6
 U 1 1 51352902
@@ -400,7 +281,6 @@ F 3 "~" H 8050 3600 60  0000 C CNN
 	1    8050 3600
 	0    -1   -1   0   
 $EndComp
-Connection ~ 7750 3600
 $Comp
 L GND #PWR07
 U 1 1 51352953
@@ -412,8 +292,6 @@ F 3 "" H 8350 3600 60  0000 C CNN
 	1    8350 3600
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	8350 3600 8250 3600
 $Comp
 L CONN_3X2 P1
 U 1 1 513529F0
@@ -425,6 +303,118 @@ F 3 "" H 9250 4250 60  0000 C CNN
 	1    9250 4250
 	1    0    0    -1  
 $EndComp
+Text Label 9850 4300 0    60   ~ 0
+GND
+Text Label 8450 4100 0    60   ~ 0
+SDA
+Text Label 8450 4300 0    60   ~ 0
+PA3
+$Comp
+L INDUCTOR L1
+U 1 1 5136118C
+P 10300 4100
+F 0 "L1" V 10250 4100 40  0000 C CNN
+F 1 "INDUCTOR" V 10400 4100 40  0000 C CNN
+F 2 "~" H 10300 4100 60  0000 C CNN
+F 3 "~" H 10300 4100 60  0000 C CNN
+	1    10300 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 2500 7050 2500
+Wire Wire Line
+	6800 2600 7850 2600
+Wire Wire Line
+	7750 2600 7750 2500
+Wire Wire Line
+	7750 2500 7550 2500
+Wire Wire Line
+	6800 2700 7050 2700
+Wire Wire Line
+	6800 2800 7850 2800
+Wire Wire Line
+	7750 2800 7750 2700
+Wire Wire Line
+	7750 2700 7550 2700
+Wire Wire Line
+	6800 2100 7450 2100
+Wire Wire Line
+	6800 2300 7450 2300
+Wire Wire Line
+	4600 2100 4500 2100
+Wire Wire Line
+	4500 2000 4500 2700
+Wire Wire Line
+	4200 2500 4600 2500
+Wire Wire Line
+	4500 3100 4500 3800
+Wire Wire Line
+	4500 3700 4600 3700
+Wire Wire Line
+	4200 3300 4600 3300
+Connection ~ 4500 3700
+Connection ~ 4500 2500
+Connection ~ 4500 3300
+Wire Wire Line
+	6800 3000 7300 3000
+Wire Wire Line
+	7150 2000 7150 2300
+Connection ~ 7150 2300
+Wire Wire Line
+	6950 2000 6950 2100
+Connection ~ 6950 2100
+Wire Wire Line
+	6950 1500 7150 1500
+Wire Wire Line
+	7050 1500 7050 1350
+Connection ~ 7050 1500
+Wire Wire Line
+	6800 3600 7850 3600
+Wire Wire Line
+	6800 3700 7400 3700
+Wire Wire Line
+	6800 3100 7300 3100
+Wire Wire Line
+	6800 3200 7300 3200
+Wire Wire Line
+	6800 2400 7450 2400
+Wire Wire Line
+	6800 3300 7000 3300
+Wire Wire Line
+	6800 3500 7000 3500
+Wire Wire Line
+	6800 3400 7850 3400
+Wire Wire Line
+	7750 3400 7750 3300
+Wire Wire Line
+	7750 3300 7500 3300
+Wire Wire Line
+	7750 3600 7750 3500
+Wire Wire Line
+	7750 3500 7500 3500
+Wire Wire Line
+	8450 3650 8850 3650
+Wire Wire Line
+	8450 3750 8850 3750
+Wire Wire Line
+	8450 3850 8850 3850
+Wire Wire Line
+	4200 2700 4200 2500
+Wire Wire Line
+	4200 3100 4200 3300
+Connection ~ 4500 2100
+Connection ~ 7750 2600
+Connection ~ 7750 2800
+Wire Wire Line
+	8350 2600 8250 2600
+Wire Wire Line
+	8250 2800 8350 2800
+Connection ~ 7750 3400
+Wire Wire Line
+	8350 3400 8250 3400
+Connection ~ 7750 3600
+Wire Wire Line
+	8350 3600 8250 3600
 Wire Wire Line
 	9650 4100 10000 4100
 Wire Wire Line
@@ -435,14 +425,42 @@ Wire Wire Line
 	8450 4100 8850 4100
 Wire Wire Line
 	8450 4300 8850 4300
-Text Label 9850 4100 0    60   ~ 0
-VCC
-Text Label 9800 4200 0    60   ~ 0
+$Comp
+L VCC #PWR08
+U 1 1 51361A88
+P 10700 4000
+F 0 "#PWR08" H 10700 4100 30  0001 C CNN
+F 1 "VCC" H 10700 4100 30  0000 C CNN
+F 2 "" H 10700 4000 60  0000 C CNN
+F 3 "" H 10700 4000 60  0000 C CNN
+	1    10700 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10700 4000 10700 4100
+Wire Wire Line
+	10700 4100 10600 4100
+$Comp
+L CONN_4 P2
+U 1 1 51361ADF
+P 9200 3700
+F 0 "P2" V 9150 3700 50  0000 C CNN
+F 1 "CONN_4" V 9250 3700 50  0000 C CNN
+F 2 "" H 9200 3700 60  0000 C CNN
+F 3 "" H 9200 3700 60  0000 C CNN
+	1    9200 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 3550 8450 3550
+Text Label 8450 3550 0    60   ~ 0
+MOSI
+Wire Wire Line
+	8450 4200 8850 4200
+Text Label 8450 4200 0    60   ~ 0
 SCL
-Text Label 9850 4300 0    60   ~ 0
-GND
-Text Label 8450 4100 0    60   ~ 0
-PA3
-Text Label 8450 4300 0    60   ~ 0
+Text Label 9700 4200 0    60   ~ 0
 SDA
+Text Label 9750 4100 0    60   ~ 0
+PWR
 $EndSCHEMATC
