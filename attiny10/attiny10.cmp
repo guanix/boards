@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by CvPcb (2013-feb-26)-testing date = Mon 04 Mar 2013 10:58:10 PM EST
+
+BeginCmp
+TimeStamp = /51356C6A;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51356C44;
+Reference = IC1;
+ValeurCmp = ATTINY10-TS;
+IdModule  = SOT23_6;
+EndCmp
+
+BeginCmp
+TimeStamp = /51356D1C;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /51356D4F;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+EndListe

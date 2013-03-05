@@ -1,0 +1,163 @@
+EESchema Schematic File Version 2  date Mon 04 Mar 2013 11:02:49 PM EST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:attiny10-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "5 mar 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ATTINY10-TS IC1
+U 1 1 51356C44
+P 2700 1450
+F 0 "IC1" H 1800 1850 60  0000 C CNN
+F 1 "ATTINY10-TS" H 3400 1050 60  0000 C CNN
+F 2 "SOT23-6" H 1900 1050 60  0001 C CNN
+F 3 "" H 2700 1450 60  0000 C CNN
+	1    2700 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 51356C6A
+P 3900 1450
+F 0 "C1" H 3900 1550 40  0000 L CNN
+F 1 "0.1uF" H 3906 1365 40  0000 L CNN
+F 2 "~" H 3938 1300 30  0000 C CNN
+F 3 "~" H 3900 1450 60  0000 C CNN
+	1    3900 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1100 3900 1250
+Wire Wire Line
+	3900 1650 3900 1800
+$Comp
+L GND #PWR01
+U 1 1 51356C7C
+P 3900 1800
+F 0 "#PWR01" H 3900 1800 30  0001 C CNN
+F 1 "GND" H 3900 1730 30  0001 C CNN
+F 2 "" H 3900 1800 60  0000 C CNN
+F 3 "" H 3900 1800 60  0000 C CNN
+	1    3900 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3900 1700
+$Comp
+L VCC #PWR02
+U 1 1 51356C8E
+P 3900 1100
+F 0 "#PWR02" H 3900 1200 30  0001 C CNN
+F 1 "VCC" H 3900 1200 30  0000 C CNN
+F 2 "" H 3900 1100 60  0000 C CNN
+F 3 "" H 3900 1100 60  0000 C CNN
+	1    3900 1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 3900 1200
+$Comp
+L CONN_3 K1
+U 1 1 51356D1C
+P 1100 1400
+F 0 "K1" V 1050 1400 50  0000 C CNN
+F 1 "CONN_3" V 1150 1400 40  0000 C CNN
+F 2 "" H 1100 1400 60  0000 C CNN
+F 3 "" H 1100 1400 60  0000 C CNN
+	1    1100 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  1300 1500 1300
+Wire Wire Line
+	750  1500 1350 1500
+Wire Wire Line
+	1350 1500 1350 1400
+Wire Wire Line
+	1350 1400 1500 1400
+$Comp
+L GND #PWR03
+U 1 1 51356D37
+P 650 1400
+F 0 "#PWR03" H 650 1400 30  0001 C CNN
+F 1 "GND" H 650 1330 30  0001 C CNN
+F 2 "" H 650 1400 60  0000 C CNN
+F 3 "" H 650 1400 60  0000 C CNN
+	1    650  1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	650  1400 750  1400
+$Comp
+L CONN_3 K2
+U 1 1 51356D4F
+P 2550 2200
+F 0 "K2" V 2500 2200 50  0000 C CNN
+F 1 "CONN_3" V 2600 2200 40  0000 C CNN
+F 2 "" H 2550 2200 60  0000 C CNN
+F 3 "" H 2550 2200 60  0000 C CNN
+	1    2550 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1500 1400 1500
+Wire Wire Line
+	1400 1500 1400 2100
+Wire Wire Line
+	1400 2100 2200 2100
+$Comp
+L VCC #PWR04
+U 1 1 51356D82
+P 2100 2200
+F 0 "#PWR04" H 2100 2300 30  0001 C CNN
+F 1 "VCC" H 2100 2300 30  0000 C CNN
+F 2 "" H 2100 2200 60  0000 C CNN
+F 3 "" H 2100 2200 60  0000 C CNN
+	1    2100 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 2200 2200 2200
+Wire Wire Line
+	1500 1600 1500 2300
+Wire Wire Line
+	1500 2300 2200 2300
+$EndSCHEMATC
