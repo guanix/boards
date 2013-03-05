@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Mon 04 Mar 2013 06:05:37 PM EST
+PCBNEW-LibModule-V1  Tue 05 Mar 2013 10:30:48 AM EST
 # encoding utf-8
 Units mm
 $INDEX
@@ -42,6 +42,7 @@ SWITCH-SPDT-EG1218
 TRANSFO-24TL
 TRIMPOT-BOURNS-3352
 TSSOP20
+TSSOP20-4.5MM
 TXFMR-LPR6235
 VS6724
 WIREWRAP-PIN-2
@@ -3307,6 +3308,180 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE TSSOP20
+$MODULE TSSOP20-4.5MM
+Po 0 0 0 15 51360F97 00000000 ~~
+Li TSSOP20-4.5MM
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -4.25 1 1 0 0.15 N V 21 N "TSSOP20-4.5MM"
+T1 0 4.5 1 1 0 0.15 N I 21 N "VAL**"
+DC -2.5 1.25 -2.25 1 0.15 21
+DS 3.3 -2.25 3.3 2.25 0.15 21
+DS 3.3 2.25 -3.3 2.25 0.15 21
+DS -3.3 2.25 -3.3 -2.25 0.15 21
+DS -3.3 -2.25 3.3 -2.25 0.15 21
+$PAD
+Sh "1" R 0.4 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.925 2.68
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "2" R 0.4 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.275 2.68
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "3" R 0.4 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.625 2.68
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "4" R 0.4 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.975 2.68
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "5" R 0.4 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.325 2.68
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "6" R 0.4 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.325 2.68
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "7" R 0.4 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.975 2.68
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "8" R 0.4 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.625 2.68
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "9" R 0.4 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.275 2.68
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "10" R 0.4 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.925 2.68
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "11" R 0.4 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.925 -2.68
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "12" R 0.4 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.275 -2.68
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "13" R 0.4 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.625 -2.68
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "14" R 0.4 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.975 -2.68
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "15" R 0.4 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.325 -2.68
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "16" R 0.4 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.325 -2.68
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "17" R 0.4 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.975 -2.68
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "18" R 0.4 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.625 -2.68
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "19" R 0.4 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.275 -2.68
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "20" R 0.4 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.925 -2.68
+.LocalClearance 0.125
+$EndPAD
+$EndMODULE TSSOP20-4.5MM
 $MODULE TXFMR-LPR6235
 Po 0 0 0 15 51172042 00000000 ~~
 Li TXFMR-LPR6235
