@@ -1,4 +1,4 @@
-(kicad_pcb (version 3) (host pcbnew "(2013-feb-26)-testing")
+(kicad_pcb (version 3) (host pcbnew "(2013-mar-13)-testing")
 
   (general
     (links 29)
@@ -141,15 +141,15 @@
     (add_net VCC)
   )
 
-  (module TC2030-MCP-NL (layer F.Cu) (tedit 513137F2) (tstamp 5102AC9A)
+  (module TC2030-MCP-NL (layer F.Cu) (tedit 51742A7B) (tstamp 5102AC9A)
     (at 38.735 20.32)
     (descr http://www.tag-connect.com/Materials/TC2030-MCP-NL%20PCB%20Footprint.pdf)
     (path /5102AAB3)
     (fp_text reference P3 (at 0 -4.064) (layer F.SilkS) hide
-      (effects (font (size 1.524 1.524) (thickness 0.3048)))
+      (effects (font (thickness 0.3048)))
     )
-    (fp_text value CONN_3X2 (at 0 3.048) (layer F.SilkS) hide
-      (effects (font (size 1.524 1.524) (thickness 0.3048)))
+    (fp_text value CONN_3X2 (at 14.605 -3.175) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
     )
     (pad 1 smd circle (at -1.27 0.635) (size 0.7874 0.7874)
       (layers F.Cu F.Paste F.Mask)
@@ -192,14 +192,14 @@
     )
   )
 
-  (module SOIC8-5.3MM (layer F.Cu) (tedit 5102AD79) (tstamp 5102ACC3)
+  (module SOIC8-5.3MM (layer F.Cu) (tedit 51742A69) (tstamp 5102ACC3)
     (at 39 27.25)
     (path /5101F3FE)
     (attr smd)
     (fp_text reference IC1 (at 0.37 -0.58) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
-    (fp_text value ATTINY85-S (at -14.87 8.31) (layer F.SilkS) hide
+    (fp_text value ATTINY85-S (at -21.855 3.23) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_line (start -2.54 2.794) (end 2.54 2.794) (layer F.SilkS) (width 0.381))
@@ -248,14 +248,14 @@
     )
   )
 
-  (module SM0805 (layer F.Cu) (tedit 5115A6FE) (tstamp 5102ACD0)
+  (module SM0805 (layer F.Cu) (tedit 51742A6D) (tstamp 5102ACD0)
     (at 35.56 33.655 180)
     (path /5102A93D)
     (attr smd)
     (fp_text reference C2 (at 2.794 -0.127 180) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.1778)))
     )
-    (fp_text value 1uF (at 10.922 -4.445 180) (layer F.SilkS) hide
+    (fp_text value 1uF (at 17.145 -0.635 180) (layer F.SilkS) hide
       (effects (font (size 0.50038 0.50038) (thickness 0.10922)))
     )
     (fp_circle (center -1.651 0.762) (end -1.651 0.635) (layer F.SilkS) (width 0.09906))
@@ -367,7 +367,7 @@
     )
   )
 
-  (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 5115A6F1) (tstamp 5102ACF8)
+  (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 51742A78) (tstamp 5102ACF8)
     (at 43.815 29.845 270)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
@@ -375,7 +375,7 @@
     (fp_text reference BAT (at 3.683 0.381 360) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.1778)))
     )
-    (fp_text value CONN_2 (at 0 -1.905 270) (layer F.SilkS) hide
+    (fp_text value CONN_2 (at -5.715 -6.985 270) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.1524))
@@ -397,7 +397,7 @@
     )
   )
 
-  (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 513136AD) (tstamp 5102AD02)
+  (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 51742A76) (tstamp 5102AD02)
     (at 43.815 24.13 270)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
@@ -405,7 +405,7 @@
     (fp_text reference P2 (at -3.302 -5.461 360) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
-    (fp_text value CONN_2 (at 0 -1.905 270) (layer F.SilkS) hide
+    (fp_text value CONN_2 (at 0 -5.08 270) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.1524))
@@ -471,13 +471,13 @@
     )
   )
 
-  (module SW-SPDT-2MM (layer F.Cu) (tedit 5102B088) (tstamp 5102B0C9)
+  (module SW-SPDT-2MM (layer F.Cu) (tedit 5174388D) (tstamp 5102B0C9)
     (at 40.005 37.465)
     (path /5102AEA5)
-    (fp_text reference SW1 (at 0 -2.5) (layer F.SilkS) hide
+    (fp_text reference SW1 (at 12.7 -4.445) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value SWITCH_INV (at 0 2) (layer F.SilkS) hide
+    (fp_text value SWITCH_INV (at 12.7 -8.89) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -5 1) (end -5 2) (layer F.SilkS) (width 0.15))
@@ -610,7 +610,7 @@
     )
   )
 
-  (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 5115A506) (tstamp 5115A4AA)
+  (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 51742A6F) (tstamp 5115A4AA)
     (at 30.48 38.1)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
@@ -618,7 +618,7 @@
     (fp_text reference P4 (at -10.795 -2.54) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
-    (fp_text value CONN_2 (at 0 -1.905) (layer F.SilkS) hide
+    (fp_text value CONN_2 (at -12.065 -7.62) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.1524))
@@ -640,7 +640,7 @@
     )
   )
 
-  (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 5115A50B) (tstamp 5115A4B4)
+  (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 51742A6B) (tstamp 5115A4B4)
     (at 26.67 34.29 90)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
@@ -648,7 +648,7 @@
     (fp_text reference P5 (at 1.27 -8.255 90) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
-    (fp_text value CONN_2 (at 0 -1.905 90) (layer F.SilkS) hide
+    (fp_text value CONN_2 (at 2.54 -7.62 90) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.1524))
