@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 22 Feb 2013 10:24:22 AM EST
+EESchema Schematic File Version 2  date Mon 04 Mar 2013 04:22:28 PM EST
 LIBS:guan
 LIBS:power
 LIBS:device
@@ -30,13 +30,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:ltc3783-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "22 feb 2013"
+Date "4 mar 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -484,4 +485,7 @@ F 3 "" H 6500 1200 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	6500 1200 6400 1200
+Wire Wire Line
+	4450 2200 4450 2000
+Connection ~ 4450 2000
 $EndSCHEMATC
