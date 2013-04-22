@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = Tue 19 Feb 2013 09:01:06 PM EST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sun 21 Apr 2013 03:25:55 AM EDT
 
 BeginCmp
 TimeStamp = /5102F2E4;
@@ -40,6 +40,20 @@ TimeStamp = /51044D29;
 Reference = C4;
 ValeurCmp = 10uF;
 IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51735C87;
+Reference = C5;
+ValeurCmp = 12pF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51734F61;
+Reference = C6;
+ValeurCmp = 12pF;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -106,13 +120,6 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /510A8EBC;
-Reference = D4;
-ValeurCmp = DIODE;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /5102DB27;
 Reference = IC1;
 ValeurCmp = NRF51822;
@@ -141,17 +148,10 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5102FE21;
+TimeStamp = /517377D4;
 Reference = P1;
-ValeurCmp = CONN_3X2;
-IdModule  = TC2030-MCP-NL;
-EndCmp
-
-BeginCmp
-TimeStamp = /51045546;
-Reference = P2;
-ValeurCmp = ST-0503;
-IdModule  = BUZZER-ST-5MM;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
@@ -166,13 +166,6 @@ TimeStamp = /5105F3AA;
 Reference = P4;
 ValeurCmp = AIN_4_7;
 IdModule  = PIN_ARRAY-6X1;
-EndCmp
-
-BeginCmp
-TimeStamp = /51045642;
-Reference = Q1;
-ValeurCmp = MOSFET_N;
-IdModule  = SOT23GDS;
 EndCmp
 
 BeginCmp
@@ -193,20 +186,6 @@ BeginCmp
 TimeStamp = /510300CD;
 Reference = R3;
 ValeurCmp = 100R;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5104584F;
-Reference = R4;
-ValeurCmp = 100R;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /51045948;
-Reference = R5;
-ValeurCmp = 10K;
 IdModule  = SM0603;
 EndCmp
 
@@ -234,8 +213,8 @@ EndCmp
 BeginCmp
 TimeStamp = /5105D5D4;
 Reference = X1;
-ValeurCmp = FOX924;
-IdModule  = OSCILLATOR-FOX924;
+ValeurCmp = NX2520SA;
+IdModule  = CRYSTAL-2520;
 EndCmp
 
 EndListe
