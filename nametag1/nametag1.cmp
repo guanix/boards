@@ -1,0 +1,122 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sat 04 May 2013 11:26:14 AM EDT
+
+BeginCmp
+TimeStamp = /517DCEF2;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /517DB31C;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /517E0542;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518499A7;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /517DC953;
+Reference = C5;
+ValeurCmp = 1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /517DC962;
+Reference = C6;
+ValeurCmp = 1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /517DCF99;
+Reference = C7;
+ValeurCmp = 2.2uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /517DBB70;
+Reference = C8;
+ValeurCmp = 2.2uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /517E037B;
+Reference = C9;
+ValeurCmp = 2.2uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /517DB29D;
+Reference = IC1;
+ValeurCmp = LK112;
+IdModule  = SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /51849989;
+Reference = IC2;
+ValeurCmp = ATTINY85-S;
+IdModule  = SOIC8-5.3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /517DAEFB;
+Reference = IC3;
+ValeurCmp = OLED-SSD1306;
+IdModule  = OLED-15;
+EndCmp
+
+BeginCmp
+TimeStamp = /517DDD4A;
+Reference = P1;
+ValeurCmp = CONN_3X2;
+IdModule  = TC2030-MCP-NL;
+EndCmp
+
+BeginCmp
+TimeStamp = /51833432;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = JST-PH-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /51839828;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = M3HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /51839837;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = M3HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /517E027D;
+Reference = R2;
+ValeurCmp = 390K;
+IdModule  = SM0603;
+EndCmp
+
+EndListe

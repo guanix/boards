@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Wed 24 Apr 2013 09:12:22 PM EDT
+PCBNEW-LibModule-V1  Wed 01 May 2013 07:15:00 PM EDT
 # encoding utf-8
 Units mm
 $INDEX
@@ -21,16 +21,20 @@ CRYSTAL-HC49-US
 CRYSTAL-NX5032GA
 DP6037
 INDUCTOR-RADIAL-8.5MM
+JST-PH-2
+JST-PH-6
 KONSGN
 MICROUSB-B-ZX62-B-5PA
 MINI-USB-UX60-MB-5ST
 MINI-USB-UX60A-MB-5ST
 MSOP-10-PAD
 MSOP-12
+OLED-15
 OSCILLATOR-FOX924
 PIN_2x1_SMD
 PIN_3X2_SMD
 PIN_4x1_SMD
+PIN_ARRAY_10X1
 PIN_ARRAY_7x1
 QFN48+1-0.4MM
 QFN48+1-0.4MM-SHORTPADS
@@ -924,6 +928,108 @@ Ne 0 ""
 Po 2.49936 0
 $EndPAD
 $EndMODULE INDUCTOR-RADIAL-8.5MM
+$MODULE JST-PH-2
+Po 0 0 0 15 5181A1F3 00000000 ~~
+Li JST-PH-2
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -8 1 1 0 0.15 N V 21 N "JST-PH-2"
+T1 0 3 1 1 0 0.15 N I 21 N "VAL**"
+$PAD
+Sh "2" R 1 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "1" R 1 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 0
+$EndPAD
+$PAD
+Sh "3" R 1.6 3.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.35 -5.05
+$EndPAD
+$PAD
+Sh "3" R 1.6 3.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.35 -5.05
+$EndPAD
+$EndMODULE JST-PH-2
+$MODULE JST-PH-6
+Po 0 0 0 15 5180E207 00000000 ~~
+Li JST-PH-6
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -8 1 1 0 0.15 N V 21 N "JST-PH-6"
+T1 0 3 1 1 0 0.15 N I 21 N "VAL**"
+$PAD
+Sh "4" R 1 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "3" R 1 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 0
+$EndPAD
+$PAD
+Sh "7" R 1.6 3.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -7.35 -5.05
+$EndPAD
+$PAD
+Sh "7" R 1.6 3.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 7.35 -5.05
+$EndPAD
+$PAD
+Sh "2" R 1 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3 0
+$EndPAD
+$PAD
+Sh "1" R 1 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5 0
+$EndPAD
+$PAD
+Sh "5" R 1 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3 0
+$EndPAD
+$PAD
+Sh "6" R 1 3.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5 0
+$EndPAD
+$EndMODULE JST-PH-6
 $MODULE KONSGN
 Po 0 0 0 15 5149BF70 00000000 ~~
 Li KONSGN
@@ -1426,6 +1532,135 @@ Po -1.625 -2.0445
 .LocalClearance 0.1
 $EndPAD
 $EndMODULE MSOP-12
+$MODULE OLED-15
+Po 0 0 0 15 517F206E 00000000 ~~
+Li OLED-15
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -4 1 1 0 0.15 N I 21 N "OLED-15"
+T1 0 5.25 1 1 0 0.15 N I 21 N "VAL**"
+$PAD
+Sh "1" R 3 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 4.55
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "2" R 3 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 3.9
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "3" R 3 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 3.25
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "4" R 3 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 2.6
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "5" R 3 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1.95
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "6" R 3 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1.3
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "7" R 3 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0.65
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "8" R 3 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "9" R 3 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -0.65
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "10" R 3 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1.3
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "11" R 3 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1.95
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "12" R 3 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -2.6
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "13" R 3 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -3.25
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "14" R 3 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -3.9
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "15" R 3 0.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -4.55
+.LocalClearance 0.125
+$EndPAD
+$EndMODULE OLED-15
 $MODULE OSCILLATOR-FOX924
 Po 0 0 0 15 5105D96D 00000000 ~~
 Li OSCILLATOR-FOX924
@@ -1588,6 +1823,97 @@ Ne 0 ""
 Po 3.81 0
 $EndPAD
 $EndMODULE PIN_4x1_SMD
+$MODULE PIN_ARRAY_10X1
+Po 0 0 0 15 51796D31 00000000 ~~
+Li PIN_ARRAY_10X1
+Cd Double rangee de contacts 2 x 5 pins
+Kw CONN
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2.54 1.016 1.016 0 0.2032 N V 21 N "PIN_ARRAY_10X1"
+T1 0 2.54 1.016 1.016 0 0.2032 N I 21 N "Val**"
+DS -12.7 1.27 12.7 1.27 0.15 21
+DS 12.7 1.27 12.7 -1.27 0.15 21
+DS 12.7 -1.27 -12.7 -1.27 0.15 21
+DS -12.7 -1.27 -12.7 1.27 0.15 21
+$PAD
+Sh "1" R 1.651 1.651 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 0
+$EndPAD
+$PAD
+Sh "2" C 1.651 1.651 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "3" C 1.651 1.651 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "4" C 1.651 1.651 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "5" C 1.651 1.651 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "6" C 1.651 1.651 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "7" C 1.651 1.651 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "8" C 1.651 1.651 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "9" C 1.651 1.651 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$PAD
+Sh "10" C 1.651 1.651 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 0
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_5x1.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE PIN_ARRAY_10X1
 $MODULE PIN_ARRAY_7x1
 Po 0 0 0 15 50579C39 00000000 ~~
 Li PIN_ARRAY_7x1
