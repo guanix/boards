@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 258 93 303.000001 134.000001)
     (thickness 1.6)
-    (drawings 8)
+    (drawings 9)
     (tracks 93)
     (zones 0)
     (modules 7)
@@ -59,7 +59,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFFBF)
     (pcbplotparams
-      (layerselection 283148289)
+      (layerselection 284196865)
       (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 152400)
@@ -370,6 +370,9 @@
     )
   )
 
+  (gr_text REV1 (at 281.25 119.25) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify mirror))
+  )
   (gr_line (start 264 114) (end 272 127) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 273 98) (end 264 114) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 289 98) (end 273 98) (angle 90) (layer Edge.Cuts) (width 0.15))
