@@ -1,80 +1,45 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sun 05 May 2013 12:49:59 PM EDT
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sun 05 May 2013 10:03:56 PM EDT
 
 BeginCmp
-TimeStamp = /512EACDE;
+TimeStamp = /5186F4DA;
 Reference = C1;
 ValeurCmp = 0.1uF;
 IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5182572A;
+TimeStamp = /518453A0;
 Reference = C2;
-ValeurCmp = 0.1uF;
-IdModule  = SM0603;
+ValeurCmp = 10uF;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /51824868;
+TimeStamp = /51870122;
 Reference = C3;
-ValeurCmp = 0.1uF;
+ValeurCmp = 1uF;
 IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5183A439;
+TimeStamp = /518702AE;
 Reference = C4;
-ValeurCmp = 0.1uF;
-IdModule  = SM0603;
+ValeurCmp = 10uF;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5183A2F9;
-Reference = C5;
-ValeurCmp = 2.2uF;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /518394DB;
-Reference = C6;
-ValeurCmp = 0.1uF;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /51839619;
-Reference = C7;
-ValeurCmp = 0.1uF;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /51839572;
-Reference = C8;
-ValeurCmp = 0.1uF;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /518396B3;
-Reference = C9;
-ValeurCmp = 0.1uF;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /512EAC83;
+TimeStamp = /5186DA3F;
 Reference = IC1;
-ValeurCmp = ATTINY861A-S;
-IdModule  = TSSOP20-4.5MM;
+ValeurCmp = ATTINY24A-SS;
+IdModule  = SO14;
 EndCmp
 
 BeginCmp
-TimeStamp = /51824829;
+TimeStamp = /51845463;
 Reference = L1;
 ValeurCmp = INDUCTOR;
-IdModule  = SM0603;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -99,13 +64,6 @@ IdModule  = RGBSTRIP;
 EndCmp
 
 BeginCmp
-TimeStamp = /5183B305;
-Reference = P4;
-ValeurCmp = CONN_6;
-IdModule  = pin_array_3x2;
-EndCmp
-
-BeginCmp
 TimeStamp = /518508ED;
 Reference = P5;
 ValeurCmp = CONN_3X2;
@@ -113,58 +71,65 @@ IdModule  = TC2030-MCP-NL;
 EndCmp
 
 BeginCmp
-TimeStamp = /512EB18E;
+TimeStamp = /518775A2;
 Reference = Q1;
-ValeurCmp = MOSFET_N;
-IdModule  = SOT23GDS;
+ValeurCmp = NPN;
+IdModule  = SOT23EBC;
 EndCmp
 
 BeginCmp
-TimeStamp = /512EB25F;
+TimeStamp = /5187855E;
 Reference = Q2;
-ValeurCmp = MOSFET_N;
-IdModule  = SOT23GDS;
+ValeurCmp = NPN;
+IdModule  = SOT23EBC;
 EndCmp
 
 BeginCmp
-TimeStamp = /512EB26E;
+TimeStamp = /5187856D;
 Reference = Q3;
-ValeurCmp = MOSFET_N;
-IdModule  = SOT23GDS;
+ValeurCmp = NPN;
+IdModule  = SOT23EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /518257B7;
 Reference = R1;
-ValeurCmp = 22R;
+ValeurCmp = 170R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51870407;
+Reference = R3;
+ValeurCmp = 10K;
 IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /51826468;
-Reference = R2;
-ValeurCmp = 22R;
+Reference = R4;
+ValeurCmp = 170R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51872E7C;
+Reference = R6;
+ValeurCmp = 10K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51873C58;
+Reference = R7;
+ValeurCmp = 10K;
 IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /51826529;
-Reference = R3;
-ValeurCmp = 22R;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /518680A4;
-Reference = R4;
-ValeurCmp = 10K;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /518680B3;
-Reference = R5;
-ValeurCmp = 10K;
+Reference = R8;
+ValeurCmp = 170R;
 IdModule  = SM0603;
 EndCmp
 
