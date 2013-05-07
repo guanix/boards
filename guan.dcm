@@ -1,9 +1,15 @@
-EESchema-DOCLIB  Version 2.0  Date: Sat 06 Apr 2013 05:13:21 PM EDT
+EESchema-DOCLIB  Version 2.0  Date: Mon 29 Apr 2013 10:52:14 AM EDT
 #
 $CMP ATMEGA328P-M
 D ATMEGA328P, QFN/MLF32, 32k Flash, 2kB SRAM, 1kB EEPROM
 K AVR 8bit Microcontroller MegaAVR PicoPower
 F http://www.atmel.com/dyn/resources/prod_documents/doc8271.pdf
+$ENDCMP
+#
+$CMP ATTINY2313A-M
+D ATTINY2313, MLF20, 2k Flash, 128B SRAM, 128B EEPROM, Debug Wire
+K AVR 8bit Microcontroller tinyAVR
+F http://www.atmel.com/dyn/resources/prod_documents/doc2543.pdf
 $ENDCMP
 #
 $CMP LPC111X/102
