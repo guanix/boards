@@ -1,0 +1,94 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Thu 25 Apr 2013 02:52:23 PM EDT
+
+BeginCmp
+TimeStamp = /51773FA7;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51773FDA;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5177401B;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /517807E5;
+Reference = C4;
+ValeurCmp = 1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51781612;
+Reference = C5;
+ValeurCmp = 1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51773175;
+Reference = IC1;
+ValeurCmp = ATMEGA328P-A;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /5177FA81;
+Reference = IC2;
+ValeurCmp = LK112;
+IdModule  = SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /51776B28;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /51778798;
+Reference = P2;
+ValeurCmp = CONN_10;
+IdModule  = PIN_ARRAY_10X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5178175D;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = JST-PH-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /517934B2;
+Reference = P4;
+ValeurCmp = CONN_3X2;
+IdModule  = TC2030-MCP-NL;
+EndCmp
+
+BeginCmp
+TimeStamp = /517779A9;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5177962B;
+Reference = SW1;
+ValeurCmp = SWITCH-4;
+IdModule  = SWITCH-ALPS;
+EndCmp
+
+EndListe
