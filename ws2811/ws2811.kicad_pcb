@@ -1,9 +1,9 @@
-(kicad_pcb (version 3) (host pcbnew "(2013-feb-26)-testing")
+(kicad_pcb (version 3) (host pcbnew "(2013-mar-13)-testing")
 
   (general
     (links 10)
     (no_connects 0)
-    (area 33.083499 25.5778 60.572085 39.46271)
+    (area 31.629915 25.5778 58.326866 38.798501)
     (thickness 1.6002)
     (drawings 13)
     (tracks 29)
@@ -247,13 +247,13 @@
     )
   )
 
-  (module WS2811-5050 (layer Front) (tedit 51391437) (tstamp 50D47D9F)
+  (module WS2811-5050 (layer Front) (tedit 5185859D) (tstamp 50D47D9F)
     (at 38.1 32.512)
     (path /50D47B69)
     (fp_text reference IC1 (at 0 -5) (layer F.SilkS) hide
       (effects (font (size 1.00076 1.00076) (thickness 0.20066)))
     )
-    (fp_text value WS2811-5050 (at 0 5.25) (layer F.SilkS) hide
+    (fp_text value WS2811-5050 (at 8.89 6.858) (layer F.SilkS) hide
       (effects (font (size 1.00076 1.00076) (thickness 0.20066)))
     )
     (fp_line (start 1.00076 2.49936) (end 2.49936 1.00076) (layer F.SilkS) (width 0.20066))
