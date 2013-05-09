@@ -1,0 +1,192 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Mon 13 May 2013 12:28:39 AM EDT
+
+BeginCmp
+TimeStamp = /518BF473;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = BAT-BK912;
+EndCmp
+
+BeginCmp
+TimeStamp = /518C584A;
+Reference = BT2;
+ValeurCmp = BATTERY;
+IdModule  = JST-PH-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /518C6704;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518C5975;
+Reference = C2;
+ValeurCmp = 1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51906D02;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518CCA8E;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /518CCA9D;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /518BCB49;
+Reference = IC1;
+ValeurCmp = BL600;
+IdModule  = BL600;
+EndCmp
+
+BeginCmp
+TimeStamp = /518C5930;
+Reference = IC2;
+ValeurCmp = LK112;
+IdModule  = SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /518D06C6;
+Reference = L1;
+ValeurCmp = INDUCTOR;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518BE5D4;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /518CAF73;
+Reference = P2;
+ValeurCmp = CONN_3X2;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /518C10E5;
+Reference = P4;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /518E21C0;
+Reference = P5;
+ValeurCmp = CONN_8;
+IdModule  = pin_array_8x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /518E1379;
+Reference = P6;
+ValeurCmp = CONN_8;
+IdModule  = pin_array_8x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /518D2044;
+Reference = P7;
+ValeurCmp = CONN_6X2;
+IdModule  = pin_array_6x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /518C2D3A;
+Reference = Q1;
+ValeurCmp = MOSFET_P;
+IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /518C1103;
+Reference = Q2;
+ValeurCmp = MOSFET_P;
+IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /518C5857;
+Reference = Q3;
+ValeurCmp = MOSFET_P;
+IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /518CCB7B;
+Reference = R1;
+ValeurCmp = 1K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518CCB8A;
+Reference = R2;
+ValeurCmp = 1K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518BE639;
+Reference = R3;
+ValeurCmp = 12K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518C2D95;
+Reference = R6;
+ValeurCmp = 10K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518C1F18;
+Reference = R7;
+ValeurCmp = 10K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518C5860;
+Reference = R8;
+ValeurCmp = 10K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518DF6E6;
+Reference = SW1;
+ValeurCmp = SWITCH-4;
+IdModule  = SWITCH-ALPS;
+EndCmp
+
+BeginCmp
+TimeStamp = /518DF6FF;
+Reference = SW2;
+ValeurCmp = SWITCH-4;
+IdModule  = SWITCH-ALPS;
+EndCmp
+
+EndListe
