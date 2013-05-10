@@ -1,0 +1,150 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Thu 09 May 2013 12:56:22 AM EDT
+
+BeginCmp
+TimeStamp = /518C25B2;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /518AE038;
+Reference = J1;
+ValeurCmp = MINI-USB-SHLD;
+IdModule  = MICROUSB-B-ZX62-B-5PA;
+EndCmp
+
+BeginCmp
+TimeStamp = /518AFCE5;
+Reference = IC2;
+ValeurCmp = LK112;
+IdModule  = SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /518B0AF2;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518B2792;
+Reference = R6;
+ValeurCmp = 470R;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /518B43F3;
+Reference = SW1;
+ValeurCmp = SWITCH-4;
+IdModule  = SWITCH-ALPS;
+EndCmp
+
+BeginCmp
+TimeStamp = /518E2BB2;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /518E5642;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /518E567D;
+Reference = L1;
+ValeurCmp = INDUCTOR;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518E730B;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518F2D34;
+Reference = R3;
+ValeurCmp = 27R;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /518F2D43;
+Reference = R4;
+ValeurCmp = 27R;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /518B8B69;
+Reference = IC1;
+ValeurCmp = FT231X-Q;
+IdModule  = QFN24;
+EndCmp
+
+BeginCmp
+TimeStamp = /519092FB;
+Reference = P1;
+ValeurCmp = CONN_14;
+IdModule  = pin_array_13x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5190A07C;
+Reference = P3;
+ValeurCmp = CONN_14;
+IdModule  = pin_array_13x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5190AF88;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5190AF90;
+Reference = R5;
+ValeurCmp = 470R;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /518ABA24;
+Reference = Q2;
+ValeurCmp = MOSFET_P;
+IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /518AC8D9;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /518AC9EF;
+Reference = Q1;
+ValeurCmp = MOSFET_P;
+IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /518ACAA4;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = SM0402_r;
+EndCmp
+
+EndListe
