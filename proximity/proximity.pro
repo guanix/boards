@@ -1,8 +1,6 @@
-update=Tue 19 Feb 2013 09:53:08 PM EST
+update=Tue 21 May 2013 07:35:11 PM EDT
 version=1
-last_client=eeschema
-[general]
-version=1
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -80,3 +78,5 @@ LibName28=opto
 LibName29=atmel
 LibName30=contrib
 LibName31=valves
+[general]
+version=1
