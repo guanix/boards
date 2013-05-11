@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Fri 10 May 2013 09:42:04 AM EDT
+PCBNEW-LibModule-V1  Fri 10 May 2013 08:07:36 PM EDT
 # encoding utf-8
 Units mm
 $INDEX
@@ -3853,7 +3853,7 @@ Po 0 1
 $EndPAD
 $EndMODULE SOD523
 $MODULE SOIC14-4MM
-Po 0 0 0 15 5185297C 00000000 ~~
+Po 0 0 0 15 518D8BC3 00000000 ~~
 Li SOIC14-4MM
 Sc 0
 AR 
@@ -3870,98 +3870,98 @@ Sh "1" R 0.6 2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -3.81 2.46
+Po -3.81 2.6
 $EndPAD
 $PAD
 Sh "2" R 0.6 2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -2.54 2.46
+Po -2.54 2.6
 $EndPAD
 $PAD
 Sh "3" R 0.6 2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1.27 2.46
+Po -1.27 2.6
 $EndPAD
 $PAD
 Sh "4" R 0.6 2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0 2.46
+Po 0 2.6
 $EndPAD
 $PAD
 Sh "8" R 0.6 2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 3.81 -2.46
+Po 3.81 -2.6
 $EndPAD
 $PAD
 Sh "5" R 0.6 2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1.27 2.46
+Po 1.27 2.6
 $EndPAD
 $PAD
 Sh "6" R 0.6 2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 2.54 2.46
+Po 2.54 2.6
 $EndPAD
 $PAD
 Sh "7" R 0.6 2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 3.81 2.46
+Po 3.81 2.6
 $EndPAD
 $PAD
 Sh "9" R 0.6 2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 2.54 -2.46
+Po 2.54 -2.6
 $EndPAD
 $PAD
 Sh "10" R 0.6 2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1.27 -2.46
+Po 1.27 -2.6
 $EndPAD
 $PAD
 Sh "11" R 0.6 2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0 -2.46
+Po 0 -2.6
 $EndPAD
 $PAD
 Sh "12" R 0.6 2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1.27 -2.46
+Po -1.27 -2.6
 $EndPAD
 $PAD
 Sh "13" R 0.6 2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -2.54 -2.46
+Po -2.54 -2.6
 $EndPAD
 $PAD
 Sh "14" R 0.6 2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -3.81 -2.46
+Po -3.81 -2.6
 $EndPAD
 $EndMODULE SOIC14-4MM
 $MODULE SOIC20-7.4MM
