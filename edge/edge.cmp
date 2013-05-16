@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sat 11 May 2013 08:53:51 PM EDT
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Mon 13 May 2013 01:07:36 AM EDT
 
 BeginCmp
 TimeStamp = /5186F4DA;
@@ -36,24 +36,24 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /518ECCF4;
-Reference = C6;
-ValeurCmp = C;
-IdModule  = SM0603;
+TimeStamp = /518D44B0;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5186DA3F;
 Reference = IC1;
 ValeurCmp = ATTINY24A-SS;
-IdModule  = SO14;
+IdModule  = SOIC14-4MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /51845463;
 Reference = L1;
 ValeurCmp = INDUCTOR;
-IdModule  = SM0805;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -113,6 +113,13 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /518D44BF;
+Reference = R2;
+ValeurCmp = 1K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /51870407;
 Reference = R3;
 ValeurCmp = 10K;
@@ -129,13 +136,6 @@ EndCmp
 BeginCmp
 TimeStamp = /51872E7C;
 Reference = R6;
-ValeurCmp = 10K;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /51873C58;
-Reference = R7;
 ValeurCmp = 10K;
 IdModule  = SM0603;
 EndCmp
