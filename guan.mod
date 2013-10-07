@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Fri 10 May 2013 08:07:36 PM EDT
+PCBNEW-LibModule-V1  Wed 09 Oct 2013 12:29:10 AM EDT
 # encoding utf-8
 Units mm
 $INDEX
@@ -16,6 +16,7 @@ CAP-6.3MM-PANAD
 CAP-8MM
 CAP-BTN
 CAP-SLIDE-4
+CC3000
 CREE-XPC-LED
 CRYSTAL-2520
 CRYSTAL-HC49-US
@@ -29,9 +30,11 @@ MICROUSB-B-ZX62-B-5PA
 MINI-USB-UX60-MB-5ST
 MINI-USB-UX60A-MB-5ST
 MSOP-10-PAD
+MSOP-10-PAD-ALLEGRO
 MSOP-12
 OLED-15
 OSCILLATOR-FOX924
+PIN-5x2-50MIL
 PIN_2x1_SMD
 PIN_3X2_SMD
 PIN_4X2_SMD_NRA
@@ -50,17 +53,21 @@ SOIC14-4MM
 SOIC20-7.4MM
 SOIC8-4MM
 SOIC8-5.3MM
+SOP8
 SSOP-16-.150
+SSOP-16-.65
 SW-SMD-5.2MM
 SW-SPDT-2MM
 SW-SSJ1304
 SWITCH-ALPS
 SWITCH-SPDT-EG1218
+TERM-4-3.81MM
 TRANSFO-24TL
 TRIMPOT-BOURNS-3352
 TSSOP20
 TSSOP20-4.5MM
 TXFMR-LPR6235
+UFL-0734120110
 VS6724
 WIREWRAP-PIN-2
 WS2811-5050
@@ -1053,6 +1060,342 @@ Op 0 0 0
 T0 0 -4 1 1 0 0.15 N V 21 N "CAP-SLIDE-4"
 T1 0 3.25 1 1 0 0.15 N I 21 N "VAL**"
 $EndMODULE CAP-SLIDE-4
+$MODULE CC3000
+Po 0 0 0 15 525560E3 00000000 ~~
+Li CC3000
+Sc 0
+AR 
+Op 0 0 0
+T0 -4 -9 1 1 0 0.15 N V 21 N "CC3000"
+T1 5 -9 1 1 0 0.15 N I 21 N "VAL**"
+DS 6.75 -8.15 6.75 8.15 0.15 21
+DS 6.75 8.15 -6.75 8.15 0.15 21
+DS -6.75 8.15 -6.75 -8.1 0.15 21
+DS -6.75 -8.1 -6.75 -8.15 0.15 21
+DS -6.75 -8.15 6.75 -8.15 0.15 21
+$PAD
+Sh "2" R 1.2 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.85 -4.2
+$EndPAD
+$PAD
+Sh "5" R 1.2 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.85 -0.6
+$EndPAD
+$PAD
+Sh "4" R 1.2 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.85 -1.8
+$EndPAD
+$PAD
+Sh "3" R 1.2 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.85 -3
+$EndPAD
+$PAD
+Sh "1" R 1.2 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.85 -5.4
+$EndPAD
+$PAD
+Sh "6" R 1.2 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.85 0.6
+$EndPAD
+$PAD
+Sh "7" R 1.2 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.85 1.8
+$EndPAD
+$PAD
+Sh "8" R 1.2 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.85 3
+$EndPAD
+$PAD
+Sh "9" R 1.2 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.85 4.2
+$EndPAD
+$PAD
+Sh "10" R 1.2 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.85 5.4
+$EndPAD
+$PAD
+Sh "44" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.85 7.05
+$EndPAD
+$PAD
+Sh "11" R 0.7 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.2 7.05
+$EndPAD
+$PAD
+Sh "12" R 0.7 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3 7.05
+$EndPAD
+$PAD
+Sh "13" R 0.7 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.8 7.05
+$EndPAD
+$PAD
+Sh "14" R 0.7 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.6 7.05
+$EndPAD
+$PAD
+Sh "15" R 0.7 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.6 7.05
+$EndPAD
+$PAD
+Sh "16" R 0.7 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.8 7.05
+$EndPAD
+$PAD
+Sh "17" R 0.7 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3 7.05
+$EndPAD
+$PAD
+Sh "18" R 0.7 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.2 7.05
+$EndPAD
+$PAD
+Sh "45" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.85 7.05
+$EndPAD
+$PAD
+Sh "19" R 1.2 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.85 5.4
+$EndPAD
+$PAD
+Sh "20" R 1.2 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.85 4.2
+$EndPAD
+$PAD
+Sh "21" R 1.2 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.85 3
+$EndPAD
+$PAD
+Sh "22" R 1.2 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.85 1.8
+$EndPAD
+$PAD
+Sh "23" R 1.2 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.85 0.6
+$EndPAD
+$PAD
+Sh "24" R 1.2 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.85 -0.6
+$EndPAD
+$PAD
+Sh "25" R 1.2 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.85 -1.8
+$EndPAD
+$PAD
+Sh "26" R 1.2 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.85 -3
+$EndPAD
+$PAD
+Sh "27" R 1.2 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.85 -4.2
+$EndPAD
+$PAD
+Sh "28" R 1.2 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.85 -5.4
+$EndPAD
+$PAD
+Sh "46" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.85 -7.05
+$EndPAD
+$PAD
+Sh "29" R 0.7 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.2 -7.05
+$EndPAD
+$PAD
+Sh "30" R 0.7 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3 -7.05
+$EndPAD
+$PAD
+Sh "31" R 0.7 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.8 -7.05
+$EndPAD
+$PAD
+Sh "32" R 0.7 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.6 -7.05
+$EndPAD
+$PAD
+Sh "33" R 0.7 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.6 -7.05
+$EndPAD
+$PAD
+Sh "34" R 0.7 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.8 -7.05
+$EndPAD
+$PAD
+Sh "35" R 0.7 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3 -7.05
+$EndPAD
+$PAD
+Sh "36" R 0.7 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.2 -7.05
+$EndPAD
+$PAD
+Sh "43" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.85 -7.05
+$EndPAD
+$PAD
+Sh "37" R 2.4 1.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.15 -3.6
+$EndPAD
+$PAD
+Sh "38" R 2.4 1.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.15 0
+$EndPAD
+$PAD
+Sh "39" R 2.4 1.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.15 3.6
+$EndPAD
+$PAD
+Sh "40" R 2.4 1.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.15 -3.6
+$EndPAD
+$PAD
+Sh "41" R 2.4 1.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.15 0
+$EndPAD
+$PAD
+Sh "42" R 2.4 1.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.15 3.6
+$EndPAD
+$EndMODULE CC3000
 $MODULE CREE-XPC-LED
 Po 0 0 0 15 512F9D15 00000000 ~~
 Li CREE-XPC-LED
@@ -1795,6 +2138,107 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $EndMODULE MSOP-10-PAD
+$MODULE MSOP-10-PAD-ALLEGRO
+Po 0 0 0 15 5250B9CC 00000000 ~~
+Li MSOP-10-PAD-ALLEGRO
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3.5 1 1 0 0.15 N I 21 N "MSOP-10-PAD-ALLEGRO"
+T1 0 4 1 1 0 0.15 N V 21 N "VAL**"
+DC -1.75 1.5 -1.5 1.5 0.15 21
+DS 1.5 -1.5 1.5 1.5 0.15 21
+DS 1.5 1.5 -1.5 1.5 0.15 21
+DS -1.5 1.5 -1.5 -1.5 0.15 21
+DS -1.5 -1.5 1.5 -1.5 0.15 21
+$PAD
+Sh "1" R 0.3 1.65 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 2.3
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "2" R 0.3 1.65 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.5 2.3
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "3" R 0.3 1.65 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 2.3
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "4" R 0.3 1.65 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.5 2.3
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "5" R 0.3 1.65 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 2.3
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "6" R 0.3 1.65 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 -2.3
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "7" R 0.3 1.65 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.5 -2.3
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "8" R 0.3 1.65 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -2.3
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "9" R 0.3 1.65 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.5 -2.3
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "10" R 0.3 1.65 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 -2.3
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "11" R 1.98 1.73 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE MSOP-10-PAD-ALLEGRO
 $MODULE MSOP-12
 Po 0 0 0 15 5112C1F3 00000000 ~~
 Li MSOP-12
@@ -2082,6 +2526,87 @@ Ne 0 ""
 Po -1.99898 -1.24968
 $EndPAD
 $EndMODULE OSCILLATOR-FOX924
+$MODULE PIN-5x2-50MIL
+Po 0 0 0 15 525049B9 00000000 ~~
+Li PIN-5x2-50MIL
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -4.5 1 1 0 0.15 N I 21 N "PIN-5x2-50MIL"
+T1 0 4.5 1 1 0 0.15 N I 21 N "VAL**"
+DS -3.5 2.5 -3.5 4 0.15 21
+DS -3.5 4 -2.5 4 0.15 21
+$PAD
+Sh "3" R 0.76 2.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1.95
+$EndPAD
+$PAD
+Sh "4" R 0.76 2.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.27 1.95
+$EndPAD
+$PAD
+Sh "5" R 0.76 2.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.54 1.95
+$EndPAD
+$PAD
+Sh "1" R 0.76 2.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.54 1.95
+$EndPAD
+$PAD
+Sh "2" R 0.76 2.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.27 1.95
+$EndPAD
+$PAD
+Sh "6" R 0.76 2.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.54 -1.95
+$EndPAD
+$PAD
+Sh "7" R 0.76 2.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.27 -1.95
+$EndPAD
+$PAD
+Sh "8" R 0.76 2.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1.95
+$EndPAD
+$PAD
+Sh "9" R 0.76 2.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.27 -1.95
+$EndPAD
+$PAD
+Sh "10" R 0.76 2.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.54 -1.95
+$EndPAD
+$EndMODULE PIN-5x2-50MIL
 $MODULE PIN_2x1_SMD
 Po 0 0 0 15 5165DD61 00000000 ~~
 Li PIN_2x1_SMD
@@ -2517,14 +3042,14 @@ Po 2.54 -2.032
 $EndPAD
 $EndMODULE PIN_FTSH-105
 $MODULE QFN48+1-0.4MM
-Po 0 0 0 15 5102E538 00000000 ~~
+Po 0 0 0 15 5254DB95 00000000 ~~
 Li QFN48+1-0.4MM
 Sc 0
-AR 
+AR /52465C85
 Op 0 0 0
 At SMD
-T0 0.25 5.5 0.762 0.762 0 0.127 N I 21 N "QFN48+1-0.4MM"
-T1 0 -4.25 0.762 0.635 0 0.1524 N I 21 N "VAL**"
+T0 0.25 5.5 0.762 0.762 0 0.127 N I 21 N "IC4"
+T1 0 -4.25 0.762 0.635 0 0.1524 N I 21 N "NRF51822"
 DC -3 -3 -2.75 -2.75 0.15 21
 DS -3 3 3 3 0.15 21
 DS 3 3 3 -3 0.15 21
@@ -2536,7 +3061,7 @@ $PAD
 Sh "1" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 43 "VCC"
 Po -3 -2.2
 .LocalClearance 0.0875
 $EndPAD
@@ -2544,7 +3069,7 @@ $PAD
 Sh "2" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 29 "N-0000053"
 Po -3 -1.8
 .LocalClearance 0.0875
 $EndPAD
@@ -2552,7 +3077,7 @@ $PAD
 Sh "3" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 36 "N-0000061"
 Po -3 -1.4
 .LocalClearance 0.0875
 $EndPAD
@@ -2560,7 +3085,7 @@ $PAD
 Sh "4" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 37 "N-0000062"
 Po -3 -1
 .LocalClearance 0.0875
 $EndPAD
@@ -2568,7 +3093,7 @@ $PAD
 Sh "5" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 16 "/SCL"
 Po -3 -0.6
 .LocalClearance 0.0875
 $EndPAD
@@ -2576,7 +3101,7 @@ $PAD
 Sh "6" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 17 "/SDA"
 Po -3 -0.2
 .LocalClearance 0.0875
 $EndPAD
@@ -2584,7 +3109,7 @@ $PAD
 Sh "7" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 5 "/IN1"
 Po -3 0.2
 .LocalClearance 0.0875
 $EndPAD
@@ -2592,7 +3117,7 @@ $PAD
 Sh "8" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 6 "/IN2"
 Po -3 0.6
 .LocalClearance 0.0875
 $EndPAD
@@ -2600,7 +3125,7 @@ $PAD
 Sh "9" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 7 "/IN3"
 Po -3 1
 .LocalClearance 0.0875
 $EndPAD
@@ -2608,7 +3133,7 @@ $PAD
 Sh "10" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 38 "N-0000063"
 Po -3 1.4
 .LocalClearance 0.0875
 $EndPAD
@@ -2616,7 +3141,7 @@ $PAD
 Sh "11" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 39 "N-0000064"
 Po -3 1.8
 .LocalClearance 0.0875
 $EndPAD
@@ -2624,7 +3149,7 @@ $PAD
 Sh "12" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 43 "VCC"
 Po -3 2.2
 .LocalClearance 0.0875
 $EndPAD
@@ -2632,7 +3157,7 @@ $PAD
 Sh "33" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 24 "GND"
 Po 3 -1
 .LocalClearance 0.0875
 $EndPAD
@@ -2640,7 +3165,7 @@ $PAD
 Sh "34" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 24 "GND"
 Po 3 -1.4
 .LocalClearance 0.0875
 $EndPAD
@@ -2648,7 +3173,7 @@ $PAD
 Sh "35" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "+1.8V"
 Po 3 -1.8
 .LocalClearance 0.0875
 $EndPAD
@@ -2656,7 +3181,7 @@ $PAD
 Sh "36" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "+1.8V"
 Po 3 -2.2
 .LocalClearance 0.0875
 $EndPAD
@@ -2664,7 +3189,7 @@ $PAD
 Sh "17" R 0.225 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 10 "/MOTI1"
 Po -0.6 3
 .LocalClearance 0.0875
 $EndPAD
@@ -2672,7 +3197,7 @@ $PAD
 Sh "18" R 0.225 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 25 "N-0000021"
 Po -0.2 3
 .LocalClearance 0.0875
 $EndPAD
@@ -2680,7 +3205,7 @@ $PAD
 Sh "19" R 0.225 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 26 "N-0000022"
 Po 0.2 3
 .LocalClearance 0.0875
 $EndPAD
@@ -2688,7 +3213,7 @@ $PAD
 Sh "20" R 0.225 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 27 "N-0000023"
 Po 0.6 3
 .LocalClearance 0.0875
 $EndPAD
@@ -2696,7 +3221,7 @@ $PAD
 Sh "21" R 0.225 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 14 "/RX"
 Po 1 3
 .LocalClearance 0.0875
 $EndPAD
@@ -2704,7 +3229,7 @@ $PAD
 Sh "22" R 0.225 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 20 "/TX"
 Po 1.4 3
 .LocalClearance 0.0875
 $EndPAD
@@ -2712,7 +3237,7 @@ $PAD
 Sh "23" R 0.225 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 19 "/SWDIO"
 Po 1.8 3
 .LocalClearance 0.0875
 $EndPAD
@@ -2720,15 +3245,15 @@ $PAD
 Sh "24" R 0.225 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 18 "/SWDCLK"
 Po 2.2 3
 .LocalClearance 0.0875
 $EndPAD
 $PAD
-Sh "49" R 4.6 4.6 0 0 0
+Sh "49" R 4.3 4.3 0 0 0
 Dr 0 0 0
 At SMD N 00808000
-Ne 0 ""
+Ne 24 "GND"
 Po 0 0
 .LocalClearance 0.1
 $EndPAD
@@ -2736,7 +3261,7 @@ $PAD
 Sh "13" R 0.225 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 24 "GND"
 Po -2.2 3
 .LocalClearance 0.0875
 $EndPAD
@@ -2744,7 +3269,7 @@ $PAD
 Sh "14" R 0.225 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 13 "/MOTI4"
 Po -1.8 3
 .LocalClearance 0.0875
 $EndPAD
@@ -2752,7 +3277,7 @@ $PAD
 Sh "15" R 0.225 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 12 "/MOTI3"
 Po -1.4 3
 .LocalClearance 0.0875
 $EndPAD
@@ -2760,7 +3285,7 @@ $PAD
 Sh "16" R 0.225 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 11 "/MOTI2"
 Po -1 3
 .LocalClearance 0.0875
 $EndPAD
@@ -2768,7 +3293,7 @@ $PAD
 Sh "25" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 28 "N-0000024"
 Po 3 2.2
 .LocalClearance 0.0875
 $EndPAD
@@ -2776,7 +3301,7 @@ $PAD
 Sh "26" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 32 "N-0000056"
 Po 3 1.8
 .LocalClearance 0.0875
 $EndPAD
@@ -2784,7 +3309,7 @@ $PAD
 Sh "27" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 31 "N-0000055"
 Po 3 1.4
 .LocalClearance 0.0875
 $EndPAD
@@ -2792,7 +3317,7 @@ $PAD
 Sh "28" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 30 "N-0000054"
 Po 3 1
 .LocalClearance 0.0875
 $EndPAD
@@ -2800,7 +3325,7 @@ $PAD
 Sh "29" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "+1.8V"
 Po 3 0.6
 .LocalClearance 0.0875
 $EndPAD
@@ -2808,7 +3333,7 @@ $PAD
 Sh "30" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 42 "N-0000073"
 Po 3 0.2
 .LocalClearance 0.0875
 $EndPAD
@@ -2816,7 +3341,7 @@ $PAD
 Sh "31" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 3 "/ANT2"
 Po 3 -0.2
 .LocalClearance 0.0875
 $EndPAD
@@ -2824,7 +3349,7 @@ $PAD
 Sh "32" R 1 0.225 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "/ANT1"
 Po 3 -0.6
 .LocalClearance 0.0875
 $EndPAD
@@ -2832,7 +3357,7 @@ $PAD
 Sh "37" R 0.225 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 41 "N-0000069"
 Po 2.2 -3
 .LocalClearance 0.0875
 $EndPAD
@@ -2840,7 +3365,7 @@ $PAD
 Sh "38" R 0.225 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 40 "N-0000068"
 Po 1.8 -3
 .LocalClearance 0.0875
 $EndPAD
@@ -2848,7 +3373,7 @@ $PAD
 Sh "39" R 0.225 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 4 "/DEC1"
 Po 1.4 -3
 .LocalClearance 0.0875
 $EndPAD
@@ -2856,7 +3381,7 @@ $PAD
 Sh "40" R 0.225 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 33 "N-0000057"
 Po 1 -3
 .LocalClearance 0.0875
 $EndPAD
@@ -2864,7 +3389,7 @@ $PAD
 Sh "41" R 0.225 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 34 "N-0000058"
 Po 0.6 -3
 .LocalClearance 0.0875
 $EndPAD
@@ -2872,7 +3397,7 @@ $PAD
 Sh "42" R 0.225 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 35 "N-0000059"
 Po 0.2 -3
 .LocalClearance 0.0875
 $EndPAD
@@ -2880,7 +3405,7 @@ $PAD
 Sh "43" R 0.225 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 21 "/VBAT_SW_EN"
 Po -0.2 -3
 .LocalClearance 0.0875
 $EndPAD
@@ -2888,7 +3413,7 @@ $PAD
 Sh "44" R 0.225 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 15 "/SCK"
 Po -0.6 -3
 .LocalClearance 0.0875
 $EndPAD
@@ -2896,7 +3421,7 @@ $PAD
 Sh "45" R 0.225 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 9 "/MOSI"
 Po -1 -3
 .LocalClearance 0.0875
 $EndPAD
@@ -2904,7 +3429,7 @@ $PAD
 Sh "46" R 0.225 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 23 "/WL_IRQ"
 Po -1.4 -3
 .LocalClearance 0.0875
 $EndPAD
@@ -2912,7 +3437,7 @@ $PAD
 Sh "47" R 0.225 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 8 "/MISO"
 Po -1.8 -3
 .LocalClearance 0.0875
 $EndPAD
@@ -2920,46 +3445,46 @@ $PAD
 Sh "48" R 0.225 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 22 "/WL_CS"
 Po -2.2 -3
 .LocalClearance 0.0875
 $EndPAD
 $PAD
-Sh "50" R 1.4 1.4 0 0 0
+Sh "50" R 1.3 1.3 0 0 0
 Dr 0 0 0
 At SMD N 00080000
 Ne 0 ""
-Po -1.5 -1.5
+Po -1 -1
 .SolderMask 0.01
 .SolderPaste -0.01
 .LocalClearance 0.01
 $EndPAD
 $PAD
-Sh "50" R 1.4 1.4 0 0 0
+Sh "50" R 1.3 1.3 0 0 0
 Dr 0 0 0
 At SMD N 00080000
 Ne 0 ""
-Po -1.5 1.5
+Po -1 1
 .SolderMask 0.1
 .SolderPaste -0.1
 .LocalClearance 0.1
 $EndPAD
 $PAD
-Sh "50" R 1.4 1.4 0 0 0
+Sh "50" R 1.3 1.3 0 0 0
 Dr 0 0 0
 At SMD N 00080000
 Ne 0 ""
-Po 1.5 -1.5
+Po 1 -1
 .SolderMask 0.1
 .SolderPaste -0.1
 .LocalClearance 0.1
 $EndPAD
 $PAD
-Sh "50" R 1.4 1.4 0 0 0
+Sh "50" R 1.3 1.3 0 0 0
 Dr 0 0 0
 At SMD N 00080000
 Ne 0 ""
-Po 1.5 1.5
+Po 1 1
 .SolderMask 0.1
 .SolderPaste -0.1
 .LocalClearance 0.1
@@ -4267,6 +4792,76 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE SOIC8-5.3MM
+$MODULE SOP8
+Po 0 0 0 15 525A592A 00000000 ~~
+Li SOP8
+Sc 0
+AR 
+Op 0 0 0
+T0 -3.25 -5 1 1 0 0.15 N V 21 N "SOP8"
+T1 2 -5.5 1 1 0 0.15 N V 21 N "VAL**"
+DC -1.5 0.5 -1 0.5 0.15 21
+DS 2.5 2 -2.5 2 0.15 21
+DS -2.5 2 -2.5 -2 0.15 21
+DS -2.5 -2 2.5 -2 0.15 21
+DS 2.5 -2 2.5 2 0.15 21
+$PAD
+Sh "2" R 0.6 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.635 2.8
+$EndPAD
+$PAD
+Sh "3" R 0.6 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.635 2.8
+$EndPAD
+$PAD
+Sh "1" R 0.6 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.905 2.8
+$EndPAD
+$PAD
+Sh "4" R 0.6 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.905 2.8
+$EndPAD
+$PAD
+Sh "5" R 0.6 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.905 -2.8
+$EndPAD
+$PAD
+Sh "6" R 0.6 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.635 -2.8
+$EndPAD
+$PAD
+Sh "7" R 0.6 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.635 -2.8
+$EndPAD
+$PAD
+Sh "8" R 0.6 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.905 -2.8
+$EndPAD
+$EndMODULE SOP8
 $MODULE SSOP-16-.150
 Po 0 0 0 15 51171DCC 00000000 ~~
 Li SSOP-16-.150
@@ -4409,6 +5004,148 @@ Po -2.2225 -2.4765
 .LocalClearance 0.1016
 $EndPAD
 $EndMODULE SSOP-16-.150
+$MODULE SSOP-16-.65
+Po 0 0 0 15 5252794A 00000000 ~~
+Li SSOP-16-.65
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -4.191 1 1 0 0.15 N I 21 N "SSOP-16-.65"
+T1 0 4.445 1 1 0 0.15 N V 21 N "VAL**"
+DC -2 1.5 -1.9 1.9 0.15 21
+DS 2.7 -2.2 2.7 2.2 0.15 21
+DS 2.7 2.2 -2.7 2.2 0.15 21
+DS -2.7 2.2 -2.7 -2.2 0.15 21
+DS -2.7 -2.2 2.7 -2.2 0.15 21
+$PAD
+Sh "4" R 0.35 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.325 2.9
+.LocalClearance 0.1016
+$EndPAD
+$PAD
+Sh "5" R 0.35 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.325 2.9
+.LocalClearance 0.1016
+$EndPAD
+$PAD
+Sh "6" R 0.35 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.975 2.9
+.LocalClearance 0.1016
+$EndPAD
+$PAD
+Sh "7" R 0.35 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.625 2.9
+.LocalClearance 0.1016
+$EndPAD
+$PAD
+Sh "8" R 0.35 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.275 2.9
+.LocalClearance 0.1016
+$EndPAD
+$PAD
+Sh "3" R 0.35 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.975 2.9
+.LocalClearance 0.1016
+$EndPAD
+$PAD
+Sh "2" R 0.35 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.625 2.9
+.LocalClearance 0.1016
+$EndPAD
+$PAD
+Sh "1" R 0.35 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.275 2.9
+.LocalClearance 0.1016
+$EndPAD
+$PAD
+Sh "9" R 0.35 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.275 -2.9
+.LocalClearance 0.1016
+$EndPAD
+$PAD
+Sh "10" R 0.35 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.625 -2.9
+.LocalClearance 0.1016
+$EndPAD
+$PAD
+Sh "11" R 0.35 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.975 -2.9
+.LocalClearance 0.1016
+$EndPAD
+$PAD
+Sh "12" R 0.35 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.325 -2.9
+.LocalClearance 0.1016
+$EndPAD
+$PAD
+Sh "13" R 0.35 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.325 -2.9
+.LocalClearance 0.1016
+$EndPAD
+$PAD
+Sh "14" R 0.35 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.975 -2.9
+.LocalClearance 0.1016
+$EndPAD
+$PAD
+Sh "15" R 0.35 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.625 -2.9
+.LocalClearance 0.1016
+$EndPAD
+$PAD
+Sh "16" R 0.35 1.143 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.275 -2.9
+.LocalClearance 0.1016
+$EndPAD
+$EndMODULE SSOP-16-.65
 $MODULE SW-SMD-5.2MM
 Po 0 0 0 15 510451CF 00000000 ~~
 Li SW-SMD-5.2MM
@@ -4578,6 +5315,47 @@ Ne 0 ""
 Po 2.49936 0
 $EndPAD
 $EndMODULE SWITCH-SPDT-EG1218
+$MODULE TERM-4-3.81MM
+Po 0 0 0 15 525A9278 00000000 ~~
+Li TERM-4-3.81MM
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6 1 1 0 0.15 N V 21 N "TERM-4-3.81MM"
+T1 0 6 1 1 0 0.15 N I 21 N "VAL**"
+DS 8.25 5 8.25 -5 0.15 21
+DS 8.25 -5 -8.25 -5 0.15 21
+DS -8.25 -5 -8.25 5 0.15 21
+DS -8.25 5 8.25 5 0.15 21
+$PAD
+Sh "2" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.905 0
+$EndPAD
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.715 0
+$EndPAD
+$PAD
+Sh "3" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.905 0
+$EndPAD
+$PAD
+Sh "4" C 2.5 2.5 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.715 0
+$EndPAD
+$EndMODULE TERM-4-3.81MM
 $MODULE TRANSFO-24TL
 Po 0 0 0 15 50B679F6 00000000 ~~
 Li TRANSFO-24TL
@@ -5037,6 +5815,48 @@ Ne 0 ""
 Po 2.15 -2.15
 $EndPAD
 $EndMODULE TXFMR-LPR6235
+$MODULE UFL-0734120110
+Po 0 0 0 15 52561A9B 00000000 ~~
+Li UFL-0734120110
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6 1 1 0 0.15 N I 21 N "UFL-0734120110"
+T1 9 -6 1 1 0 0.15 N I 21 N "VAL**"
+DS -2 -2 2 -2 0.15 21
+DS 2 -2 2 2 0.15 21
+DS 2 2 -1.4 2 0.15 21
+DS -1.4 2 -2 1.4 0.15 21
+DS -2 1.4 -2 -2 0.15 21
+$PAD
+Sh "2" R 1 2.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.5 0
+$EndPAD
+$PAD
+Sh "2" R 1 2.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.5 0
+$EndPAD
+$PAD
+Sh "2" R 1 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1.5
+$EndPAD
+$PAD
+Sh "1" R 1 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1.5
+$EndPAD
+$EndMODULE UFL-0734120110
 $MODULE VS6724
 Po 0 0 0 15 50E48AE5 00000000 ~~
 Li VS6724
