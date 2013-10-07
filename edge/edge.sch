@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 10 May 2013 08:07:58 PM EDT
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -598,7 +598,7 @@ L INDUCTOR L1
 U 1 1 51845463
 P 4450 1700
 F 0 "L1" V 4400 1700 40  0000 C CNN
-F 1 "INDUCTOR" V 4550 1700 40  0000 C CNN
+F 1 "1K" V 4400 1550 40  0000 C CNN
 F 2 "~" H 4450 1700 60  0000 C CNN
 F 3 "~" H 4450 1700 60  0000 C CNN
 	1    4450 1700

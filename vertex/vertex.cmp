@@ -1,24 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 01 May 2013 12:42:45 PM EDT
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Thu 23 May 2013 08:16:10 PM EDT
 
 BeginCmp
-TimeStamp = /51807032;
-Reference = C1;
-ValeurCmp = 1uF;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /51807041;
-Reference = C2;
-ValeurCmp = 1uF;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /513633F2;
-Reference = K1;
-ValeurCmp = CONN_3;
-IdModule  = PIN_ARRAY_3X1;
+TimeStamp = /512EA817;
+Reference = P2;
+ValeurCmp = CONN_6;
+IdModule  = JST-PH-6;
 EndCmp
 
 BeginCmp
@@ -29,17 +15,17 @@ IdModule  = JST-PH-6;
 EndCmp
 
 BeginCmp
-TimeStamp = /512EA817;
-Reference = P2;
+TimeStamp = /512EA835;
+Reference = P3;
 ValeurCmp = CONN_6;
 IdModule  = JST-PH-6;
 EndCmp
 
 BeginCmp
-TimeStamp = /512EA835;
-Reference = P3;
-ValeurCmp = CONN_6;
-IdModule  = JST-PH-6;
+TimeStamp = /513633F2;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
