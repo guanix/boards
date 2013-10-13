@@ -1,0 +1,164 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Fri 11 Oct 2013 09:30:44 PM EDT
+
+BeginCmp
+TimeStamp = /5254849B;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52546804;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5254762B;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5256954D;
+Reference = C4;
+ValeurCmp = 470pF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5256962C;
+Reference = C5;
+ValeurCmp = 4.7uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52574204;
+Reference = C6;
+ValeurCmp = 4.7uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /525569BA;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5255699C;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52533BBE;
+Reference = IC1;
+ValeurCmp = 24L-MOD-8;
+IdModule  = pin_array_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52545974;
+Reference = IC2;
+ValeurCmp = ATXMEGA8E5-A;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /52574F79;
+Reference = L1;
+ValeurCmp = INDUCTOR;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52555B20;
+Reference = P1;
+ValeurCmp = CONN_3X2;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52555ACB;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = SCREW-3.5MM-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5256F96D;
+Reference = P3;
+ValeurCmp = RASM722X;
+IdModule  = RASM722X;
+EndCmp
+
+BeginCmp
+TimeStamp = /52587B8E;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = M3HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /52587B9D;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = M3HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /52587BAC;
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = M3HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /52587BBB;
+Reference = P7;
+ValeurCmp = CONN_1;
+IdModule  = M3HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /52555B2F;
+Reference = R1;
+ValeurCmp = 1K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5255698D;
+Reference = R2;
+ValeurCmp = 1K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52553078;
+Reference = R3;
+ValeurCmp = 33R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52552335;
+Reference = U1;
+ValeurCmp = AQV252;
+IdModule  = DIP-6__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /525688C8;
+Reference = U2;
+ValeurCmp = MIC5205;
+IdModule  = SOT23-5;
+EndCmp
+
+EndListe
